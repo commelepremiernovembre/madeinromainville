@@ -9,7 +9,7 @@ gdjs.evtsExt__AdvancedHTTP__SetFormDataRequestBody = {};
 gdjs.evtsExt__AdvancedHTTP__SetFormDataRequestBody.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__AdvancedHTTP__SetFormDataRequestBody.userFunc0x1991ea0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__AdvancedHTTP__SetFormDataRequestBody.userFunc0x19a0588 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 gdjs.Variable.copy(
     eventsFunctionContext.getArgument("Body"),
@@ -26,7 +26,7 @@ gdjs.evtsExt__AdvancedHTTP__SetFormDataRequestBody.eventsList0 = function(runtim
 {
 
 
-gdjs.evtsExt__AdvancedHTTP__SetFormDataRequestBody.userFunc0x1991ea0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__AdvancedHTTP__SetFormDataRequestBody.userFunc0x19a0588(runtimeScene, eventsFunctionContext);
 
 }
 
