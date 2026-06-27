@@ -283,7 +283,7 @@ for (var i = 0, k = 0, l = gdjs.old_95template_32touch_32tactileCode.GDFloorGras
 gdjs.old_95template_32touch_32tactileCode.GDFloorGrassObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(35558924);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(31294220);
 }
 }
 }
