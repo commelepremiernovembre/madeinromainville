@@ -9,7 +9,7 @@ gdjs.evtsExt__Gamepads__A_Change_Vibration_Magnitude = {};
 gdjs.evtsExt__Gamepads__A_Change_Vibration_Magnitude.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Gamepads__A_Change_Vibration_Magnitude.userFunc0x1a05398 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Gamepads__A_Change_Vibration_Magnitude.userFunc0x1a3d570 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 /** @type {Gamepad[]} */
 //Vibration work only on game in browser.
@@ -60,7 +60,7 @@ gdjs.evtsExt__Gamepads__A_Change_Vibration_Magnitude.eventsList0 = function(runt
 {
 
 
-gdjs.evtsExt__Gamepads__A_Change_Vibration_Magnitude.userFunc0x1a05398(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Gamepads__A_Change_Vibration_Magnitude.userFunc0x1a3d570(runtimeScene, eventsFunctionContext);
 
 }
 
