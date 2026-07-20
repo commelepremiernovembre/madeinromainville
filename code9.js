@@ -47,6 +47,10 @@ gdjs.luna_32rossaCode.GDtrianonObjects1= [];
 gdjs.luna_32rossaCode.GDtrianonObjects2= [];
 gdjs.luna_32rossaCode.GDmetroObjects1= [];
 gdjs.luna_32rossaCode.GDmetroObjects2= [];
+gdjs.luna_32rossaCode.GDmokaObjects1= [];
+gdjs.luna_32rossaCode.GDmokaObjects2= [];
+gdjs.luna_32rossaCode.GDbillieObjects1= [];
+gdjs.luna_32rossaCode.GDbillieObjects2= [];
 
 
 gdjs.luna_32rossaCode.mapOfGDgdjs_9546luna_959532rossaCode_9546GDanother_95959595levelObjects1Objects = Hashtable.newFrom({"another_level": gdjs.luna_32rossaCode.GDanother_9595levelObjects1});
@@ -132,6 +136,10 @@ gdjs.luna_32rossaCode.GDtrianonObjects1.length = 0;
 gdjs.luna_32rossaCode.GDtrianonObjects2.length = 0;
 gdjs.luna_32rossaCode.GDmetroObjects1.length = 0;
 gdjs.luna_32rossaCode.GDmetroObjects2.length = 0;
+gdjs.luna_32rossaCode.GDmokaObjects1.length = 0;
+gdjs.luna_32rossaCode.GDmokaObjects2.length = 0;
+gdjs.luna_32rossaCode.GDbillieObjects1.length = 0;
+gdjs.luna_32rossaCode.GDbillieObjects2.length = 0;
 
 gdjs.luna_32rossaCode.eventsList0(runtimeScene);
 gdjs.luna_32rossaCode.GDanother_9595levelObjects1.length = 0;
@@ -180,6 +188,10 @@ gdjs.luna_32rossaCode.GDtrianonObjects1.length = 0;
 gdjs.luna_32rossaCode.GDtrianonObjects2.length = 0;
 gdjs.luna_32rossaCode.GDmetroObjects1.length = 0;
 gdjs.luna_32rossaCode.GDmetroObjects2.length = 0;
+gdjs.luna_32rossaCode.GDmokaObjects1.length = 0;
+gdjs.luna_32rossaCode.GDmokaObjects2.length = 0;
+gdjs.luna_32rossaCode.GDbillieObjects1.length = 0;
+gdjs.luna_32rossaCode.GDbillieObjects2.length = 0;
 
 
 return;

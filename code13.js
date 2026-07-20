@@ -169,6 +169,14 @@ gdjs.old_95template_32touch_32tactileCode.GDmetroObjects1= [];
 gdjs.old_95template_32touch_32tactileCode.GDmetroObjects2= [];
 gdjs.old_95template_32touch_32tactileCode.GDmetroObjects3= [];
 gdjs.old_95template_32touch_32tactileCode.GDmetroObjects4= [];
+gdjs.old_95template_32touch_32tactileCode.GDmokaObjects1= [];
+gdjs.old_95template_32touch_32tactileCode.GDmokaObjects2= [];
+gdjs.old_95template_32touch_32tactileCode.GDmokaObjects3= [];
+gdjs.old_95template_32touch_32tactileCode.GDmokaObjects4= [];
+gdjs.old_95template_32touch_32tactileCode.GDbillieObjects1= [];
+gdjs.old_95template_32touch_32tactileCode.GDbillieObjects2= [];
+gdjs.old_95template_32touch_32tactileCode.GDbillieObjects3= [];
+gdjs.old_95template_32touch_32tactileCode.GDbillieObjects4= [];
 
 
 gdjs.old_95template_32touch_32tactileCode.mapOfGDgdjs_9546old_959595template_959532touch_959532tactileCode_9546GDNavMeshObjects1Objects = Hashtable.newFrom({"NavMesh": gdjs.old_95template_32touch_32tactileCode.GDNavMeshObjects1});
@@ -363,7 +371,7 @@ for (var i = 0, k = 0, l = gdjs.old_95template_32touch_32tactileCode.GDFloorGras
 gdjs.old_95template_32touch_32tactileCode.GDFloorGrassObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(34211316);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(34547364);
 }
 }
 }
@@ -658,6 +666,14 @@ gdjs.old_95template_32touch_32tactileCode.GDmetroObjects1.length = 0;
 gdjs.old_95template_32touch_32tactileCode.GDmetroObjects2.length = 0;
 gdjs.old_95template_32touch_32tactileCode.GDmetroObjects3.length = 0;
 gdjs.old_95template_32touch_32tactileCode.GDmetroObjects4.length = 0;
+gdjs.old_95template_32touch_32tactileCode.GDmokaObjects1.length = 0;
+gdjs.old_95template_32touch_32tactileCode.GDmokaObjects2.length = 0;
+gdjs.old_95template_32touch_32tactileCode.GDmokaObjects3.length = 0;
+gdjs.old_95template_32touch_32tactileCode.GDmokaObjects4.length = 0;
+gdjs.old_95template_32touch_32tactileCode.GDbillieObjects1.length = 0;
+gdjs.old_95template_32touch_32tactileCode.GDbillieObjects2.length = 0;
+gdjs.old_95template_32touch_32tactileCode.GDbillieObjects3.length = 0;
+gdjs.old_95template_32touch_32tactileCode.GDbillieObjects4.length = 0;
 
 gdjs.old_95template_32touch_32tactileCode.eventsList7(runtimeScene);
 gdjs.old_95template_32touch_32tactileCode.GDMindyObjects1.length = 0;
@@ -824,6 +840,14 @@ gdjs.old_95template_32touch_32tactileCode.GDmetroObjects1.length = 0;
 gdjs.old_95template_32touch_32tactileCode.GDmetroObjects2.length = 0;
 gdjs.old_95template_32touch_32tactileCode.GDmetroObjects3.length = 0;
 gdjs.old_95template_32touch_32tactileCode.GDmetroObjects4.length = 0;
+gdjs.old_95template_32touch_32tactileCode.GDmokaObjects1.length = 0;
+gdjs.old_95template_32touch_32tactileCode.GDmokaObjects2.length = 0;
+gdjs.old_95template_32touch_32tactileCode.GDmokaObjects3.length = 0;
+gdjs.old_95template_32touch_32tactileCode.GDmokaObjects4.length = 0;
+gdjs.old_95template_32touch_32tactileCode.GDbillieObjects1.length = 0;
+gdjs.old_95template_32touch_32tactileCode.GDbillieObjects2.length = 0;
+gdjs.old_95template_32touch_32tactileCode.GDbillieObjects3.length = 0;
+gdjs.old_95template_32touch_32tactileCode.GDbillieObjects4.length = 0;
 
 
 return;

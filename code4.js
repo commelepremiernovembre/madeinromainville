@@ -76,6 +76,12 @@ gdjs.FimincoCode.GDtrianonObjects3= [];
 gdjs.FimincoCode.GDmetroObjects1= [];
 gdjs.FimincoCode.GDmetroObjects2= [];
 gdjs.FimincoCode.GDmetroObjects3= [];
+gdjs.FimincoCode.GDmokaObjects1= [];
+gdjs.FimincoCode.GDmokaObjects2= [];
+gdjs.FimincoCode.GDmokaObjects3= [];
+gdjs.FimincoCode.GDbillieObjects1= [];
+gdjs.FimincoCode.GDbillieObjects2= [];
+gdjs.FimincoCode.GDbillieObjects3= [];
 
 
 gdjs.FimincoCode.mapOfGDgdjs_9546FimincoCode_9546GDautre_95959595ecranObjects1Objects = Hashtable.newFrom({"autre_ecran": gdjs.FimincoCode.GDautre_9595ecranObjects1});
@@ -87,7 +93,7 @@ gdjs.FimincoCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(33968316);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(34290444);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Roro"), gdjs.FimincoCode.GDRoroObjects2);
@@ -277,6 +283,12 @@ gdjs.FimincoCode.GDtrianonObjects3.length = 0;
 gdjs.FimincoCode.GDmetroObjects1.length = 0;
 gdjs.FimincoCode.GDmetroObjects2.length = 0;
 gdjs.FimincoCode.GDmetroObjects3.length = 0;
+gdjs.FimincoCode.GDmokaObjects1.length = 0;
+gdjs.FimincoCode.GDmokaObjects2.length = 0;
+gdjs.FimincoCode.GDmokaObjects3.length = 0;
+gdjs.FimincoCode.GDbillieObjects1.length = 0;
+gdjs.FimincoCode.GDbillieObjects2.length = 0;
+gdjs.FimincoCode.GDbillieObjects3.length = 0;
 
 gdjs.FimincoCode.eventsList1(runtimeScene);
 gdjs.FimincoCode.GDfimincoObjects1.length = 0;
@@ -354,6 +366,12 @@ gdjs.FimincoCode.GDtrianonObjects3.length = 0;
 gdjs.FimincoCode.GDmetroObjects1.length = 0;
 gdjs.FimincoCode.GDmetroObjects2.length = 0;
 gdjs.FimincoCode.GDmetroObjects3.length = 0;
+gdjs.FimincoCode.GDmokaObjects1.length = 0;
+gdjs.FimincoCode.GDmokaObjects2.length = 0;
+gdjs.FimincoCode.GDmokaObjects3.length = 0;
+gdjs.FimincoCode.GDbillieObjects1.length = 0;
+gdjs.FimincoCode.GDbillieObjects2.length = 0;
+gdjs.FimincoCode.GDbillieObjects3.length = 0;
 
 
 return;

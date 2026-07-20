@@ -49,6 +49,10 @@ gdjs.BABCode.GDtrianonObjects1= [];
 gdjs.BABCode.GDtrianonObjects2= [];
 gdjs.BABCode.GDmetroObjects1= [];
 gdjs.BABCode.GDmetroObjects2= [];
+gdjs.BABCode.GDmokaObjects1= [];
+gdjs.BABCode.GDmokaObjects2= [];
+gdjs.BABCode.GDbillieObjects1= [];
+gdjs.BABCode.GDbillieObjects2= [];
 
 
 gdjs.BABCode.mapOfGDgdjs_9546BABCode_9546GDautre_95959595ecranObjects1Objects = Hashtable.newFrom({"autre_ecran": gdjs.BABCode.GDautre_9595ecranObjects1});
@@ -146,6 +150,10 @@ gdjs.BABCode.GDtrianonObjects1.length = 0;
 gdjs.BABCode.GDtrianonObjects2.length = 0;
 gdjs.BABCode.GDmetroObjects1.length = 0;
 gdjs.BABCode.GDmetroObjects2.length = 0;
+gdjs.BABCode.GDmokaObjects1.length = 0;
+gdjs.BABCode.GDmokaObjects2.length = 0;
+gdjs.BABCode.GDbillieObjects1.length = 0;
+gdjs.BABCode.GDbillieObjects2.length = 0;
 
 gdjs.BABCode.eventsList0(runtimeScene);
 gdjs.BABCode.GDBABObjects1.length = 0;
@@ -196,6 +204,10 @@ gdjs.BABCode.GDtrianonObjects1.length = 0;
 gdjs.BABCode.GDtrianonObjects2.length = 0;
 gdjs.BABCode.GDmetroObjects1.length = 0;
 gdjs.BABCode.GDmetroObjects2.length = 0;
+gdjs.BABCode.GDmokaObjects1.length = 0;
+gdjs.BABCode.GDmokaObjects2.length = 0;
+gdjs.BABCode.GDbillieObjects1.length = 0;
+gdjs.BABCode.GDbillieObjects2.length = 0;
 
 
 return;

@@ -49,6 +49,10 @@ gdjs.place_32de_32l_39_233gliseCode.GDtrianonObjects1= [];
 gdjs.place_32de_32l_39_233gliseCode.GDtrianonObjects2= [];
 gdjs.place_32de_32l_39_233gliseCode.GDmetroObjects1= [];
 gdjs.place_32de_32l_39_233gliseCode.GDmetroObjects2= [];
+gdjs.place_32de_32l_39_233gliseCode.GDmokaObjects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GDmokaObjects2= [];
+gdjs.place_32de_32l_39_233gliseCode.GDbillieObjects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GDbillieObjects2= [];
 
 
 gdjs.place_32de_32l_39_233gliseCode.mapOfGDgdjs_9546place_959532de_959532l_959539_9595233gliseCode_9546GDautres_95959595ecranObjects1Objects = Hashtable.newFrom({"autres_ecran": gdjs.place_32de_32l_39_233gliseCode.GDautres_9595ecranObjects1});
@@ -136,6 +140,10 @@ gdjs.place_32de_32l_39_233gliseCode.GDtrianonObjects1.length = 0;
 gdjs.place_32de_32l_39_233gliseCode.GDtrianonObjects2.length = 0;
 gdjs.place_32de_32l_39_233gliseCode.GDmetroObjects1.length = 0;
 gdjs.place_32de_32l_39_233gliseCode.GDmetroObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDmokaObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDmokaObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDbillieObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDbillieObjects2.length = 0;
 
 gdjs.place_32de_32l_39_233gliseCode.eventsList0(runtimeScene);
 gdjs.place_32de_32l_39_233gliseCode.GD_95233gliseObjects1.length = 0;
@@ -186,6 +194,10 @@ gdjs.place_32de_32l_39_233gliseCode.GDtrianonObjects1.length = 0;
 gdjs.place_32de_32l_39_233gliseCode.GDtrianonObjects2.length = 0;
 gdjs.place_32de_32l_39_233gliseCode.GDmetroObjects1.length = 0;
 gdjs.place_32de_32l_39_233gliseCode.GDmetroObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDmokaObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDmokaObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDbillieObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDbillieObjects2.length = 0;
 
 
 return;

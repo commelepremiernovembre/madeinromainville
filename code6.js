@@ -49,24 +49,14 @@ gdjs.place_32de_32la_32mairieCode.GDtrianonObjects1= [];
 gdjs.place_32de_32la_32mairieCode.GDtrianonObjects2= [];
 gdjs.place_32de_32la_32mairieCode.GDmetroObjects1= [];
 gdjs.place_32de_32la_32mairieCode.GDmetroObjects2= [];
+gdjs.place_32de_32la_32mairieCode.GDmokaObjects1= [];
+gdjs.place_32de_32la_32mairieCode.GDmokaObjects2= [];
+gdjs.place_32de_32la_32mairieCode.GDbillieObjects1= [];
+gdjs.place_32de_32la_32mairieCode.GDbillieObjects2= [];
 
 
 gdjs.place_32de_32la_32mairieCode.mapOfGDgdjs_9546place_959532de_959532la_959532mairieCode_9546GDautres_95959595ecranObjects1Objects = Hashtable.newFrom({"autres_ecran": gdjs.place_32de_32la_32mairieCode.GDautres_9595ecranObjects1});
 gdjs.place_32de_32la_32mairieCode.eventsList0 = function(runtimeScene) {
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
-if (isConditionTrue_0) {
-{gdjs.evtTools.camera.setCameraZoom(runtimeScene, 0.7, "", 0);
-}
-}
-
-}
-
 
 {
 
@@ -160,6 +150,10 @@ gdjs.place_32de_32la_32mairieCode.GDtrianonObjects1.length = 0;
 gdjs.place_32de_32la_32mairieCode.GDtrianonObjects2.length = 0;
 gdjs.place_32de_32la_32mairieCode.GDmetroObjects1.length = 0;
 gdjs.place_32de_32la_32mairieCode.GDmetroObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDmokaObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDmokaObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDbillieObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDbillieObjects2.length = 0;
 
 gdjs.place_32de_32la_32mairieCode.eventsList0(runtimeScene);
 gdjs.place_32de_32la_32mairieCode.GDplace_9595de_9595la_9595mairieObjects1.length = 0;
@@ -210,6 +204,10 @@ gdjs.place_32de_32la_32mairieCode.GDtrianonObjects1.length = 0;
 gdjs.place_32de_32la_32mairieCode.GDtrianonObjects2.length = 0;
 gdjs.place_32de_32la_32mairieCode.GDmetroObjects1.length = 0;
 gdjs.place_32de_32la_32mairieCode.GDmetroObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDmokaObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDmokaObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDbillieObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDbillieObjects2.length = 0;
 
 
 return;

@@ -47,6 +47,10 @@ gdjs.le_32metroCode.GDtrianonObjects1= [];
 gdjs.le_32metroCode.GDtrianonObjects2= [];
 gdjs.le_32metroCode.GDmetroObjects1= [];
 gdjs.le_32metroCode.GDmetroObjects2= [];
+gdjs.le_32metroCode.GDmokaObjects1= [];
+gdjs.le_32metroCode.GDmokaObjects2= [];
+gdjs.le_32metroCode.GDbillieObjects1= [];
+gdjs.le_32metroCode.GDbillieObjects2= [];
 
 
 gdjs.le_32metroCode.mapOfGDgdjs_9546le_959532metroCode_9546GDanother_95959595levelObjects1Objects = Hashtable.newFrom({"another_level": gdjs.le_32metroCode.GDanother_9595levelObjects1});
@@ -146,6 +150,10 @@ gdjs.le_32metroCode.GDtrianonObjects1.length = 0;
 gdjs.le_32metroCode.GDtrianonObjects2.length = 0;
 gdjs.le_32metroCode.GDmetroObjects1.length = 0;
 gdjs.le_32metroCode.GDmetroObjects2.length = 0;
+gdjs.le_32metroCode.GDmokaObjects1.length = 0;
+gdjs.le_32metroCode.GDmokaObjects2.length = 0;
+gdjs.le_32metroCode.GDbillieObjects1.length = 0;
+gdjs.le_32metroCode.GDbillieObjects2.length = 0;
 
 gdjs.le_32metroCode.eventsList0(runtimeScene);
 gdjs.le_32metroCode.GDanother_9595levelObjects1.length = 0;
@@ -194,6 +202,10 @@ gdjs.le_32metroCode.GDtrianonObjects1.length = 0;
 gdjs.le_32metroCode.GDtrianonObjects2.length = 0;
 gdjs.le_32metroCode.GDmetroObjects1.length = 0;
 gdjs.le_32metroCode.GDmetroObjects2.length = 0;
+gdjs.le_32metroCode.GDmokaObjects1.length = 0;
+gdjs.le_32metroCode.GDmokaObjects2.length = 0;
+gdjs.le_32metroCode.GDbillieObjects1.length = 0;
+gdjs.le_32metroCode.GDbillieObjects2.length = 0;
 
 
 return;

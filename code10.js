@@ -47,6 +47,10 @@ gdjs.trianonCode.GDtrianonObjects1= [];
 gdjs.trianonCode.GDtrianonObjects2= [];
 gdjs.trianonCode.GDmetroObjects1= [];
 gdjs.trianonCode.GDmetroObjects2= [];
+gdjs.trianonCode.GDmokaObjects1= [];
+gdjs.trianonCode.GDmokaObjects2= [];
+gdjs.trianonCode.GDbillieObjects1= [];
+gdjs.trianonCode.GDbillieObjects2= [];
 
 
 gdjs.trianonCode.mapOfGDgdjs_9546trianonCode_9546GDanother_95959595levelObjects1Objects = Hashtable.newFrom({"another_level": gdjs.trianonCode.GDanother_9595levelObjects1});
@@ -146,6 +150,10 @@ gdjs.trianonCode.GDtrianonObjects1.length = 0;
 gdjs.trianonCode.GDtrianonObjects2.length = 0;
 gdjs.trianonCode.GDmetroObjects1.length = 0;
 gdjs.trianonCode.GDmetroObjects2.length = 0;
+gdjs.trianonCode.GDmokaObjects1.length = 0;
+gdjs.trianonCode.GDmokaObjects2.length = 0;
+gdjs.trianonCode.GDbillieObjects1.length = 0;
+gdjs.trianonCode.GDbillieObjects2.length = 0;
 
 gdjs.trianonCode.eventsList0(runtimeScene);
 gdjs.trianonCode.GDanother_9595levelObjects1.length = 0;
@@ -194,6 +202,10 @@ gdjs.trianonCode.GDtrianonObjects1.length = 0;
 gdjs.trianonCode.GDtrianonObjects2.length = 0;
 gdjs.trianonCode.GDmetroObjects1.length = 0;
 gdjs.trianonCode.GDmetroObjects2.length = 0;
+gdjs.trianonCode.GDmokaObjects1.length = 0;
+gdjs.trianonCode.GDmokaObjects2.length = 0;
+gdjs.trianonCode.GDbillieObjects1.length = 0;
+gdjs.trianonCode.GDbillieObjects2.length = 0;
 
 
 return;
