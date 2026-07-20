@@ -1,63 +1,71 @@
-gdjs.train_32de_32vieCode = {};
-gdjs.train_32de_32vieCode.localVariables = [];
-gdjs.train_32de_32vieCode.idToCallbackMap = new Map();
-gdjs.train_32de_32vieCode.GDtrain_9595de_9595vieObjects1= [];
-gdjs.train_32de_32vieCode.GDtrain_9595de_9595vieObjects2= [];
-gdjs.train_32de_32vieCode.GDautre_9595ecranObjects1= [];
-gdjs.train_32de_32vieCode.GDautre_9595ecranObjects2= [];
-gdjs.train_32de_32vieCode.GDsmaelObjects1= [];
-gdjs.train_32de_32vieCode.GDsmaelObjects2= [];
-gdjs.train_32de_32vieCode.GDballonObjects1= [];
-gdjs.train_32de_32vieCode.GDballonObjects2= [];
-gdjs.train_32de_32vieCode.GDfondu_9595noirObjects1= [];
-gdjs.train_32de_32vieCode.GDfondu_9595noirObjects2= [];
-gdjs.train_32de_32vieCode.GDcloud1Objects1= [];
-gdjs.train_32de_32vieCode.GDcloud1Objects2= [];
-gdjs.train_32de_32vieCode.GDDebugTextWeatherObjects1= [];
-gdjs.train_32de_32vieCode.GDDebugTextWeatherObjects2= [];
-gdjs.train_32de_32vieCode.GDfabienObjects1= [];
-gdjs.train_32de_32vieCode.GDfabienObjects2= [];
-gdjs.train_32de_32vieCode.GDclaudeObjects1= [];
-gdjs.train_32de_32vieCode.GDclaudeObjects2= [];
-gdjs.train_32de_32vieCode.GDbackgroundObjects1= [];
-gdjs.train_32de_32vieCode.GDbackgroundObjects2= [];
-gdjs.train_32de_32vieCode.GDballoon_9595no_9595levelObjects1= [];
-gdjs.train_32de_32vieCode.GDballoon_9595no_9595levelObjects2= [];
-gdjs.train_32de_32vieCode.GDBillieObjects1= [];
-gdjs.train_32de_32vieCode.GDBillieObjects2= [];
-gdjs.train_32de_32vieCode.GDDimitriObjects1= [];
-gdjs.train_32de_32vieCode.GDDimitriObjects2= [];
-gdjs.train_32de_32vieCode.GDRoroObjects1= [];
-gdjs.train_32de_32vieCode.GDRoroObjects2= [];
+gdjs.luna_32rossaCode = {};
+gdjs.luna_32rossaCode.localVariables = [];
+gdjs.luna_32rossaCode.idToCallbackMap = new Map();
+gdjs.luna_32rossaCode.GDanother_9595levelObjects1= [];
+gdjs.luna_32rossaCode.GDanother_9595levelObjects2= [];
+gdjs.luna_32rossaCode.GDballonObjects1= [];
+gdjs.luna_32rossaCode.GDballonObjects2= [];
+gdjs.luna_32rossaCode.GDfondu_9595noirObjects1= [];
+gdjs.luna_32rossaCode.GDfondu_9595noirObjects2= [];
+gdjs.luna_32rossaCode.GDcloud1Objects1= [];
+gdjs.luna_32rossaCode.GDcloud1Objects2= [];
+gdjs.luna_32rossaCode.GDDebugTextWeatherObjects1= [];
+gdjs.luna_32rossaCode.GDDebugTextWeatherObjects2= [];
+gdjs.luna_32rossaCode.GDfabienObjects1= [];
+gdjs.luna_32rossaCode.GDfabienObjects2= [];
+gdjs.luna_32rossaCode.GDclaudeObjects1= [];
+gdjs.luna_32rossaCode.GDclaudeObjects2= [];
+gdjs.luna_32rossaCode.GDbackgroundObjects1= [];
+gdjs.luna_32rossaCode.GDbackgroundObjects2= [];
+gdjs.luna_32rossaCode.GDballoon_9595no_9595levelObjects1= [];
+gdjs.luna_32rossaCode.GDballoon_9595no_9595levelObjects2= [];
+gdjs.luna_32rossaCode.GDmouetteObjects1= [];
+gdjs.luna_32rossaCode.GDmouetteObjects2= [];
+gdjs.luna_32rossaCode.GDwipObjects1= [];
+gdjs.luna_32rossaCode.GDwipObjects2= [];
+gdjs.luna_32rossaCode.GDRoroObjects1= [];
+gdjs.luna_32rossaCode.GDRoroObjects2= [];
+gdjs.luna_32rossaCode.GDPOLINAObjects1= [];
+gdjs.luna_32rossaCode.GDPOLINAObjects2= [];
+gdjs.luna_32rossaCode.GDDIMITRIObjects1= [];
+gdjs.luna_32rossaCode.GDDIMITRIObjects2= [];
+gdjs.luna_32rossaCode.GDluluObjects1= [];
+gdjs.luna_32rossaCode.GDluluObjects2= [];
+gdjs.luna_32rossaCode.GDioanaObjects1= [];
+gdjs.luna_32rossaCode.GDioanaObjects2= [];
+gdjs.luna_32rossaCode.GDpaolaObjects1= [];
+gdjs.luna_32rossaCode.GDpaolaObjects2= [];
+gdjs.luna_32rossaCode.GDservice_9595personne_9595mairieObjects1= [];
+gdjs.luna_32rossaCode.GDservice_9595personne_9595mairieObjects2= [];
+gdjs.luna_32rossaCode.GDtrain_9595de_9595vieObjects1= [];
+gdjs.luna_32rossaCode.GDtrain_9595de_9595vieObjects2= [];
+gdjs.luna_32rossaCode.GDbouillonObjects1= [];
+gdjs.luna_32rossaCode.GDbouillonObjects2= [];
+gdjs.luna_32rossaCode.GDluna_9595rossaObjects1= [];
+gdjs.luna_32rossaCode.GDluna_9595rossaObjects2= [];
+gdjs.luna_32rossaCode.GDtrianonObjects1= [];
+gdjs.luna_32rossaCode.GDtrianonObjects2= [];
+gdjs.luna_32rossaCode.GDmetroObjects1= [];
+gdjs.luna_32rossaCode.GDmetroObjects2= [];
 
 
-gdjs.train_32de_32vieCode.mapOfGDgdjs_9546train_959532de_959532vieCode_9546GDautre_95959595ecranObjects1Objects = Hashtable.newFrom({"autre_ecran": gdjs.train_32de_32vieCode.GDautre_9595ecranObjects1});
-gdjs.train_32de_32vieCode.eventsList0 = function(runtimeScene) {
+gdjs.luna_32rossaCode.mapOfGDgdjs_9546luna_959532rossaCode_9546GDanother_95959595levelObjects1Objects = Hashtable.newFrom({"another_level": gdjs.luna_32rossaCode.GDanother_9595levelObjects1});
+gdjs.luna_32rossaCode.eventsList0 = function(runtimeScene) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("autre_ecran"), gdjs.train_32de_32vieCode.GDautre_9595ecranObjects1);
+gdjs.copyArray(runtimeScene.getObjects("another_level"), gdjs.luna_32rossaCode.GDanother_9595levelObjects1);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.train_32de_32vieCode.mapOfGDgdjs_9546train_959532de_959532vieCode_9546GDautre_95959595ecranObjects1Objects, runtimeScene, true, false);
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.luna_32rossaCode.mapOfGDgdjs_9546luna_959532rossaCode_9546GDanother_95959595levelObjects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "BAB", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "trianon", false);
 }
-}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
 }
 
 }
@@ -75,71 +83,107 @@ let isConditionTrue_0 = false;
 
 };
 
-gdjs.train_32de_32vieCode.func = function(runtimeScene) {
+gdjs.luna_32rossaCode.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 
-gdjs.train_32de_32vieCode.GDtrain_9595de_9595vieObjects1.length = 0;
-gdjs.train_32de_32vieCode.GDtrain_9595de_9595vieObjects2.length = 0;
-gdjs.train_32de_32vieCode.GDautre_9595ecranObjects1.length = 0;
-gdjs.train_32de_32vieCode.GDautre_9595ecranObjects2.length = 0;
-gdjs.train_32de_32vieCode.GDsmaelObjects1.length = 0;
-gdjs.train_32de_32vieCode.GDsmaelObjects2.length = 0;
-gdjs.train_32de_32vieCode.GDballonObjects1.length = 0;
-gdjs.train_32de_32vieCode.GDballonObjects2.length = 0;
-gdjs.train_32de_32vieCode.GDfondu_9595noirObjects1.length = 0;
-gdjs.train_32de_32vieCode.GDfondu_9595noirObjects2.length = 0;
-gdjs.train_32de_32vieCode.GDcloud1Objects1.length = 0;
-gdjs.train_32de_32vieCode.GDcloud1Objects2.length = 0;
-gdjs.train_32de_32vieCode.GDDebugTextWeatherObjects1.length = 0;
-gdjs.train_32de_32vieCode.GDDebugTextWeatherObjects2.length = 0;
-gdjs.train_32de_32vieCode.GDfabienObjects1.length = 0;
-gdjs.train_32de_32vieCode.GDfabienObjects2.length = 0;
-gdjs.train_32de_32vieCode.GDclaudeObjects1.length = 0;
-gdjs.train_32de_32vieCode.GDclaudeObjects2.length = 0;
-gdjs.train_32de_32vieCode.GDbackgroundObjects1.length = 0;
-gdjs.train_32de_32vieCode.GDbackgroundObjects2.length = 0;
-gdjs.train_32de_32vieCode.GDballoon_9595no_9595levelObjects1.length = 0;
-gdjs.train_32de_32vieCode.GDballoon_9595no_9595levelObjects2.length = 0;
-gdjs.train_32de_32vieCode.GDBillieObjects1.length = 0;
-gdjs.train_32de_32vieCode.GDBillieObjects2.length = 0;
-gdjs.train_32de_32vieCode.GDDimitriObjects1.length = 0;
-gdjs.train_32de_32vieCode.GDDimitriObjects2.length = 0;
-gdjs.train_32de_32vieCode.GDRoroObjects1.length = 0;
-gdjs.train_32de_32vieCode.GDRoroObjects2.length = 0;
+gdjs.luna_32rossaCode.GDanother_9595levelObjects1.length = 0;
+gdjs.luna_32rossaCode.GDanother_9595levelObjects2.length = 0;
+gdjs.luna_32rossaCode.GDballonObjects1.length = 0;
+gdjs.luna_32rossaCode.GDballonObjects2.length = 0;
+gdjs.luna_32rossaCode.GDfondu_9595noirObjects1.length = 0;
+gdjs.luna_32rossaCode.GDfondu_9595noirObjects2.length = 0;
+gdjs.luna_32rossaCode.GDcloud1Objects1.length = 0;
+gdjs.luna_32rossaCode.GDcloud1Objects2.length = 0;
+gdjs.luna_32rossaCode.GDDebugTextWeatherObjects1.length = 0;
+gdjs.luna_32rossaCode.GDDebugTextWeatherObjects2.length = 0;
+gdjs.luna_32rossaCode.GDfabienObjects1.length = 0;
+gdjs.luna_32rossaCode.GDfabienObjects2.length = 0;
+gdjs.luna_32rossaCode.GDclaudeObjects1.length = 0;
+gdjs.luna_32rossaCode.GDclaudeObjects2.length = 0;
+gdjs.luna_32rossaCode.GDbackgroundObjects1.length = 0;
+gdjs.luna_32rossaCode.GDbackgroundObjects2.length = 0;
+gdjs.luna_32rossaCode.GDballoon_9595no_9595levelObjects1.length = 0;
+gdjs.luna_32rossaCode.GDballoon_9595no_9595levelObjects2.length = 0;
+gdjs.luna_32rossaCode.GDmouetteObjects1.length = 0;
+gdjs.luna_32rossaCode.GDmouetteObjects2.length = 0;
+gdjs.luna_32rossaCode.GDwipObjects1.length = 0;
+gdjs.luna_32rossaCode.GDwipObjects2.length = 0;
+gdjs.luna_32rossaCode.GDRoroObjects1.length = 0;
+gdjs.luna_32rossaCode.GDRoroObjects2.length = 0;
+gdjs.luna_32rossaCode.GDPOLINAObjects1.length = 0;
+gdjs.luna_32rossaCode.GDPOLINAObjects2.length = 0;
+gdjs.luna_32rossaCode.GDDIMITRIObjects1.length = 0;
+gdjs.luna_32rossaCode.GDDIMITRIObjects2.length = 0;
+gdjs.luna_32rossaCode.GDluluObjects1.length = 0;
+gdjs.luna_32rossaCode.GDluluObjects2.length = 0;
+gdjs.luna_32rossaCode.GDioanaObjects1.length = 0;
+gdjs.luna_32rossaCode.GDioanaObjects2.length = 0;
+gdjs.luna_32rossaCode.GDpaolaObjects1.length = 0;
+gdjs.luna_32rossaCode.GDpaolaObjects2.length = 0;
+gdjs.luna_32rossaCode.GDservice_9595personne_9595mairieObjects1.length = 0;
+gdjs.luna_32rossaCode.GDservice_9595personne_9595mairieObjects2.length = 0;
+gdjs.luna_32rossaCode.GDtrain_9595de_9595vieObjects1.length = 0;
+gdjs.luna_32rossaCode.GDtrain_9595de_9595vieObjects2.length = 0;
+gdjs.luna_32rossaCode.GDbouillonObjects1.length = 0;
+gdjs.luna_32rossaCode.GDbouillonObjects2.length = 0;
+gdjs.luna_32rossaCode.GDluna_9595rossaObjects1.length = 0;
+gdjs.luna_32rossaCode.GDluna_9595rossaObjects2.length = 0;
+gdjs.luna_32rossaCode.GDtrianonObjects1.length = 0;
+gdjs.luna_32rossaCode.GDtrianonObjects2.length = 0;
+gdjs.luna_32rossaCode.GDmetroObjects1.length = 0;
+gdjs.luna_32rossaCode.GDmetroObjects2.length = 0;
 
-gdjs.train_32de_32vieCode.eventsList0(runtimeScene);
-gdjs.train_32de_32vieCode.GDtrain_9595de_9595vieObjects1.length = 0;
-gdjs.train_32de_32vieCode.GDtrain_9595de_9595vieObjects2.length = 0;
-gdjs.train_32de_32vieCode.GDautre_9595ecranObjects1.length = 0;
-gdjs.train_32de_32vieCode.GDautre_9595ecranObjects2.length = 0;
-gdjs.train_32de_32vieCode.GDsmaelObjects1.length = 0;
-gdjs.train_32de_32vieCode.GDsmaelObjects2.length = 0;
-gdjs.train_32de_32vieCode.GDballonObjects1.length = 0;
-gdjs.train_32de_32vieCode.GDballonObjects2.length = 0;
-gdjs.train_32de_32vieCode.GDfondu_9595noirObjects1.length = 0;
-gdjs.train_32de_32vieCode.GDfondu_9595noirObjects2.length = 0;
-gdjs.train_32de_32vieCode.GDcloud1Objects1.length = 0;
-gdjs.train_32de_32vieCode.GDcloud1Objects2.length = 0;
-gdjs.train_32de_32vieCode.GDDebugTextWeatherObjects1.length = 0;
-gdjs.train_32de_32vieCode.GDDebugTextWeatherObjects2.length = 0;
-gdjs.train_32de_32vieCode.GDfabienObjects1.length = 0;
-gdjs.train_32de_32vieCode.GDfabienObjects2.length = 0;
-gdjs.train_32de_32vieCode.GDclaudeObjects1.length = 0;
-gdjs.train_32de_32vieCode.GDclaudeObjects2.length = 0;
-gdjs.train_32de_32vieCode.GDbackgroundObjects1.length = 0;
-gdjs.train_32de_32vieCode.GDbackgroundObjects2.length = 0;
-gdjs.train_32de_32vieCode.GDballoon_9595no_9595levelObjects1.length = 0;
-gdjs.train_32de_32vieCode.GDballoon_9595no_9595levelObjects2.length = 0;
-gdjs.train_32de_32vieCode.GDBillieObjects1.length = 0;
-gdjs.train_32de_32vieCode.GDBillieObjects2.length = 0;
-gdjs.train_32de_32vieCode.GDDimitriObjects1.length = 0;
-gdjs.train_32de_32vieCode.GDDimitriObjects2.length = 0;
-gdjs.train_32de_32vieCode.GDRoroObjects1.length = 0;
-gdjs.train_32de_32vieCode.GDRoroObjects2.length = 0;
+gdjs.luna_32rossaCode.eventsList0(runtimeScene);
+gdjs.luna_32rossaCode.GDanother_9595levelObjects1.length = 0;
+gdjs.luna_32rossaCode.GDanother_9595levelObjects2.length = 0;
+gdjs.luna_32rossaCode.GDballonObjects1.length = 0;
+gdjs.luna_32rossaCode.GDballonObjects2.length = 0;
+gdjs.luna_32rossaCode.GDfondu_9595noirObjects1.length = 0;
+gdjs.luna_32rossaCode.GDfondu_9595noirObjects2.length = 0;
+gdjs.luna_32rossaCode.GDcloud1Objects1.length = 0;
+gdjs.luna_32rossaCode.GDcloud1Objects2.length = 0;
+gdjs.luna_32rossaCode.GDDebugTextWeatherObjects1.length = 0;
+gdjs.luna_32rossaCode.GDDebugTextWeatherObjects2.length = 0;
+gdjs.luna_32rossaCode.GDfabienObjects1.length = 0;
+gdjs.luna_32rossaCode.GDfabienObjects2.length = 0;
+gdjs.luna_32rossaCode.GDclaudeObjects1.length = 0;
+gdjs.luna_32rossaCode.GDclaudeObjects2.length = 0;
+gdjs.luna_32rossaCode.GDbackgroundObjects1.length = 0;
+gdjs.luna_32rossaCode.GDbackgroundObjects2.length = 0;
+gdjs.luna_32rossaCode.GDballoon_9595no_9595levelObjects1.length = 0;
+gdjs.luna_32rossaCode.GDballoon_9595no_9595levelObjects2.length = 0;
+gdjs.luna_32rossaCode.GDmouetteObjects1.length = 0;
+gdjs.luna_32rossaCode.GDmouetteObjects2.length = 0;
+gdjs.luna_32rossaCode.GDwipObjects1.length = 0;
+gdjs.luna_32rossaCode.GDwipObjects2.length = 0;
+gdjs.luna_32rossaCode.GDRoroObjects1.length = 0;
+gdjs.luna_32rossaCode.GDRoroObjects2.length = 0;
+gdjs.luna_32rossaCode.GDPOLINAObjects1.length = 0;
+gdjs.luna_32rossaCode.GDPOLINAObjects2.length = 0;
+gdjs.luna_32rossaCode.GDDIMITRIObjects1.length = 0;
+gdjs.luna_32rossaCode.GDDIMITRIObjects2.length = 0;
+gdjs.luna_32rossaCode.GDluluObjects1.length = 0;
+gdjs.luna_32rossaCode.GDluluObjects2.length = 0;
+gdjs.luna_32rossaCode.GDioanaObjects1.length = 0;
+gdjs.luna_32rossaCode.GDioanaObjects2.length = 0;
+gdjs.luna_32rossaCode.GDpaolaObjects1.length = 0;
+gdjs.luna_32rossaCode.GDpaolaObjects2.length = 0;
+gdjs.luna_32rossaCode.GDservice_9595personne_9595mairieObjects1.length = 0;
+gdjs.luna_32rossaCode.GDservice_9595personne_9595mairieObjects2.length = 0;
+gdjs.luna_32rossaCode.GDtrain_9595de_9595vieObjects1.length = 0;
+gdjs.luna_32rossaCode.GDtrain_9595de_9595vieObjects2.length = 0;
+gdjs.luna_32rossaCode.GDbouillonObjects1.length = 0;
+gdjs.luna_32rossaCode.GDbouillonObjects2.length = 0;
+gdjs.luna_32rossaCode.GDluna_9595rossaObjects1.length = 0;
+gdjs.luna_32rossaCode.GDluna_9595rossaObjects2.length = 0;
+gdjs.luna_32rossaCode.GDtrianonObjects1.length = 0;
+gdjs.luna_32rossaCode.GDtrianonObjects2.length = 0;
+gdjs.luna_32rossaCode.GDmetroObjects1.length = 0;
+gdjs.luna_32rossaCode.GDmetroObjects2.length = 0;
 
 
 return;
 
 }
 
-gdjs['train_32de_32vieCode'] = gdjs.train_32de_32vieCode;
+gdjs['luna_32rossaCode'] = gdjs.luna_32rossaCode;

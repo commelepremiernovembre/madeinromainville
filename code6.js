@@ -1,198 +1,58 @@
-gdjs.FimincoCode = {};
-gdjs.FimincoCode.localVariables = [];
-gdjs.FimincoCode.idToCallbackMap = new Map();
-gdjs.FimincoCode.GDfimincoObjects1= [];
-gdjs.FimincoCode.GDfimincoObjects2= [];
-gdjs.FimincoCode.GDfimincoObjects3= [];
-gdjs.FimincoCode.GDfimincoObjects4= [];
-gdjs.FimincoCode.GDautre_9595ecranObjects1= [];
-gdjs.FimincoCode.GDautre_9595ecranObjects2= [];
-gdjs.FimincoCode.GDautre_9595ecranObjects3= [];
-gdjs.FimincoCode.GDautre_9595ecranObjects4= [];
-gdjs.FimincoCode.GDballonObjects1= [];
-gdjs.FimincoCode.GDballonObjects2= [];
-gdjs.FimincoCode.GDballonObjects3= [];
-gdjs.FimincoCode.GDballonObjects4= [];
-gdjs.FimincoCode.GDfondu_9595noirObjects1= [];
-gdjs.FimincoCode.GDfondu_9595noirObjects2= [];
-gdjs.FimincoCode.GDfondu_9595noirObjects3= [];
-gdjs.FimincoCode.GDfondu_9595noirObjects4= [];
-gdjs.FimincoCode.GDcloud1Objects1= [];
-gdjs.FimincoCode.GDcloud1Objects2= [];
-gdjs.FimincoCode.GDcloud1Objects3= [];
-gdjs.FimincoCode.GDcloud1Objects4= [];
-gdjs.FimincoCode.GDDebugTextWeatherObjects1= [];
-gdjs.FimincoCode.GDDebugTextWeatherObjects2= [];
-gdjs.FimincoCode.GDDebugTextWeatherObjects3= [];
-gdjs.FimincoCode.GDDebugTextWeatherObjects4= [];
-gdjs.FimincoCode.GDfabienObjects1= [];
-gdjs.FimincoCode.GDfabienObjects2= [];
-gdjs.FimincoCode.GDfabienObjects3= [];
-gdjs.FimincoCode.GDfabienObjects4= [];
-gdjs.FimincoCode.GDclaudeObjects1= [];
-gdjs.FimincoCode.GDclaudeObjects2= [];
-gdjs.FimincoCode.GDclaudeObjects3= [];
-gdjs.FimincoCode.GDclaudeObjects4= [];
-gdjs.FimincoCode.GDbackgroundObjects1= [];
-gdjs.FimincoCode.GDbackgroundObjects2= [];
-gdjs.FimincoCode.GDbackgroundObjects3= [];
-gdjs.FimincoCode.GDbackgroundObjects4= [];
-gdjs.FimincoCode.GDballoon_9595no_9595levelObjects1= [];
-gdjs.FimincoCode.GDballoon_9595no_9595levelObjects2= [];
-gdjs.FimincoCode.GDballoon_9595no_9595levelObjects3= [];
-gdjs.FimincoCode.GDballoon_9595no_9595levelObjects4= [];
-gdjs.FimincoCode.GDBillieObjects1= [];
-gdjs.FimincoCode.GDBillieObjects2= [];
-gdjs.FimincoCode.GDBillieObjects3= [];
-gdjs.FimincoCode.GDBillieObjects4= [];
-gdjs.FimincoCode.GDDimitriObjects1= [];
-gdjs.FimincoCode.GDDimitriObjects2= [];
-gdjs.FimincoCode.GDDimitriObjects3= [];
-gdjs.FimincoCode.GDDimitriObjects4= [];
-gdjs.FimincoCode.GDRoroObjects1= [];
-gdjs.FimincoCode.GDRoroObjects2= [];
-gdjs.FimincoCode.GDRoroObjects3= [];
-gdjs.FimincoCode.GDRoroObjects4= [];
+gdjs.place_32de_32la_32mairieCode = {};
+gdjs.place_32de_32la_32mairieCode.localVariables = [];
+gdjs.place_32de_32la_32mairieCode.idToCallbackMap = new Map();
+gdjs.place_32de_32la_32mairieCode.GDplace_9595de_9595la_9595mairieObjects1= [];
+gdjs.place_32de_32la_32mairieCode.GDplace_9595de_9595la_9595mairieObjects2= [];
+gdjs.place_32de_32la_32mairieCode.GDautres_9595ecranObjects1= [];
+gdjs.place_32de_32la_32mairieCode.GDautres_9595ecranObjects2= [];
+gdjs.place_32de_32la_32mairieCode.GDballonObjects1= [];
+gdjs.place_32de_32la_32mairieCode.GDballonObjects2= [];
+gdjs.place_32de_32la_32mairieCode.GDfondu_9595noirObjects1= [];
+gdjs.place_32de_32la_32mairieCode.GDfondu_9595noirObjects2= [];
+gdjs.place_32de_32la_32mairieCode.GDcloud1Objects1= [];
+gdjs.place_32de_32la_32mairieCode.GDcloud1Objects2= [];
+gdjs.place_32de_32la_32mairieCode.GDDebugTextWeatherObjects1= [];
+gdjs.place_32de_32la_32mairieCode.GDDebugTextWeatherObjects2= [];
+gdjs.place_32de_32la_32mairieCode.GDfabienObjects1= [];
+gdjs.place_32de_32la_32mairieCode.GDfabienObjects2= [];
+gdjs.place_32de_32la_32mairieCode.GDclaudeObjects1= [];
+gdjs.place_32de_32la_32mairieCode.GDclaudeObjects2= [];
+gdjs.place_32de_32la_32mairieCode.GDbackgroundObjects1= [];
+gdjs.place_32de_32la_32mairieCode.GDbackgroundObjects2= [];
+gdjs.place_32de_32la_32mairieCode.GDballoon_9595no_9595levelObjects1= [];
+gdjs.place_32de_32la_32mairieCode.GDballoon_9595no_9595levelObjects2= [];
+gdjs.place_32de_32la_32mairieCode.GDmouetteObjects1= [];
+gdjs.place_32de_32la_32mairieCode.GDmouetteObjects2= [];
+gdjs.place_32de_32la_32mairieCode.GDwipObjects1= [];
+gdjs.place_32de_32la_32mairieCode.GDwipObjects2= [];
+gdjs.place_32de_32la_32mairieCode.GDRoroObjects1= [];
+gdjs.place_32de_32la_32mairieCode.GDRoroObjects2= [];
+gdjs.place_32de_32la_32mairieCode.GDPOLINAObjects1= [];
+gdjs.place_32de_32la_32mairieCode.GDPOLINAObjects2= [];
+gdjs.place_32de_32la_32mairieCode.GDDIMITRIObjects1= [];
+gdjs.place_32de_32la_32mairieCode.GDDIMITRIObjects2= [];
+gdjs.place_32de_32la_32mairieCode.GDluluObjects1= [];
+gdjs.place_32de_32la_32mairieCode.GDluluObjects2= [];
+gdjs.place_32de_32la_32mairieCode.GDioanaObjects1= [];
+gdjs.place_32de_32la_32mairieCode.GDioanaObjects2= [];
+gdjs.place_32de_32la_32mairieCode.GDpaolaObjects1= [];
+gdjs.place_32de_32la_32mairieCode.GDpaolaObjects2= [];
+gdjs.place_32de_32la_32mairieCode.GDservice_9595personne_9595mairieObjects1= [];
+gdjs.place_32de_32la_32mairieCode.GDservice_9595personne_9595mairieObjects2= [];
+gdjs.place_32de_32la_32mairieCode.GDtrain_9595de_9595vieObjects1= [];
+gdjs.place_32de_32la_32mairieCode.GDtrain_9595de_9595vieObjects2= [];
+gdjs.place_32de_32la_32mairieCode.GDbouillonObjects1= [];
+gdjs.place_32de_32la_32mairieCode.GDbouillonObjects2= [];
+gdjs.place_32de_32la_32mairieCode.GDluna_9595rossaObjects1= [];
+gdjs.place_32de_32la_32mairieCode.GDluna_9595rossaObjects2= [];
+gdjs.place_32de_32la_32mairieCode.GDtrianonObjects1= [];
+gdjs.place_32de_32la_32mairieCode.GDtrianonObjects2= [];
+gdjs.place_32de_32la_32mairieCode.GDmetroObjects1= [];
+gdjs.place_32de_32la_32mairieCode.GDmetroObjects2= [];
 
 
-gdjs.FimincoCode.eventsList0 = function(runtimeScene) {
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("fabien"), gdjs.FimincoCode.GDfabienObjects3);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = (Math.abs(gdjs.evtTools.input.getCursorX(runtimeScene, "", 0) - (( gdjs.FimincoCode.GDfabienObjects3.length === 0 ) ? 0 :gdjs.FimincoCode.GDfabienObjects3[0].getPointX(""))) > Math.abs(gdjs.evtTools.input.getCursorY(runtimeScene, "", 0) - (( gdjs.FimincoCode.GDfabienObjects3.length === 0 ) ? 0 :gdjs.FimincoCode.GDfabienObjects3[0].getPointY(""))));
-}
-if (isConditionTrue_0) {
-/* Reuse gdjs.FimincoCode.GDfabienObjects3 */
-{for(var i = 0, len = gdjs.FimincoCode.GDfabienObjects3.length ;i < len;++i) {
-    gdjs.FimincoCode.GDfabienObjects3[i].getBehavior("NavMeshPathfindingBehavior").SetDestination(gdjs.evtTools.input.getCursorX(runtimeScene, "", 0), (gdjs.FimincoCode.GDfabienObjects3[i].getPointY("")), null);
-}
-}
-}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("fabien"), gdjs.FimincoCode.GDfabienObjects2);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = (Math.abs(gdjs.evtTools.input.getCursorX(runtimeScene, "", 0) - (( gdjs.FimincoCode.GDfabienObjects2.length === 0 ) ? 0 :gdjs.FimincoCode.GDfabienObjects2[0].getPointX(""))) < Math.abs(gdjs.evtTools.input.getCursorY(runtimeScene, "", 0) - (( gdjs.FimincoCode.GDfabienObjects2.length === 0 ) ? 0 :gdjs.FimincoCode.GDfabienObjects2[0].getPointY(""))));
-}
-if (isConditionTrue_0) {
-/* Reuse gdjs.FimincoCode.GDfabienObjects2 */
-{for(var i = 0, len = gdjs.FimincoCode.GDfabienObjects2.length ;i < len;++i) {
-    gdjs.FimincoCode.GDfabienObjects2[i].getBehavior("NavMeshPathfindingBehavior").SetDestination((gdjs.FimincoCode.GDfabienObjects2[i].getPointX("")), gdjs.evtTools.input.getCursorY(runtimeScene, "", 0), null);
-}
-}
-}
-
-}
-
-
-};gdjs.FimincoCode.eventsList1 = function(runtimeScene) {
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("fabien"), gdjs.FimincoCode.GDfabienObjects3);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = (Math.abs(gdjs.evtTools.input.getCursorX(runtimeScene, "", 0) - (( gdjs.FimincoCode.GDfabienObjects3.length === 0 ) ? 0 :gdjs.FimincoCode.GDfabienObjects3[0].getPointX(""))) > Math.abs(gdjs.evtTools.input.getCursorY(runtimeScene, "", 0) - (( gdjs.FimincoCode.GDfabienObjects3.length === 0 ) ? 0 :gdjs.FimincoCode.GDfabienObjects3[0].getPointY(""))));
-}
-if (isConditionTrue_0) {
-/* Reuse gdjs.FimincoCode.GDfabienObjects3 */
-{for(var i = 0, len = gdjs.FimincoCode.GDfabienObjects3.length ;i < len;++i) {
-    gdjs.FimincoCode.GDfabienObjects3[i].getBehavior("NavMeshPathfindingBehavior").SetDestination(gdjs.evtTools.input.getCursorX(runtimeScene, "", 0), (gdjs.FimincoCode.GDfabienObjects3[i].getPointY("")), null);
-}
-}
-}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("fabien"), gdjs.FimincoCode.GDfabienObjects2);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = (Math.abs(gdjs.evtTools.input.getCursorX(runtimeScene, "", 0) - (( gdjs.FimincoCode.GDfabienObjects2.length === 0 ) ? 0 :gdjs.FimincoCode.GDfabienObjects2[0].getPointX(""))) < Math.abs(gdjs.evtTools.input.getCursorY(runtimeScene, "", 0) - (( gdjs.FimincoCode.GDfabienObjects2.length === 0 ) ? 0 :gdjs.FimincoCode.GDfabienObjects2[0].getPointY(""))));
-}
-if (isConditionTrue_0) {
-/* Reuse gdjs.FimincoCode.GDfabienObjects2 */
-{for(var i = 0, len = gdjs.FimincoCode.GDfabienObjects2.length ;i < len;++i) {
-    gdjs.FimincoCode.GDfabienObjects2[i].getBehavior("NavMeshPathfindingBehavior").SetDestination((gdjs.FimincoCode.GDfabienObjects2[i].getPointX("")), gdjs.evtTools.input.getCursorY(runtimeScene, "", 0), null);
-}
-}
-}
-
-}
-
-
-};gdjs.FimincoCode.eventsList2 = function(runtimeScene) {
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("Roro"), gdjs.FimincoCode.GDRoroObjects2);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.FimincoCode.GDRoroObjects2.length;i<l;++i) {
-    if ( gdjs.FimincoCode.GDRoroObjects2[i].behaviorActivated("NavMeshPathfindingBehavior") ) {
-        isConditionTrue_0 = true;
-        gdjs.FimincoCode.GDRoroObjects2[k] = gdjs.FimincoCode.GDRoroObjects2[i];
-        ++k;
-    }
-}
-gdjs.FimincoCode.GDRoroObjects2.length = k;
-}
-if (isConditionTrue_0) {
-
-{ //Subevents
-gdjs.FimincoCode.eventsList0(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("Roro"), gdjs.FimincoCode.GDRoroObjects2);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.FimincoCode.GDRoroObjects2.length;i<l;++i) {
-    if ( gdjs.FimincoCode.GDRoroObjects2[i].behaviorActivated("NavMeshPathfindingBehavior") ) {
-        isConditionTrue_0 = true;
-        gdjs.FimincoCode.GDRoroObjects2[k] = gdjs.FimincoCode.GDRoroObjects2[i];
-        ++k;
-    }
-}
-gdjs.FimincoCode.GDRoroObjects2.length = k;
-}
-if (isConditionTrue_0) {
-
-{ //Subevents
-gdjs.FimincoCode.eventsList1(runtimeScene);} //End of subevents
-}
-
-}
-
-
-};gdjs.FimincoCode.mapOfGDgdjs_9546FimincoCode_9546GDautre_95959595ecranObjects1Objects = Hashtable.newFrom({"autre_ecran": gdjs.FimincoCode.GDautre_9595ecranObjects1});
-gdjs.FimincoCode.eventsList3 = function(runtimeScene) {
+gdjs.place_32de_32la_32mairieCode.mapOfGDgdjs_9546place_959532de_959532la_959532mairieCode_9546GDautres_95959595ecranObjects1Objects = Hashtable.newFrom({"autres_ecran": gdjs.place_32de_32la_32mairieCode.GDautres_9595ecranObjects1});
+gdjs.place_32de_32la_32mairieCode.eventsList0 = function(runtimeScene) {
 
 {
 
@@ -211,23 +71,26 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.FimincoCode.eventsList2(runtimeScene);
+let isConditionTrue_0 = false;
+{
+}
+
 }
 
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("autre_ecran"), gdjs.FimincoCode.GDautre_9595ecranObjects1);
+gdjs.copyArray(runtimeScene.getObjects("autres_ecran"), gdjs.place_32de_32la_32mairieCode.GDautres_9595ecranObjects1);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.FimincoCode.mapOfGDgdjs_9546FimincoCode_9546GDautre_95959595ecranObjects1Objects, runtimeScene, true, false);
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.place_32de_32la_32mairieCode.mapOfGDgdjs_9546place_959532de_959532la_959532mairieCode_9546GDautres_95959595ecranObjects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "place de la mairie", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "place de l'église", false);
 }
 }
 
@@ -246,119 +109,111 @@ let isConditionTrue_0 = false;
 
 };
 
-gdjs.FimincoCode.func = function(runtimeScene) {
+gdjs.place_32de_32la_32mairieCode.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 
-gdjs.FimincoCode.GDfimincoObjects1.length = 0;
-gdjs.FimincoCode.GDfimincoObjects2.length = 0;
-gdjs.FimincoCode.GDfimincoObjects3.length = 0;
-gdjs.FimincoCode.GDfimincoObjects4.length = 0;
-gdjs.FimincoCode.GDautre_9595ecranObjects1.length = 0;
-gdjs.FimincoCode.GDautre_9595ecranObjects2.length = 0;
-gdjs.FimincoCode.GDautre_9595ecranObjects3.length = 0;
-gdjs.FimincoCode.GDautre_9595ecranObjects4.length = 0;
-gdjs.FimincoCode.GDballonObjects1.length = 0;
-gdjs.FimincoCode.GDballonObjects2.length = 0;
-gdjs.FimincoCode.GDballonObjects3.length = 0;
-gdjs.FimincoCode.GDballonObjects4.length = 0;
-gdjs.FimincoCode.GDfondu_9595noirObjects1.length = 0;
-gdjs.FimincoCode.GDfondu_9595noirObjects2.length = 0;
-gdjs.FimincoCode.GDfondu_9595noirObjects3.length = 0;
-gdjs.FimincoCode.GDfondu_9595noirObjects4.length = 0;
-gdjs.FimincoCode.GDcloud1Objects1.length = 0;
-gdjs.FimincoCode.GDcloud1Objects2.length = 0;
-gdjs.FimincoCode.GDcloud1Objects3.length = 0;
-gdjs.FimincoCode.GDcloud1Objects4.length = 0;
-gdjs.FimincoCode.GDDebugTextWeatherObjects1.length = 0;
-gdjs.FimincoCode.GDDebugTextWeatherObjects2.length = 0;
-gdjs.FimincoCode.GDDebugTextWeatherObjects3.length = 0;
-gdjs.FimincoCode.GDDebugTextWeatherObjects4.length = 0;
-gdjs.FimincoCode.GDfabienObjects1.length = 0;
-gdjs.FimincoCode.GDfabienObjects2.length = 0;
-gdjs.FimincoCode.GDfabienObjects3.length = 0;
-gdjs.FimincoCode.GDfabienObjects4.length = 0;
-gdjs.FimincoCode.GDclaudeObjects1.length = 0;
-gdjs.FimincoCode.GDclaudeObjects2.length = 0;
-gdjs.FimincoCode.GDclaudeObjects3.length = 0;
-gdjs.FimincoCode.GDclaudeObjects4.length = 0;
-gdjs.FimincoCode.GDbackgroundObjects1.length = 0;
-gdjs.FimincoCode.GDbackgroundObjects2.length = 0;
-gdjs.FimincoCode.GDbackgroundObjects3.length = 0;
-gdjs.FimincoCode.GDbackgroundObjects4.length = 0;
-gdjs.FimincoCode.GDballoon_9595no_9595levelObjects1.length = 0;
-gdjs.FimincoCode.GDballoon_9595no_9595levelObjects2.length = 0;
-gdjs.FimincoCode.GDballoon_9595no_9595levelObjects3.length = 0;
-gdjs.FimincoCode.GDballoon_9595no_9595levelObjects4.length = 0;
-gdjs.FimincoCode.GDBillieObjects1.length = 0;
-gdjs.FimincoCode.GDBillieObjects2.length = 0;
-gdjs.FimincoCode.GDBillieObjects3.length = 0;
-gdjs.FimincoCode.GDBillieObjects4.length = 0;
-gdjs.FimincoCode.GDDimitriObjects1.length = 0;
-gdjs.FimincoCode.GDDimitriObjects2.length = 0;
-gdjs.FimincoCode.GDDimitriObjects3.length = 0;
-gdjs.FimincoCode.GDDimitriObjects4.length = 0;
-gdjs.FimincoCode.GDRoroObjects1.length = 0;
-gdjs.FimincoCode.GDRoroObjects2.length = 0;
-gdjs.FimincoCode.GDRoroObjects3.length = 0;
-gdjs.FimincoCode.GDRoroObjects4.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDplace_9595de_9595la_9595mairieObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDplace_9595de_9595la_9595mairieObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDautres_9595ecranObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDautres_9595ecranObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDballonObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDballonObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDfondu_9595noirObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDfondu_9595noirObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDcloud1Objects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDcloud1Objects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDDebugTextWeatherObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDDebugTextWeatherObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDfabienObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDfabienObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDclaudeObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDclaudeObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDbackgroundObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDbackgroundObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDballoon_9595no_9595levelObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDballoon_9595no_9595levelObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDmouetteObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDmouetteObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDwipObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDwipObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDRoroObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDRoroObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDPOLINAObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDPOLINAObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDDIMITRIObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDDIMITRIObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDluluObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDluluObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDioanaObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDioanaObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDpaolaObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDpaolaObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDservice_9595personne_9595mairieObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDservice_9595personne_9595mairieObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDtrain_9595de_9595vieObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDtrain_9595de_9595vieObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDbouillonObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDbouillonObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDluna_9595rossaObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDluna_9595rossaObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDtrianonObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDtrianonObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDmetroObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDmetroObjects2.length = 0;
 
-gdjs.FimincoCode.eventsList3(runtimeScene);
-gdjs.FimincoCode.GDfimincoObjects1.length = 0;
-gdjs.FimincoCode.GDfimincoObjects2.length = 0;
-gdjs.FimincoCode.GDfimincoObjects3.length = 0;
-gdjs.FimincoCode.GDfimincoObjects4.length = 0;
-gdjs.FimincoCode.GDautre_9595ecranObjects1.length = 0;
-gdjs.FimincoCode.GDautre_9595ecranObjects2.length = 0;
-gdjs.FimincoCode.GDautre_9595ecranObjects3.length = 0;
-gdjs.FimincoCode.GDautre_9595ecranObjects4.length = 0;
-gdjs.FimincoCode.GDballonObjects1.length = 0;
-gdjs.FimincoCode.GDballonObjects2.length = 0;
-gdjs.FimincoCode.GDballonObjects3.length = 0;
-gdjs.FimincoCode.GDballonObjects4.length = 0;
-gdjs.FimincoCode.GDfondu_9595noirObjects1.length = 0;
-gdjs.FimincoCode.GDfondu_9595noirObjects2.length = 0;
-gdjs.FimincoCode.GDfondu_9595noirObjects3.length = 0;
-gdjs.FimincoCode.GDfondu_9595noirObjects4.length = 0;
-gdjs.FimincoCode.GDcloud1Objects1.length = 0;
-gdjs.FimincoCode.GDcloud1Objects2.length = 0;
-gdjs.FimincoCode.GDcloud1Objects3.length = 0;
-gdjs.FimincoCode.GDcloud1Objects4.length = 0;
-gdjs.FimincoCode.GDDebugTextWeatherObjects1.length = 0;
-gdjs.FimincoCode.GDDebugTextWeatherObjects2.length = 0;
-gdjs.FimincoCode.GDDebugTextWeatherObjects3.length = 0;
-gdjs.FimincoCode.GDDebugTextWeatherObjects4.length = 0;
-gdjs.FimincoCode.GDfabienObjects1.length = 0;
-gdjs.FimincoCode.GDfabienObjects2.length = 0;
-gdjs.FimincoCode.GDfabienObjects3.length = 0;
-gdjs.FimincoCode.GDfabienObjects4.length = 0;
-gdjs.FimincoCode.GDclaudeObjects1.length = 0;
-gdjs.FimincoCode.GDclaudeObjects2.length = 0;
-gdjs.FimincoCode.GDclaudeObjects3.length = 0;
-gdjs.FimincoCode.GDclaudeObjects4.length = 0;
-gdjs.FimincoCode.GDbackgroundObjects1.length = 0;
-gdjs.FimincoCode.GDbackgroundObjects2.length = 0;
-gdjs.FimincoCode.GDbackgroundObjects3.length = 0;
-gdjs.FimincoCode.GDbackgroundObjects4.length = 0;
-gdjs.FimincoCode.GDballoon_9595no_9595levelObjects1.length = 0;
-gdjs.FimincoCode.GDballoon_9595no_9595levelObjects2.length = 0;
-gdjs.FimincoCode.GDballoon_9595no_9595levelObjects3.length = 0;
-gdjs.FimincoCode.GDballoon_9595no_9595levelObjects4.length = 0;
-gdjs.FimincoCode.GDBillieObjects1.length = 0;
-gdjs.FimincoCode.GDBillieObjects2.length = 0;
-gdjs.FimincoCode.GDBillieObjects3.length = 0;
-gdjs.FimincoCode.GDBillieObjects4.length = 0;
-gdjs.FimincoCode.GDDimitriObjects1.length = 0;
-gdjs.FimincoCode.GDDimitriObjects2.length = 0;
-gdjs.FimincoCode.GDDimitriObjects3.length = 0;
-gdjs.FimincoCode.GDDimitriObjects4.length = 0;
-gdjs.FimincoCode.GDRoroObjects1.length = 0;
-gdjs.FimincoCode.GDRoroObjects2.length = 0;
-gdjs.FimincoCode.GDRoroObjects3.length = 0;
-gdjs.FimincoCode.GDRoroObjects4.length = 0;
+gdjs.place_32de_32la_32mairieCode.eventsList0(runtimeScene);
+gdjs.place_32de_32la_32mairieCode.GDplace_9595de_9595la_9595mairieObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDplace_9595de_9595la_9595mairieObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDautres_9595ecranObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDautres_9595ecranObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDballonObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDballonObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDfondu_9595noirObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDfondu_9595noirObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDcloud1Objects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDcloud1Objects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDDebugTextWeatherObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDDebugTextWeatherObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDfabienObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDfabienObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDclaudeObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDclaudeObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDbackgroundObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDbackgroundObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDballoon_9595no_9595levelObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDballoon_9595no_9595levelObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDmouetteObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDmouetteObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDwipObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDwipObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDRoroObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDRoroObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDPOLINAObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDPOLINAObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDDIMITRIObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDDIMITRIObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDluluObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDluluObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDioanaObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDioanaObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDpaolaObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDpaolaObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDservice_9595personne_9595mairieObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDservice_9595personne_9595mairieObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDtrain_9595de_9595vieObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDtrain_9595de_9595vieObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDbouillonObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDbouillonObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDluna_9595rossaObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDluna_9595rossaObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDtrianonObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDtrianonObjects2.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDmetroObjects1.length = 0;
+gdjs.place_32de_32la_32mairieCode.GDmetroObjects2.length = 0;
 
 
 return;
 
 }
 
-gdjs['FimincoCode'] = gdjs.FimincoCode;
+gdjs['place_32de_32la_32mairieCode'] = gdjs.place_32de_32la_32mairieCode;
