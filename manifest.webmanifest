@@ -3,7 +3,7 @@
   "short_name": "madeinromainville_24062026_desktop",
   "id": "com.example.isometricworld",
   "description": "",
-  "orientation": "any",
+  "orientation": "landscape",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "black",
