@@ -9,7 +9,7 @@ gdjs.evtsExt__DoubleClick__onScenePostEvents = {};
 gdjs.evtsExt__DoubleClick__onScenePostEvents.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__DoubleClick__onScenePostEvents.userFunc0x28089c0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__DoubleClick__onScenePostEvents.userFunc0x2a970b0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const { clickCounter } = gdjs._DoubleClickExtension;
 
@@ -21,7 +21,7 @@ gdjs.evtsExt__DoubleClick__onScenePostEvents.eventsList0 = function(runtimeScene
 {
 
 
-gdjs.evtsExt__DoubleClick__onScenePostEvents.userFunc0x28089c0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__DoubleClick__onScenePostEvents.userFunc0x2a970b0(runtimeScene, eventsFunctionContext);
 
 }
 

@@ -1,60 +1,82 @@
-gdjs.luna_32rossaCode = {};
-gdjs.luna_32rossaCode.localVariables = [];
-gdjs.luna_32rossaCode.idToCallbackMap = new Map();
-gdjs.luna_32rossaCode.GDanother_9595levelObjects1= [];
-gdjs.luna_32rossaCode.GDanother_9595levelObjects2= [];
-gdjs.luna_32rossaCode.GDballonObjects1= [];
-gdjs.luna_32rossaCode.GDballonObjects2= [];
-gdjs.luna_32rossaCode.GDfondu_9595noirObjects1= [];
-gdjs.luna_32rossaCode.GDfondu_9595noirObjects2= [];
-gdjs.luna_32rossaCode.GDcloud1Objects1= [];
-gdjs.luna_32rossaCode.GDcloud1Objects2= [];
-gdjs.luna_32rossaCode.GDDebugTextWeatherObjects1= [];
-gdjs.luna_32rossaCode.GDDebugTextWeatherObjects2= [];
-gdjs.luna_32rossaCode.GDfabienObjects1= [];
-gdjs.luna_32rossaCode.GDfabienObjects2= [];
-gdjs.luna_32rossaCode.GDclaudeObjects1= [];
-gdjs.luna_32rossaCode.GDclaudeObjects2= [];
-gdjs.luna_32rossaCode.GDbackgroundObjects1= [];
-gdjs.luna_32rossaCode.GDbackgroundObjects2= [];
-gdjs.luna_32rossaCode.GDballoon_9595no_9595levelObjects1= [];
-gdjs.luna_32rossaCode.GDballoon_9595no_9595levelObjects2= [];
-gdjs.luna_32rossaCode.GDmouetteObjects1= [];
-gdjs.luna_32rossaCode.GDmouetteObjects2= [];
-gdjs.luna_32rossaCode.GDwipObjects1= [];
-gdjs.luna_32rossaCode.GDwipObjects2= [];
-gdjs.luna_32rossaCode.GDRoroObjects1= [];
-gdjs.luna_32rossaCode.GDRoroObjects2= [];
-gdjs.luna_32rossaCode.GDPOLINAObjects1= [];
-gdjs.luna_32rossaCode.GDPOLINAObjects2= [];
-gdjs.luna_32rossaCode.GDDIMITRIObjects1= [];
-gdjs.luna_32rossaCode.GDDIMITRIObjects2= [];
-gdjs.luna_32rossaCode.GDluluObjects1= [];
-gdjs.luna_32rossaCode.GDluluObjects2= [];
-gdjs.luna_32rossaCode.GDioanaObjects1= [];
-gdjs.luna_32rossaCode.GDioanaObjects2= [];
-gdjs.luna_32rossaCode.GDpaolaObjects1= [];
-gdjs.luna_32rossaCode.GDpaolaObjects2= [];
-gdjs.luna_32rossaCode.GDservice_9595personne_9595mairieObjects1= [];
-gdjs.luna_32rossaCode.GDservice_9595personne_9595mairieObjects2= [];
-gdjs.luna_32rossaCode.GDtrain_9595de_9595vieObjects1= [];
-gdjs.luna_32rossaCode.GDtrain_9595de_9595vieObjects2= [];
-gdjs.luna_32rossaCode.GDbouillonObjects1= [];
-gdjs.luna_32rossaCode.GDbouillonObjects2= [];
-gdjs.luna_32rossaCode.GDluna_9595rossaObjects1= [];
-gdjs.luna_32rossaCode.GDluna_9595rossaObjects2= [];
-gdjs.luna_32rossaCode.GDtrianonObjects1= [];
-gdjs.luna_32rossaCode.GDtrianonObjects2= [];
-gdjs.luna_32rossaCode.GDmetroObjects1= [];
-gdjs.luna_32rossaCode.GDmetroObjects2= [];
-gdjs.luna_32rossaCode.GDmokaObjects1= [];
-gdjs.luna_32rossaCode.GDmokaObjects2= [];
-gdjs.luna_32rossaCode.GDbillieObjects1= [];
-gdjs.luna_32rossaCode.GDbillieObjects2= [];
+gdjs.place_32de_32l_39_233gliseCode = {};
+gdjs.place_32de_32l_39_233gliseCode.localVariables = [];
+gdjs.place_32de_32l_39_233gliseCode.idToCallbackMap = new Map();
+gdjs.place_32de_32l_39_233gliseCode.GD_95233gliseObjects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GD_95233gliseObjects2= [];
+gdjs.place_32de_32l_39_233gliseCode.GDautres_9595ecranObjects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GDautres_9595ecranObjects2= [];
+gdjs.place_32de_32l_39_233gliseCode.GDballonObjects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GDballonObjects2= [];
+gdjs.place_32de_32l_39_233gliseCode.GDfondu_9595noirObjects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GDfondu_9595noirObjects2= [];
+gdjs.place_32de_32l_39_233gliseCode.GDcloud1Objects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GDcloud1Objects2= [];
+gdjs.place_32de_32l_39_233gliseCode.GDDebugTextWeatherObjects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GDDebugTextWeatherObjects2= [];
+gdjs.place_32de_32l_39_233gliseCode.GDfabienObjects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GDfabienObjects2= [];
+gdjs.place_32de_32l_39_233gliseCode.GDclaudeObjects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GDclaudeObjects2= [];
+gdjs.place_32de_32l_39_233gliseCode.GDbackgroundObjects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GDbackgroundObjects2= [];
+gdjs.place_32de_32l_39_233gliseCode.GDballoon_9595no_9595levelObjects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GDballoon_9595no_9595levelObjects2= [];
+gdjs.place_32de_32l_39_233gliseCode.GDmouetteObjects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GDmouetteObjects2= [];
+gdjs.place_32de_32l_39_233gliseCode.GDwipObjects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GDwipObjects2= [];
+gdjs.place_32de_32l_39_233gliseCode.GDRoroObjects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GDRoroObjects2= [];
+gdjs.place_32de_32l_39_233gliseCode.GDPOLINAObjects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GDPOLINAObjects2= [];
+gdjs.place_32de_32l_39_233gliseCode.GDDIMITRIObjects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GDDIMITRIObjects2= [];
+gdjs.place_32de_32l_39_233gliseCode.GDluluObjects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GDluluObjects2= [];
+gdjs.place_32de_32l_39_233gliseCode.GDioanaObjects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GDioanaObjects2= [];
+gdjs.place_32de_32l_39_233gliseCode.GDpaolaObjects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GDpaolaObjects2= [];
+gdjs.place_32de_32l_39_233gliseCode.GDservice_9595personne_9595mairieObjects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GDservice_9595personne_9595mairieObjects2= [];
+gdjs.place_32de_32l_39_233gliseCode.GDtrain_9595de_9595vieObjects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GDtrain_9595de_9595vieObjects2= [];
+gdjs.place_32de_32l_39_233gliseCode.GDbouillonObjects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GDbouillonObjects2= [];
+gdjs.place_32de_32l_39_233gliseCode.GDluna_9595rossaObjects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GDluna_9595rossaObjects2= [];
+gdjs.place_32de_32l_39_233gliseCode.GDtrianonObjects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GDtrianonObjects2= [];
+gdjs.place_32de_32l_39_233gliseCode.GDmetroObjects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GDmetroObjects2= [];
+gdjs.place_32de_32l_39_233gliseCode.GDmokaObjects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GDmokaObjects2= [];
+gdjs.place_32de_32l_39_233gliseCode.GDbillieObjects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GDbillieObjects2= [];
+gdjs.place_32de_32l_39_233gliseCode.GDLiselaureObjects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GDLiselaureObjects2= [];
+gdjs.place_32de_32l_39_233gliseCode.GDflofloObjects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GDflofloObjects2= [];
+gdjs.place_32de_32l_39_233gliseCode.GDJCObjects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GDJCObjects2= [];
+gdjs.place_32de_32l_39_233gliseCode.GDHectorObjects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GDHectorObjects2= [];
+gdjs.place_32de_32l_39_233gliseCode.GDFleuryObjects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GDFleuryObjects2= [];
+gdjs.place_32de_32l_39_233gliseCode.GDyayaObjects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GDyayaObjects2= [];
+gdjs.place_32de_32l_39_233gliseCode.GDsebObjects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GDsebObjects2= [];
+gdjs.place_32de_32l_39_233gliseCode.GDaureliaObjects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GDaureliaObjects2= [];
+gdjs.place_32de_32l_39_233gliseCode.GDespoir_9595de_9595louObjects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GDespoir_9595de_9595louObjects2= [];
+gdjs.place_32de_32l_39_233gliseCode.GDelctricienObjects1= [];
+gdjs.place_32de_32l_39_233gliseCode.GDelctricienObjects2= [];
 
 
-gdjs.luna_32rossaCode.mapOfGDgdjs_9546luna_959532rossaCode_9546GDanother_95959595levelObjects1Objects = Hashtable.newFrom({"another_level": gdjs.luna_32rossaCode.GDanother_9595levelObjects1});
-gdjs.luna_32rossaCode.eventsList0 = function(runtimeScene) {
+gdjs.place_32de_32l_39_233gliseCode.mapOfGDgdjs_9546place_959532de_959532l_959539_9595233gliseCode_9546GDautres_95959595ecranObjects1Objects = Hashtable.newFrom({"autres_ecran": gdjs.place_32de_32l_39_233gliseCode.GDautres_9595ecranObjects1});
+gdjs.place_32de_32l_39_233gliseCode.eventsList0 = function(runtimeScene) {
 
 {
 
@@ -65,6 +87,8 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 {gdjs.evtTools.camera.setCameraZoom(runtimeScene, 0.8, "", 0);
 }
+{gdjs.evtTools.camera.setCameraZoom(runtimeScene, 0.8, "pasage level", 0);
+}
 }
 
 }
@@ -72,17 +96,27 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("another_level"), gdjs.luna_32rossaCode.GDanother_9595levelObjects1);
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("autres_ecran"), gdjs.place_32de_32l_39_233gliseCode.GDautres_9595ecranObjects1);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.luna_32rossaCode.mapOfGDgdjs_9546luna_959532rossaCode_9546GDanother_95959595levelObjects1Objects, runtimeScene, true, false);
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.place_32de_32l_39_233gliseCode.mapOfGDgdjs_9546place_959532de_959532l_959539_9595233gliseCode_9546GDautres_95959595ecranObjects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "trianon", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "luna rossa", false);
 }
 }
 
@@ -91,115 +125,159 @@ if (isConditionTrue_0) {
 
 };
 
-gdjs.luna_32rossaCode.func = function(runtimeScene) {
+gdjs.place_32de_32l_39_233gliseCode.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 
-gdjs.luna_32rossaCode.GDanother_9595levelObjects1.length = 0;
-gdjs.luna_32rossaCode.GDanother_9595levelObjects2.length = 0;
-gdjs.luna_32rossaCode.GDballonObjects1.length = 0;
-gdjs.luna_32rossaCode.GDballonObjects2.length = 0;
-gdjs.luna_32rossaCode.GDfondu_9595noirObjects1.length = 0;
-gdjs.luna_32rossaCode.GDfondu_9595noirObjects2.length = 0;
-gdjs.luna_32rossaCode.GDcloud1Objects1.length = 0;
-gdjs.luna_32rossaCode.GDcloud1Objects2.length = 0;
-gdjs.luna_32rossaCode.GDDebugTextWeatherObjects1.length = 0;
-gdjs.luna_32rossaCode.GDDebugTextWeatherObjects2.length = 0;
-gdjs.luna_32rossaCode.GDfabienObjects1.length = 0;
-gdjs.luna_32rossaCode.GDfabienObjects2.length = 0;
-gdjs.luna_32rossaCode.GDclaudeObjects1.length = 0;
-gdjs.luna_32rossaCode.GDclaudeObjects2.length = 0;
-gdjs.luna_32rossaCode.GDbackgroundObjects1.length = 0;
-gdjs.luna_32rossaCode.GDbackgroundObjects2.length = 0;
-gdjs.luna_32rossaCode.GDballoon_9595no_9595levelObjects1.length = 0;
-gdjs.luna_32rossaCode.GDballoon_9595no_9595levelObjects2.length = 0;
-gdjs.luna_32rossaCode.GDmouetteObjects1.length = 0;
-gdjs.luna_32rossaCode.GDmouetteObjects2.length = 0;
-gdjs.luna_32rossaCode.GDwipObjects1.length = 0;
-gdjs.luna_32rossaCode.GDwipObjects2.length = 0;
-gdjs.luna_32rossaCode.GDRoroObjects1.length = 0;
-gdjs.luna_32rossaCode.GDRoroObjects2.length = 0;
-gdjs.luna_32rossaCode.GDPOLINAObjects1.length = 0;
-gdjs.luna_32rossaCode.GDPOLINAObjects2.length = 0;
-gdjs.luna_32rossaCode.GDDIMITRIObjects1.length = 0;
-gdjs.luna_32rossaCode.GDDIMITRIObjects2.length = 0;
-gdjs.luna_32rossaCode.GDluluObjects1.length = 0;
-gdjs.luna_32rossaCode.GDluluObjects2.length = 0;
-gdjs.luna_32rossaCode.GDioanaObjects1.length = 0;
-gdjs.luna_32rossaCode.GDioanaObjects2.length = 0;
-gdjs.luna_32rossaCode.GDpaolaObjects1.length = 0;
-gdjs.luna_32rossaCode.GDpaolaObjects2.length = 0;
-gdjs.luna_32rossaCode.GDservice_9595personne_9595mairieObjects1.length = 0;
-gdjs.luna_32rossaCode.GDservice_9595personne_9595mairieObjects2.length = 0;
-gdjs.luna_32rossaCode.GDtrain_9595de_9595vieObjects1.length = 0;
-gdjs.luna_32rossaCode.GDtrain_9595de_9595vieObjects2.length = 0;
-gdjs.luna_32rossaCode.GDbouillonObjects1.length = 0;
-gdjs.luna_32rossaCode.GDbouillonObjects2.length = 0;
-gdjs.luna_32rossaCode.GDluna_9595rossaObjects1.length = 0;
-gdjs.luna_32rossaCode.GDluna_9595rossaObjects2.length = 0;
-gdjs.luna_32rossaCode.GDtrianonObjects1.length = 0;
-gdjs.luna_32rossaCode.GDtrianonObjects2.length = 0;
-gdjs.luna_32rossaCode.GDmetroObjects1.length = 0;
-gdjs.luna_32rossaCode.GDmetroObjects2.length = 0;
-gdjs.luna_32rossaCode.GDmokaObjects1.length = 0;
-gdjs.luna_32rossaCode.GDmokaObjects2.length = 0;
-gdjs.luna_32rossaCode.GDbillieObjects1.length = 0;
-gdjs.luna_32rossaCode.GDbillieObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GD_95233gliseObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GD_95233gliseObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDautres_9595ecranObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDautres_9595ecranObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDballonObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDballonObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDfondu_9595noirObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDfondu_9595noirObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDcloud1Objects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDcloud1Objects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDDebugTextWeatherObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDDebugTextWeatherObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDfabienObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDfabienObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDclaudeObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDclaudeObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDbackgroundObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDbackgroundObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDballoon_9595no_9595levelObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDballoon_9595no_9595levelObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDmouetteObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDmouetteObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDwipObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDwipObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDRoroObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDRoroObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDPOLINAObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDPOLINAObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDDIMITRIObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDDIMITRIObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDluluObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDluluObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDioanaObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDioanaObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDpaolaObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDpaolaObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDservice_9595personne_9595mairieObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDservice_9595personne_9595mairieObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDtrain_9595de_9595vieObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDtrain_9595de_9595vieObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDbouillonObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDbouillonObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDluna_9595rossaObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDluna_9595rossaObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDtrianonObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDtrianonObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDmetroObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDmetroObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDmokaObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDmokaObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDbillieObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDbillieObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDLiselaureObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDLiselaureObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDflofloObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDflofloObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDJCObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDJCObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDHectorObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDHectorObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDFleuryObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDFleuryObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDyayaObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDyayaObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDsebObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDsebObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDaureliaObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDaureliaObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDespoir_9595de_9595louObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDespoir_9595de_9595louObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDelctricienObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDelctricienObjects2.length = 0;
 
-gdjs.luna_32rossaCode.eventsList0(runtimeScene);
-gdjs.luna_32rossaCode.GDanother_9595levelObjects1.length = 0;
-gdjs.luna_32rossaCode.GDanother_9595levelObjects2.length = 0;
-gdjs.luna_32rossaCode.GDballonObjects1.length = 0;
-gdjs.luna_32rossaCode.GDballonObjects2.length = 0;
-gdjs.luna_32rossaCode.GDfondu_9595noirObjects1.length = 0;
-gdjs.luna_32rossaCode.GDfondu_9595noirObjects2.length = 0;
-gdjs.luna_32rossaCode.GDcloud1Objects1.length = 0;
-gdjs.luna_32rossaCode.GDcloud1Objects2.length = 0;
-gdjs.luna_32rossaCode.GDDebugTextWeatherObjects1.length = 0;
-gdjs.luna_32rossaCode.GDDebugTextWeatherObjects2.length = 0;
-gdjs.luna_32rossaCode.GDfabienObjects1.length = 0;
-gdjs.luna_32rossaCode.GDfabienObjects2.length = 0;
-gdjs.luna_32rossaCode.GDclaudeObjects1.length = 0;
-gdjs.luna_32rossaCode.GDclaudeObjects2.length = 0;
-gdjs.luna_32rossaCode.GDbackgroundObjects1.length = 0;
-gdjs.luna_32rossaCode.GDbackgroundObjects2.length = 0;
-gdjs.luna_32rossaCode.GDballoon_9595no_9595levelObjects1.length = 0;
-gdjs.luna_32rossaCode.GDballoon_9595no_9595levelObjects2.length = 0;
-gdjs.luna_32rossaCode.GDmouetteObjects1.length = 0;
-gdjs.luna_32rossaCode.GDmouetteObjects2.length = 0;
-gdjs.luna_32rossaCode.GDwipObjects1.length = 0;
-gdjs.luna_32rossaCode.GDwipObjects2.length = 0;
-gdjs.luna_32rossaCode.GDRoroObjects1.length = 0;
-gdjs.luna_32rossaCode.GDRoroObjects2.length = 0;
-gdjs.luna_32rossaCode.GDPOLINAObjects1.length = 0;
-gdjs.luna_32rossaCode.GDPOLINAObjects2.length = 0;
-gdjs.luna_32rossaCode.GDDIMITRIObjects1.length = 0;
-gdjs.luna_32rossaCode.GDDIMITRIObjects2.length = 0;
-gdjs.luna_32rossaCode.GDluluObjects1.length = 0;
-gdjs.luna_32rossaCode.GDluluObjects2.length = 0;
-gdjs.luna_32rossaCode.GDioanaObjects1.length = 0;
-gdjs.luna_32rossaCode.GDioanaObjects2.length = 0;
-gdjs.luna_32rossaCode.GDpaolaObjects1.length = 0;
-gdjs.luna_32rossaCode.GDpaolaObjects2.length = 0;
-gdjs.luna_32rossaCode.GDservice_9595personne_9595mairieObjects1.length = 0;
-gdjs.luna_32rossaCode.GDservice_9595personne_9595mairieObjects2.length = 0;
-gdjs.luna_32rossaCode.GDtrain_9595de_9595vieObjects1.length = 0;
-gdjs.luna_32rossaCode.GDtrain_9595de_9595vieObjects2.length = 0;
-gdjs.luna_32rossaCode.GDbouillonObjects1.length = 0;
-gdjs.luna_32rossaCode.GDbouillonObjects2.length = 0;
-gdjs.luna_32rossaCode.GDluna_9595rossaObjects1.length = 0;
-gdjs.luna_32rossaCode.GDluna_9595rossaObjects2.length = 0;
-gdjs.luna_32rossaCode.GDtrianonObjects1.length = 0;
-gdjs.luna_32rossaCode.GDtrianonObjects2.length = 0;
-gdjs.luna_32rossaCode.GDmetroObjects1.length = 0;
-gdjs.luna_32rossaCode.GDmetroObjects2.length = 0;
-gdjs.luna_32rossaCode.GDmokaObjects1.length = 0;
-gdjs.luna_32rossaCode.GDmokaObjects2.length = 0;
-gdjs.luna_32rossaCode.GDbillieObjects1.length = 0;
-gdjs.luna_32rossaCode.GDbillieObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.eventsList0(runtimeScene);
+gdjs.place_32de_32l_39_233gliseCode.GD_95233gliseObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GD_95233gliseObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDautres_9595ecranObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDautres_9595ecranObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDballonObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDballonObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDfondu_9595noirObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDfondu_9595noirObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDcloud1Objects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDcloud1Objects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDDebugTextWeatherObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDDebugTextWeatherObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDfabienObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDfabienObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDclaudeObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDclaudeObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDbackgroundObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDbackgroundObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDballoon_9595no_9595levelObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDballoon_9595no_9595levelObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDmouetteObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDmouetteObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDwipObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDwipObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDRoroObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDRoroObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDPOLINAObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDPOLINAObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDDIMITRIObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDDIMITRIObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDluluObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDluluObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDioanaObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDioanaObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDpaolaObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDpaolaObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDservice_9595personne_9595mairieObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDservice_9595personne_9595mairieObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDtrain_9595de_9595vieObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDtrain_9595de_9595vieObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDbouillonObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDbouillonObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDluna_9595rossaObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDluna_9595rossaObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDtrianonObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDtrianonObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDmetroObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDmetroObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDmokaObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDmokaObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDbillieObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDbillieObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDLiselaureObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDLiselaureObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDflofloObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDflofloObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDJCObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDJCObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDHectorObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDHectorObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDFleuryObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDFleuryObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDyayaObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDyayaObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDsebObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDsebObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDaureliaObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDaureliaObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDespoir_9595de_9595louObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDespoir_9595de_9595louObjects2.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDelctricienObjects1.length = 0;
+gdjs.place_32de_32l_39_233gliseCode.GDelctricienObjects2.length = 0;
 
 
 return;
 
 }
 
-gdjs['luna_32rossaCode'] = gdjs.luna_32rossaCode;
+gdjs['place_32de_32l_39_233gliseCode'] = gdjs.place_32de_32l_39_233gliseCode;
