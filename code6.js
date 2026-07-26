@@ -115,6 +115,18 @@ gdjs.cinema_32plein_32air_32romainvileCode.GDtomoObjects3= [];
 gdjs.cinema_32plein_32air_32romainvileCode.GDMrRObeObjects1= [];
 gdjs.cinema_32plein_32air_32romainvileCode.GDMrRObeObjects2= [];
 gdjs.cinema_32plein_32air_32romainvileCode.GDMrRObeObjects3= [];
+gdjs.cinema_32plein_32air_32romainvileCode.GDplace_9595de_9595la_9595mairieObjects1= [];
+gdjs.cinema_32plein_32air_32romainvileCode.GDplace_9595de_9595la_9595mairieObjects2= [];
+gdjs.cinema_32plein_32air_32romainvileCode.GDplace_9595de_9595la_9595mairieObjects3= [];
+gdjs.cinema_32plein_32air_32romainvileCode.GDpremier_9595plan_9595mairieObjects1= [];
+gdjs.cinema_32plein_32air_32romainvileCode.GDpremier_9595plan_9595mairieObjects2= [];
+gdjs.cinema_32plein_32air_32romainvileCode.GDpremier_9595plan_9595mairieObjects3= [];
+gdjs.cinema_32plein_32air_32romainvileCode.GDegliseObjects1= [];
+gdjs.cinema_32plein_32air_32romainvileCode.GDegliseObjects2= [];
+gdjs.cinema_32plein_32air_32romainvileCode.GDegliseObjects3= [];
+gdjs.cinema_32plein_32air_32romainvileCode.GDpanneau_9595romainvileObjects1= [];
+gdjs.cinema_32plein_32air_32romainvileCode.GDpanneau_9595romainvileObjects2= [];
+gdjs.cinema_32plein_32air_32romainvileCode.GDpanneau_9595romainvileObjects3= [];
 
 
 gdjs.cinema_32plein_32air_32romainvileCode.mapOfGDgdjs_9546cinema_959532plein_959532air_959532romainvileCode_9546GDcin_959595233_95959595plein_95959595air_95959595Objects1Objects = Hashtable.newFrom({"ciné_plein_air_": gdjs.cinema_32plein_32air_32romainvileCode.GDcin_95233_9595plein_9595air_9595Objects1});
@@ -169,7 +181,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(41075084);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(56281756);
 }
 }
 }
@@ -320,6 +332,18 @@ gdjs.cinema_32plein_32air_32romainvileCode.GDtomoObjects3.length = 0;
 gdjs.cinema_32plein_32air_32romainvileCode.GDMrRObeObjects1.length = 0;
 gdjs.cinema_32plein_32air_32romainvileCode.GDMrRObeObjects2.length = 0;
 gdjs.cinema_32plein_32air_32romainvileCode.GDMrRObeObjects3.length = 0;
+gdjs.cinema_32plein_32air_32romainvileCode.GDplace_9595de_9595la_9595mairieObjects1.length = 0;
+gdjs.cinema_32plein_32air_32romainvileCode.GDplace_9595de_9595la_9595mairieObjects2.length = 0;
+gdjs.cinema_32plein_32air_32romainvileCode.GDplace_9595de_9595la_9595mairieObjects3.length = 0;
+gdjs.cinema_32plein_32air_32romainvileCode.GDpremier_9595plan_9595mairieObjects1.length = 0;
+gdjs.cinema_32plein_32air_32romainvileCode.GDpremier_9595plan_9595mairieObjects2.length = 0;
+gdjs.cinema_32plein_32air_32romainvileCode.GDpremier_9595plan_9595mairieObjects3.length = 0;
+gdjs.cinema_32plein_32air_32romainvileCode.GDegliseObjects1.length = 0;
+gdjs.cinema_32plein_32air_32romainvileCode.GDegliseObjects2.length = 0;
+gdjs.cinema_32plein_32air_32romainvileCode.GDegliseObjects3.length = 0;
+gdjs.cinema_32plein_32air_32romainvileCode.GDpanneau_9595romainvileObjects1.length = 0;
+gdjs.cinema_32plein_32air_32romainvileCode.GDpanneau_9595romainvileObjects2.length = 0;
+gdjs.cinema_32plein_32air_32romainvileCode.GDpanneau_9595romainvileObjects3.length = 0;
 
 gdjs.cinema_32plein_32air_32romainvileCode.eventsList2(runtimeScene);
 gdjs.cinema_32plein_32air_32romainvileCode.GDcin_95233_9595plein_9595air_9595Objects1.length = 0;
@@ -436,6 +460,18 @@ gdjs.cinema_32plein_32air_32romainvileCode.GDtomoObjects3.length = 0;
 gdjs.cinema_32plein_32air_32romainvileCode.GDMrRObeObjects1.length = 0;
 gdjs.cinema_32plein_32air_32romainvileCode.GDMrRObeObjects2.length = 0;
 gdjs.cinema_32plein_32air_32romainvileCode.GDMrRObeObjects3.length = 0;
+gdjs.cinema_32plein_32air_32romainvileCode.GDplace_9595de_9595la_9595mairieObjects1.length = 0;
+gdjs.cinema_32plein_32air_32romainvileCode.GDplace_9595de_9595la_9595mairieObjects2.length = 0;
+gdjs.cinema_32plein_32air_32romainvileCode.GDplace_9595de_9595la_9595mairieObjects3.length = 0;
+gdjs.cinema_32plein_32air_32romainvileCode.GDpremier_9595plan_9595mairieObjects1.length = 0;
+gdjs.cinema_32plein_32air_32romainvileCode.GDpremier_9595plan_9595mairieObjects2.length = 0;
+gdjs.cinema_32plein_32air_32romainvileCode.GDpremier_9595plan_9595mairieObjects3.length = 0;
+gdjs.cinema_32plein_32air_32romainvileCode.GDegliseObjects1.length = 0;
+gdjs.cinema_32plein_32air_32romainvileCode.GDegliseObjects2.length = 0;
+gdjs.cinema_32plein_32air_32romainvileCode.GDegliseObjects3.length = 0;
+gdjs.cinema_32plein_32air_32romainvileCode.GDpanneau_9595romainvileObjects1.length = 0;
+gdjs.cinema_32plein_32air_32romainvileCode.GDpanneau_9595romainvileObjects2.length = 0;
+gdjs.cinema_32plein_32air_32romainvileCode.GDpanneau_9595romainvileObjects3.length = 0;
 
 
 return;

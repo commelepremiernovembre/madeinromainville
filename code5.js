@@ -115,6 +115,18 @@ gdjs.graffCode.GDtomoObjects3= [];
 gdjs.graffCode.GDMrRObeObjects1= [];
 gdjs.graffCode.GDMrRObeObjects2= [];
 gdjs.graffCode.GDMrRObeObjects3= [];
+gdjs.graffCode.GDplace_9595de_9595la_9595mairieObjects1= [];
+gdjs.graffCode.GDplace_9595de_9595la_9595mairieObjects2= [];
+gdjs.graffCode.GDplace_9595de_9595la_9595mairieObjects3= [];
+gdjs.graffCode.GDpremier_9595plan_9595mairieObjects1= [];
+gdjs.graffCode.GDpremier_9595plan_9595mairieObjects2= [];
+gdjs.graffCode.GDpremier_9595plan_9595mairieObjects3= [];
+gdjs.graffCode.GDegliseObjects1= [];
+gdjs.graffCode.GDegliseObjects2= [];
+gdjs.graffCode.GDegliseObjects3= [];
+gdjs.graffCode.GDpanneau_9595romainvileObjects1= [];
+gdjs.graffCode.GDpanneau_9595romainvileObjects2= [];
+gdjs.graffCode.GDpanneau_9595romainvileObjects3= [];
 
 
 gdjs.graffCode.mapOfGDgdjs_9546graffCode_9546GDgraff_959595951Objects1Objects = Hashtable.newFrom({"graff_1": gdjs.graffCode.GDgraff_95951Objects1});
@@ -169,7 +181,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(41060468);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(56269468);
 }
 }
 }
@@ -320,6 +332,18 @@ gdjs.graffCode.GDtomoObjects3.length = 0;
 gdjs.graffCode.GDMrRObeObjects1.length = 0;
 gdjs.graffCode.GDMrRObeObjects2.length = 0;
 gdjs.graffCode.GDMrRObeObjects3.length = 0;
+gdjs.graffCode.GDplace_9595de_9595la_9595mairieObjects1.length = 0;
+gdjs.graffCode.GDplace_9595de_9595la_9595mairieObjects2.length = 0;
+gdjs.graffCode.GDplace_9595de_9595la_9595mairieObjects3.length = 0;
+gdjs.graffCode.GDpremier_9595plan_9595mairieObjects1.length = 0;
+gdjs.graffCode.GDpremier_9595plan_9595mairieObjects2.length = 0;
+gdjs.graffCode.GDpremier_9595plan_9595mairieObjects3.length = 0;
+gdjs.graffCode.GDegliseObjects1.length = 0;
+gdjs.graffCode.GDegliseObjects2.length = 0;
+gdjs.graffCode.GDegliseObjects3.length = 0;
+gdjs.graffCode.GDpanneau_9595romainvileObjects1.length = 0;
+gdjs.graffCode.GDpanneau_9595romainvileObjects2.length = 0;
+gdjs.graffCode.GDpanneau_9595romainvileObjects3.length = 0;
 
 gdjs.graffCode.eventsList2(runtimeScene);
 gdjs.graffCode.GDgraff_95951Objects1.length = 0;
@@ -436,6 +460,18 @@ gdjs.graffCode.GDtomoObjects3.length = 0;
 gdjs.graffCode.GDMrRObeObjects1.length = 0;
 gdjs.graffCode.GDMrRObeObjects2.length = 0;
 gdjs.graffCode.GDMrRObeObjects3.length = 0;
+gdjs.graffCode.GDplace_9595de_9595la_9595mairieObjects1.length = 0;
+gdjs.graffCode.GDplace_9595de_9595la_9595mairieObjects2.length = 0;
+gdjs.graffCode.GDplace_9595de_9595la_9595mairieObjects3.length = 0;
+gdjs.graffCode.GDpremier_9595plan_9595mairieObjects1.length = 0;
+gdjs.graffCode.GDpremier_9595plan_9595mairieObjects2.length = 0;
+gdjs.graffCode.GDpremier_9595plan_9595mairieObjects3.length = 0;
+gdjs.graffCode.GDegliseObjects1.length = 0;
+gdjs.graffCode.GDegliseObjects2.length = 0;
+gdjs.graffCode.GDegliseObjects3.length = 0;
+gdjs.graffCode.GDpanneau_9595romainvileObjects1.length = 0;
+gdjs.graffCode.GDpanneau_9595romainvileObjects2.length = 0;
+gdjs.graffCode.GDpanneau_9595romainvileObjects3.length = 0;
 
 
 return;

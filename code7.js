@@ -115,6 +115,18 @@ gdjs.moulin_32ivryCode.GDtomoObjects3= [];
 gdjs.moulin_32ivryCode.GDMrRObeObjects1= [];
 gdjs.moulin_32ivryCode.GDMrRObeObjects2= [];
 gdjs.moulin_32ivryCode.GDMrRObeObjects3= [];
+gdjs.moulin_32ivryCode.GDplace_9595de_9595la_9595mairieObjects1= [];
+gdjs.moulin_32ivryCode.GDplace_9595de_9595la_9595mairieObjects2= [];
+gdjs.moulin_32ivryCode.GDplace_9595de_9595la_9595mairieObjects3= [];
+gdjs.moulin_32ivryCode.GDpremier_9595plan_9595mairieObjects1= [];
+gdjs.moulin_32ivryCode.GDpremier_9595plan_9595mairieObjects2= [];
+gdjs.moulin_32ivryCode.GDpremier_9595plan_9595mairieObjects3= [];
+gdjs.moulin_32ivryCode.GDegliseObjects1= [];
+gdjs.moulin_32ivryCode.GDegliseObjects2= [];
+gdjs.moulin_32ivryCode.GDegliseObjects3= [];
+gdjs.moulin_32ivryCode.GDpanneau_9595romainvileObjects1= [];
+gdjs.moulin_32ivryCode.GDpanneau_9595romainvileObjects2= [];
+gdjs.moulin_32ivryCode.GDpanneau_9595romainvileObjects3= [];
 
 
 gdjs.moulin_32ivryCode.mapOfGDgdjs_9546moulin_959532ivryCode_9546GDmoulinObjects1Objects = Hashtable.newFrom({"moulin": gdjs.moulin_32ivryCode.GDmoulinObjects1});
@@ -169,7 +181,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(41097732);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(56304812);
 }
 }
 }
@@ -340,6 +352,18 @@ gdjs.moulin_32ivryCode.GDtomoObjects3.length = 0;
 gdjs.moulin_32ivryCode.GDMrRObeObjects1.length = 0;
 gdjs.moulin_32ivryCode.GDMrRObeObjects2.length = 0;
 gdjs.moulin_32ivryCode.GDMrRObeObjects3.length = 0;
+gdjs.moulin_32ivryCode.GDplace_9595de_9595la_9595mairieObjects1.length = 0;
+gdjs.moulin_32ivryCode.GDplace_9595de_9595la_9595mairieObjects2.length = 0;
+gdjs.moulin_32ivryCode.GDplace_9595de_9595la_9595mairieObjects3.length = 0;
+gdjs.moulin_32ivryCode.GDpremier_9595plan_9595mairieObjects1.length = 0;
+gdjs.moulin_32ivryCode.GDpremier_9595plan_9595mairieObjects2.length = 0;
+gdjs.moulin_32ivryCode.GDpremier_9595plan_9595mairieObjects3.length = 0;
+gdjs.moulin_32ivryCode.GDegliseObjects1.length = 0;
+gdjs.moulin_32ivryCode.GDegliseObjects2.length = 0;
+gdjs.moulin_32ivryCode.GDegliseObjects3.length = 0;
+gdjs.moulin_32ivryCode.GDpanneau_9595romainvileObjects1.length = 0;
+gdjs.moulin_32ivryCode.GDpanneau_9595romainvileObjects2.length = 0;
+gdjs.moulin_32ivryCode.GDpanneau_9595romainvileObjects3.length = 0;
 
 gdjs.moulin_32ivryCode.eventsList2(runtimeScene);
 gdjs.moulin_32ivryCode.GDmoulinObjects1.length = 0;
@@ -456,6 +480,18 @@ gdjs.moulin_32ivryCode.GDtomoObjects3.length = 0;
 gdjs.moulin_32ivryCode.GDMrRObeObjects1.length = 0;
 gdjs.moulin_32ivryCode.GDMrRObeObjects2.length = 0;
 gdjs.moulin_32ivryCode.GDMrRObeObjects3.length = 0;
+gdjs.moulin_32ivryCode.GDplace_9595de_9595la_9595mairieObjects1.length = 0;
+gdjs.moulin_32ivryCode.GDplace_9595de_9595la_9595mairieObjects2.length = 0;
+gdjs.moulin_32ivryCode.GDplace_9595de_9595la_9595mairieObjects3.length = 0;
+gdjs.moulin_32ivryCode.GDpremier_9595plan_9595mairieObjects1.length = 0;
+gdjs.moulin_32ivryCode.GDpremier_9595plan_9595mairieObjects2.length = 0;
+gdjs.moulin_32ivryCode.GDpremier_9595plan_9595mairieObjects3.length = 0;
+gdjs.moulin_32ivryCode.GDegliseObjects1.length = 0;
+gdjs.moulin_32ivryCode.GDegliseObjects2.length = 0;
+gdjs.moulin_32ivryCode.GDegliseObjects3.length = 0;
+gdjs.moulin_32ivryCode.GDpanneau_9595romainvileObjects1.length = 0;
+gdjs.moulin_32ivryCode.GDpanneau_9595romainvileObjects2.length = 0;
+gdjs.moulin_32ivryCode.GDpanneau_9595romainvileObjects3.length = 0;
 
 
 return;
