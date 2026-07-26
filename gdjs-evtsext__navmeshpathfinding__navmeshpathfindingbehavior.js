@@ -161,7 +161,7 @@ gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingB
 gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.onCreatedContext.GDObjectObjects2= [];
 
 
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.onCreatedContext.userFunc0x29b4740 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.onCreatedContext.userFunc0x2c2c9b0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
@@ -189,7 +189,7 @@ let isConditionTrue_0 = false;
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.onCreatedContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.onCreatedContext.GDObjectObjects1;
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.onCreatedContext.userFunc0x29b4740(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.onCreatedContext.userFunc0x2c2c9b0(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -277,7 +277,7 @@ gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingB
 gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.doStepPreEventsContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.doStepPreEventsContext.userFunc0x29b2978 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.doStepPreEventsContext.userFunc0x2c2afd0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
@@ -293,7 +293,7 @@ gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingB
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.doStepPreEventsContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.doStepPreEventsContext.GDObjectObjects1;
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.doStepPreEventsContext.userFunc0x29b2978(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.doStepPreEventsContext.userFunc0x2c2afd0(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -379,7 +379,7 @@ gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingB
 gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.SetDestinationContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.SetDestinationContext.userFunc0x29b79b0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.SetDestinationContext.userFunc0x2c2af20 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
@@ -398,7 +398,7 @@ gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingB
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.SetDestinationContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.SetDestinationContext.GDObjectObjects1;
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.SetDestinationContext.userFunc0x29b79b0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.SetDestinationContext.userFunc0x2c2af20(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -486,7 +486,7 @@ gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingB
 gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.IsMovingContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.IsMovingContext.userFunc0x29d6f18 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.IsMovingContext.userFunc0x2c2eb58 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
@@ -502,7 +502,7 @@ gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingB
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.IsMovingContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.IsMovingContext.GDObjectObjects1;
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.IsMovingContext.userFunc0x29d6f18(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.IsMovingContext.userFunc0x2c2eb58(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -588,7 +588,7 @@ gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingB
 gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.PathFoundContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.PathFoundContext.userFunc0x29ba788 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.PathFoundContext.userFunc0x2c21ab8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
@@ -604,7 +604,7 @@ gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingB
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.PathFoundContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.PathFoundContext.GDObjectObjects1;
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.PathFoundContext.userFunc0x29ba788(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.PathFoundContext.userFunc0x2c21ab8(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -690,7 +690,7 @@ gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingB
 gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.DestinationReachedContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.DestinationReachedContext.userFunc0x29b1a78 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.DestinationReachedContext.userFunc0x2c21ba0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
@@ -706,7 +706,7 @@ gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingB
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.DestinationReachedContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.DestinationReachedContext.GDObjectObjects1;
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.DestinationReachedContext.userFunc0x29b1a78(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.DestinationReachedContext.userFunc0x2c21ba0(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -792,7 +792,7 @@ gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingB
 gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.NodeCountContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.NodeCountContext.userFunc0x29b7b20 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.NodeCountContext.userFunc0x2c2eb20 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
@@ -808,7 +808,7 @@ gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingB
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.NodeCountContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.NodeCountContext.GDObjectObjects1;
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.NodeCountContext.userFunc0x29b7b20(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.NodeCountContext.userFunc0x2c2eb20(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -894,7 +894,7 @@ gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingB
 gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.NodeXContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.NodeXContext.userFunc0x29ba760 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.NodeXContext.userFunc0x2c21ba8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
@@ -912,7 +912,7 @@ gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingB
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.NodeXContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.NodeXContext.GDObjectObjects1;
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.NodeXContext.userFunc0x29ba760(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.NodeXContext.userFunc0x2c21ba8(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -999,7 +999,7 @@ gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingB
 gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.NodeYContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.NodeYContext.userFunc0x29b7bf0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.NodeYContext.userFunc0x2c2b0f0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
@@ -1017,7 +1017,7 @@ gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingB
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.NodeYContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.NodeYContext.GDObjectObjects1;
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.NodeYContext.userFunc0x29b7bf0(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.NodeYContext.userFunc0x2c2b0f0(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1104,7 +1104,7 @@ gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingB
 gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.NextNodeIndexContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.NextNodeIndexContext.userFunc0x29b7ba8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.NextNodeIndexContext.userFunc0x2c268b8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
@@ -1120,7 +1120,7 @@ gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingB
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.NextNodeIndexContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.NextNodeIndexContext.GDObjectObjects1;
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.NextNodeIndexContext.userFunc0x29b7ba8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.NextNodeIndexContext.userFunc0x2c268b8(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1794,7 +1794,7 @@ gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingB
 gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.MovementAngleContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.MovementAngleContext.userFunc0x29ba7d8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.MovementAngleContext.userFunc0x2c32fa0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
@@ -1813,7 +1813,7 @@ gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingB
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.MovementAngleContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.MovementAngleContext.GDObjectObjects1;
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.MovementAngleContext.userFunc0x29ba7d8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.MovementAngleContext.userFunc0x2c32fa0(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -2002,7 +2002,7 @@ gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingB
 gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.SpeedContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.SpeedContext.userFunc0x29b7b20 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.SpeedContext.userFunc0x2c2b020 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
@@ -2018,7 +2018,7 @@ gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingB
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.SpeedContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.SpeedContext.GDObjectObjects1;
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.SpeedContext.userFunc0x29b7b20(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.SpeedContext.userFunc0x2c2b020(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -2105,7 +2105,7 @@ gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingB
 gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.DrawNavMeshContext.GDShapePainterObjects1= [];
 
 
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.DrawNavMeshContext.userFunc0x29ba878 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.DrawNavMeshContext.userFunc0x2c241f8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
@@ -2125,7 +2125,7 @@ gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingB
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.DrawNavMeshContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.DrawNavMeshContext.GDObjectObjects1;
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.DrawNavMeshContext.userFunc0x29ba878(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingBehavior.NavMeshPathfindingBehavior.prototype.DrawNavMeshContext.userFunc0x2c241f8(runtimeScene, objects, eventsFunctionContext);
 
 }
 

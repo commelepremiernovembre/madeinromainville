@@ -1,99 +1,262 @@
-gdjs.luna_32rossaCode = {};
-gdjs.luna_32rossaCode.localVariables = [];
-gdjs.luna_32rossaCode.idToCallbackMap = new Map();
-gdjs.luna_32rossaCode.GDanother_9595levelObjects1= [];
-gdjs.luna_32rossaCode.GDanother_9595levelObjects2= [];
-gdjs.luna_32rossaCode.GDballonObjects1= [];
-gdjs.luna_32rossaCode.GDballonObjects2= [];
-gdjs.luna_32rossaCode.GDfondu_9595noirObjects1= [];
-gdjs.luna_32rossaCode.GDfondu_9595noirObjects2= [];
-gdjs.luna_32rossaCode.GDcloud1Objects1= [];
-gdjs.luna_32rossaCode.GDcloud1Objects2= [];
-gdjs.luna_32rossaCode.GDDebugTextWeatherObjects1= [];
-gdjs.luna_32rossaCode.GDDebugTextWeatherObjects2= [];
-gdjs.luna_32rossaCode.GDfabienObjects1= [];
-gdjs.luna_32rossaCode.GDfabienObjects2= [];
-gdjs.luna_32rossaCode.GDclaudeObjects1= [];
-gdjs.luna_32rossaCode.GDclaudeObjects2= [];
-gdjs.luna_32rossaCode.GDbackgroundObjects1= [];
-gdjs.luna_32rossaCode.GDbackgroundObjects2= [];
-gdjs.luna_32rossaCode.GDballoon_9595no_9595levelObjects1= [];
-gdjs.luna_32rossaCode.GDballoon_9595no_9595levelObjects2= [];
-gdjs.luna_32rossaCode.GDmouetteObjects1= [];
-gdjs.luna_32rossaCode.GDmouetteObjects2= [];
-gdjs.luna_32rossaCode.GDwipObjects1= [];
-gdjs.luna_32rossaCode.GDwipObjects2= [];
-gdjs.luna_32rossaCode.GDRoroObjects1= [];
-gdjs.luna_32rossaCode.GDRoroObjects2= [];
-gdjs.luna_32rossaCode.GDPOLINAObjects1= [];
-gdjs.luna_32rossaCode.GDPOLINAObjects2= [];
-gdjs.luna_32rossaCode.GDDIMITRIObjects1= [];
-gdjs.luna_32rossaCode.GDDIMITRIObjects2= [];
-gdjs.luna_32rossaCode.GDluluObjects1= [];
-gdjs.luna_32rossaCode.GDluluObjects2= [];
-gdjs.luna_32rossaCode.GDioanaObjects1= [];
-gdjs.luna_32rossaCode.GDioanaObjects2= [];
-gdjs.luna_32rossaCode.GDpaolaObjects1= [];
-gdjs.luna_32rossaCode.GDpaolaObjects2= [];
-gdjs.luna_32rossaCode.GDservice_9595personne_9595mairieObjects1= [];
-gdjs.luna_32rossaCode.GDservice_9595personne_9595mairieObjects2= [];
-gdjs.luna_32rossaCode.GDtrain_9595de_9595vieObjects1= [];
-gdjs.luna_32rossaCode.GDtrain_9595de_9595vieObjects2= [];
-gdjs.luna_32rossaCode.GDbouillonObjects1= [];
-gdjs.luna_32rossaCode.GDbouillonObjects2= [];
-gdjs.luna_32rossaCode.GDluna_9595rossaObjects1= [];
-gdjs.luna_32rossaCode.GDluna_9595rossaObjects2= [];
-gdjs.luna_32rossaCode.GDtrianonObjects1= [];
-gdjs.luna_32rossaCode.GDtrianonObjects2= [];
-gdjs.luna_32rossaCode.GDmetroObjects1= [];
-gdjs.luna_32rossaCode.GDmetroObjects2= [];
-gdjs.luna_32rossaCode.GDmokaObjects1= [];
-gdjs.luna_32rossaCode.GDmokaObjects2= [];
-gdjs.luna_32rossaCode.GDbillieObjects1= [];
-gdjs.luna_32rossaCode.GDbillieObjects2= [];
-gdjs.luna_32rossaCode.GDLiselaureObjects1= [];
-gdjs.luna_32rossaCode.GDLiselaureObjects2= [];
-gdjs.luna_32rossaCode.GDflofloObjects1= [];
-gdjs.luna_32rossaCode.GDflofloObjects2= [];
-gdjs.luna_32rossaCode.GDJCObjects1= [];
-gdjs.luna_32rossaCode.GDJCObjects2= [];
-gdjs.luna_32rossaCode.GDHectorObjects1= [];
-gdjs.luna_32rossaCode.GDHectorObjects2= [];
-gdjs.luna_32rossaCode.GDFleuryObjects1= [];
-gdjs.luna_32rossaCode.GDFleuryObjects2= [];
-gdjs.luna_32rossaCode.GDyayaObjects1= [];
-gdjs.luna_32rossaCode.GDyayaObjects2= [];
-gdjs.luna_32rossaCode.GDsebObjects1= [];
-gdjs.luna_32rossaCode.GDsebObjects2= [];
-gdjs.luna_32rossaCode.GDaureliaObjects1= [];
-gdjs.luna_32rossaCode.GDaureliaObjects2= [];
-gdjs.luna_32rossaCode.GDespoir_9595de_9595louObjects1= [];
-gdjs.luna_32rossaCode.GDespoir_9595de_9595louObjects2= [];
-gdjs.luna_32rossaCode.GDelctricienObjects1= [];
-gdjs.luna_32rossaCode.GDelctricienObjects2= [];
-gdjs.luna_32rossaCode.GDchachaObjects1= [];
-gdjs.luna_32rossaCode.GDchachaObjects2= [];
-gdjs.luna_32rossaCode.GDtomoObjects1= [];
-gdjs.luna_32rossaCode.GDtomoObjects2= [];
+gdjs.BABCode = {};
+gdjs.BABCode.localVariables = [];
+gdjs.BABCode.idToCallbackMap = new Map();
+gdjs.BABCode.GDBABObjects1= [];
+gdjs.BABCode.GDBABObjects2= [];
+gdjs.BABCode.GDBABObjects3= [];
+gdjs.BABCode.GDautre_9595ecranObjects1= [];
+gdjs.BABCode.GDautre_9595ecranObjects2= [];
+gdjs.BABCode.GDautre_9595ecranObjects3= [];
+gdjs.BABCode.GDballonObjects1= [];
+gdjs.BABCode.GDballonObjects2= [];
+gdjs.BABCode.GDballonObjects3= [];
+gdjs.BABCode.GDfondu_9595noirObjects1= [];
+gdjs.BABCode.GDfondu_9595noirObjects2= [];
+gdjs.BABCode.GDfondu_9595noirObjects3= [];
+gdjs.BABCode.GDcloud1Objects1= [];
+gdjs.BABCode.GDcloud1Objects2= [];
+gdjs.BABCode.GDcloud1Objects3= [];
+gdjs.BABCode.GDDebugTextWeatherObjects1= [];
+gdjs.BABCode.GDDebugTextWeatherObjects2= [];
+gdjs.BABCode.GDDebugTextWeatherObjects3= [];
+gdjs.BABCode.GDfabienObjects1= [];
+gdjs.BABCode.GDfabienObjects2= [];
+gdjs.BABCode.GDfabienObjects3= [];
+gdjs.BABCode.GDclaudeObjects1= [];
+gdjs.BABCode.GDclaudeObjects2= [];
+gdjs.BABCode.GDclaudeObjects3= [];
+gdjs.BABCode.GDbackgroundObjects1= [];
+gdjs.BABCode.GDbackgroundObjects2= [];
+gdjs.BABCode.GDbackgroundObjects3= [];
+gdjs.BABCode.GDballoon_9595no_9595levelObjects1= [];
+gdjs.BABCode.GDballoon_9595no_9595levelObjects2= [];
+gdjs.BABCode.GDballoon_9595no_9595levelObjects3= [];
+gdjs.BABCode.GDmouetteObjects1= [];
+gdjs.BABCode.GDmouetteObjects2= [];
+gdjs.BABCode.GDmouetteObjects3= [];
+gdjs.BABCode.GDwipObjects1= [];
+gdjs.BABCode.GDwipObjects2= [];
+gdjs.BABCode.GDwipObjects3= [];
+gdjs.BABCode.GDRoroObjects1= [];
+gdjs.BABCode.GDRoroObjects2= [];
+gdjs.BABCode.GDRoroObjects3= [];
+gdjs.BABCode.GDPOLINAObjects1= [];
+gdjs.BABCode.GDPOLINAObjects2= [];
+gdjs.BABCode.GDPOLINAObjects3= [];
+gdjs.BABCode.GDDIMITRIObjects1= [];
+gdjs.BABCode.GDDIMITRIObjects2= [];
+gdjs.BABCode.GDDIMITRIObjects3= [];
+gdjs.BABCode.GDluluObjects1= [];
+gdjs.BABCode.GDluluObjects2= [];
+gdjs.BABCode.GDluluObjects3= [];
+gdjs.BABCode.GDioanaObjects1= [];
+gdjs.BABCode.GDioanaObjects2= [];
+gdjs.BABCode.GDioanaObjects3= [];
+gdjs.BABCode.GDpaolaObjects1= [];
+gdjs.BABCode.GDpaolaObjects2= [];
+gdjs.BABCode.GDpaolaObjects3= [];
+gdjs.BABCode.GDservice_9595personne_9595mairieObjects1= [];
+gdjs.BABCode.GDservice_9595personne_9595mairieObjects2= [];
+gdjs.BABCode.GDservice_9595personne_9595mairieObjects3= [];
+gdjs.BABCode.GDtrain_9595de_9595vieObjects1= [];
+gdjs.BABCode.GDtrain_9595de_9595vieObjects2= [];
+gdjs.BABCode.GDtrain_9595de_9595vieObjects3= [];
+gdjs.BABCode.GDbouillonObjects1= [];
+gdjs.BABCode.GDbouillonObjects2= [];
+gdjs.BABCode.GDbouillonObjects3= [];
+gdjs.BABCode.GDluna_9595rossaObjects1= [];
+gdjs.BABCode.GDluna_9595rossaObjects2= [];
+gdjs.BABCode.GDluna_9595rossaObjects3= [];
+gdjs.BABCode.GDtrianonObjects1= [];
+gdjs.BABCode.GDtrianonObjects2= [];
+gdjs.BABCode.GDtrianonObjects3= [];
+gdjs.BABCode.GDmetroObjects1= [];
+gdjs.BABCode.GDmetroObjects2= [];
+gdjs.BABCode.GDmetroObjects3= [];
+gdjs.BABCode.GDmokaObjects1= [];
+gdjs.BABCode.GDmokaObjects2= [];
+gdjs.BABCode.GDmokaObjects3= [];
+gdjs.BABCode.GDbillieObjects1= [];
+gdjs.BABCode.GDbillieObjects2= [];
+gdjs.BABCode.GDbillieObjects3= [];
+gdjs.BABCode.GDLiselaureObjects1= [];
+gdjs.BABCode.GDLiselaureObjects2= [];
+gdjs.BABCode.GDLiselaureObjects3= [];
+gdjs.BABCode.GDflofloObjects1= [];
+gdjs.BABCode.GDflofloObjects2= [];
+gdjs.BABCode.GDflofloObjects3= [];
+gdjs.BABCode.GDJCObjects1= [];
+gdjs.BABCode.GDJCObjects2= [];
+gdjs.BABCode.GDJCObjects3= [];
+gdjs.BABCode.GDHectorObjects1= [];
+gdjs.BABCode.GDHectorObjects2= [];
+gdjs.BABCode.GDHectorObjects3= [];
+gdjs.BABCode.GDFleuryObjects1= [];
+gdjs.BABCode.GDFleuryObjects2= [];
+gdjs.BABCode.GDFleuryObjects3= [];
+gdjs.BABCode.GDyayaObjects1= [];
+gdjs.BABCode.GDyayaObjects2= [];
+gdjs.BABCode.GDyayaObjects3= [];
+gdjs.BABCode.GDsebObjects1= [];
+gdjs.BABCode.GDsebObjects2= [];
+gdjs.BABCode.GDsebObjects3= [];
+gdjs.BABCode.GDaureliaObjects1= [];
+gdjs.BABCode.GDaureliaObjects2= [];
+gdjs.BABCode.GDaureliaObjects3= [];
+gdjs.BABCode.GDespoir_9595de_9595louObjects1= [];
+gdjs.BABCode.GDespoir_9595de_9595louObjects2= [];
+gdjs.BABCode.GDespoir_9595de_9595louObjects3= [];
+gdjs.BABCode.GDelctricienObjects1= [];
+gdjs.BABCode.GDelctricienObjects2= [];
+gdjs.BABCode.GDelctricienObjects3= [];
+gdjs.BABCode.GDchachaObjects1= [];
+gdjs.BABCode.GDchachaObjects2= [];
+gdjs.BABCode.GDchachaObjects3= [];
+gdjs.BABCode.GDtomoObjects1= [];
+gdjs.BABCode.GDtomoObjects2= [];
+gdjs.BABCode.GDtomoObjects3= [];
+gdjs.BABCode.GDMrRObeObjects1= [];
+gdjs.BABCode.GDMrRObeObjects2= [];
+gdjs.BABCode.GDMrRObeObjects3= [];
 
 
-gdjs.luna_32rossaCode.mapOfGDgdjs_9546luna_959532rossaCode_9546GDanother_95959595levelObjects1Objects = Hashtable.newFrom({"another_level": gdjs.luna_32rossaCode.GDanother_9595levelObjects1});
-gdjs.luna_32rossaCode.eventsList0 = function(runtimeScene) {
+gdjs.BABCode.mapOfGDgdjs_9546BABCode_9546GDautre_95959595ecranObjects1Objects = Hashtable.newFrom({"autre_ecran": gdjs.BABCode.GDautre_9595ecranObjects1});
+gdjs.BABCode.eventsList0 = function(runtimeScene) {
+{
+
+let elseEventsChainSatisfied = false;
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("another_level"), gdjs.luna_32rossaCode.GDanother_9595levelObjects1);
+
+elseEventsChainSatisfied = false;
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "doubletapBAB") < 0.4;
+if (isConditionTrue_0) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "level3", false);
+}
+elseEventsChainSatisfied = true;
+}
+
+}
+
+
+{
+
+
+if (!elseEventsChainSatisfied) {
+let isConditionTrue_0 = false;
+if (!elseEventsChainSatisfied) {
+{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "doubletapBAB");
+}
+elseEventsChainSatisfied = true;
+}
+}
+
+}
+
+}
+
+};gdjs.BABCode.mapOfGDgdjs_9546BABCode_9546GDBABObjects1Objects = Hashtable.newFrom({"BAB": gdjs.BABCode.GDBABObjects1});
+gdjs.BABCode.eventsList1 = function(runtimeScene) {
+{
+
+let elseEventsChainSatisfied = false;
+
+{
+
+
+elseEventsChainSatisfied = false;
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "doubletapbab_inte") < 0.4;
+if (isConditionTrue_0) {
+gdjs.copyArray(gdjs.BABCode.GDBABObjects1, gdjs.BABCode.GDBABObjects2);
+
+{for(var i = 0, len = gdjs.BABCode.GDBABObjects2.length ;i < len;++i) {
+    gdjs.BABCode.GDBABObjects2[i].getBehavior("Animation").setAnimationName("inté");
+}
+}
+elseEventsChainSatisfied = true;
+}
+
+}
+
+
+{
+
+
+if (!elseEventsChainSatisfied) {
+let isConditionTrue_0 = false;
+if (!elseEventsChainSatisfied) {
+{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "doubletapbab_inte");
+}
+elseEventsChainSatisfied = true;
+}
+}
+
+}
+
+}
+
+};gdjs.BABCode.eventsList2 = function(runtimeScene) {
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("autre_ecran"), gdjs.BABCode.GDautre_9595ecranObjects1);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.luna_32rossaCode.mapOfGDgdjs_9546luna_959532rossaCode_9546GDanother_95959595levelObjects1Objects, runtimeScene, true, false);
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.BABCode.mapOfGDgdjs_9546BABCode_9546GDautre_95959595ecranObjects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(41570716);
+}
+}
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "trianon", false);
+
+{ //Subevents
+gdjs.BABCode.eventsList0(runtimeScene);} //End of subevents
 }
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("BAB"), gdjs.BABCode.GDBABObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.BABCode.mapOfGDgdjs_9546BABCode_9546GDBABObjects1Objects, runtimeScene, true, false);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(41555156);
+}
+}
+}
+if (isConditionTrue_0) {
+
+{ //Subevents
+gdjs.BABCode.eventsList1(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
 }
 
 }
@@ -101,163 +264,249 @@ if (isConditionTrue_0) {
 
 };
 
-gdjs.luna_32rossaCode.func = function(runtimeScene) {
+gdjs.BABCode.func = function(runtimeScene) {
 runtimeScene.getOnceTriggers().startNewFrame();
 
-gdjs.luna_32rossaCode.GDanother_9595levelObjects1.length = 0;
-gdjs.luna_32rossaCode.GDanother_9595levelObjects2.length = 0;
-gdjs.luna_32rossaCode.GDballonObjects1.length = 0;
-gdjs.luna_32rossaCode.GDballonObjects2.length = 0;
-gdjs.luna_32rossaCode.GDfondu_9595noirObjects1.length = 0;
-gdjs.luna_32rossaCode.GDfondu_9595noirObjects2.length = 0;
-gdjs.luna_32rossaCode.GDcloud1Objects1.length = 0;
-gdjs.luna_32rossaCode.GDcloud1Objects2.length = 0;
-gdjs.luna_32rossaCode.GDDebugTextWeatherObjects1.length = 0;
-gdjs.luna_32rossaCode.GDDebugTextWeatherObjects2.length = 0;
-gdjs.luna_32rossaCode.GDfabienObjects1.length = 0;
-gdjs.luna_32rossaCode.GDfabienObjects2.length = 0;
-gdjs.luna_32rossaCode.GDclaudeObjects1.length = 0;
-gdjs.luna_32rossaCode.GDclaudeObjects2.length = 0;
-gdjs.luna_32rossaCode.GDbackgroundObjects1.length = 0;
-gdjs.luna_32rossaCode.GDbackgroundObjects2.length = 0;
-gdjs.luna_32rossaCode.GDballoon_9595no_9595levelObjects1.length = 0;
-gdjs.luna_32rossaCode.GDballoon_9595no_9595levelObjects2.length = 0;
-gdjs.luna_32rossaCode.GDmouetteObjects1.length = 0;
-gdjs.luna_32rossaCode.GDmouetteObjects2.length = 0;
-gdjs.luna_32rossaCode.GDwipObjects1.length = 0;
-gdjs.luna_32rossaCode.GDwipObjects2.length = 0;
-gdjs.luna_32rossaCode.GDRoroObjects1.length = 0;
-gdjs.luna_32rossaCode.GDRoroObjects2.length = 0;
-gdjs.luna_32rossaCode.GDPOLINAObjects1.length = 0;
-gdjs.luna_32rossaCode.GDPOLINAObjects2.length = 0;
-gdjs.luna_32rossaCode.GDDIMITRIObjects1.length = 0;
-gdjs.luna_32rossaCode.GDDIMITRIObjects2.length = 0;
-gdjs.luna_32rossaCode.GDluluObjects1.length = 0;
-gdjs.luna_32rossaCode.GDluluObjects2.length = 0;
-gdjs.luna_32rossaCode.GDioanaObjects1.length = 0;
-gdjs.luna_32rossaCode.GDioanaObjects2.length = 0;
-gdjs.luna_32rossaCode.GDpaolaObjects1.length = 0;
-gdjs.luna_32rossaCode.GDpaolaObjects2.length = 0;
-gdjs.luna_32rossaCode.GDservice_9595personne_9595mairieObjects1.length = 0;
-gdjs.luna_32rossaCode.GDservice_9595personne_9595mairieObjects2.length = 0;
-gdjs.luna_32rossaCode.GDtrain_9595de_9595vieObjects1.length = 0;
-gdjs.luna_32rossaCode.GDtrain_9595de_9595vieObjects2.length = 0;
-gdjs.luna_32rossaCode.GDbouillonObjects1.length = 0;
-gdjs.luna_32rossaCode.GDbouillonObjects2.length = 0;
-gdjs.luna_32rossaCode.GDluna_9595rossaObjects1.length = 0;
-gdjs.luna_32rossaCode.GDluna_9595rossaObjects2.length = 0;
-gdjs.luna_32rossaCode.GDtrianonObjects1.length = 0;
-gdjs.luna_32rossaCode.GDtrianonObjects2.length = 0;
-gdjs.luna_32rossaCode.GDmetroObjects1.length = 0;
-gdjs.luna_32rossaCode.GDmetroObjects2.length = 0;
-gdjs.luna_32rossaCode.GDmokaObjects1.length = 0;
-gdjs.luna_32rossaCode.GDmokaObjects2.length = 0;
-gdjs.luna_32rossaCode.GDbillieObjects1.length = 0;
-gdjs.luna_32rossaCode.GDbillieObjects2.length = 0;
-gdjs.luna_32rossaCode.GDLiselaureObjects1.length = 0;
-gdjs.luna_32rossaCode.GDLiselaureObjects2.length = 0;
-gdjs.luna_32rossaCode.GDflofloObjects1.length = 0;
-gdjs.luna_32rossaCode.GDflofloObjects2.length = 0;
-gdjs.luna_32rossaCode.GDJCObjects1.length = 0;
-gdjs.luna_32rossaCode.GDJCObjects2.length = 0;
-gdjs.luna_32rossaCode.GDHectorObjects1.length = 0;
-gdjs.luna_32rossaCode.GDHectorObjects2.length = 0;
-gdjs.luna_32rossaCode.GDFleuryObjects1.length = 0;
-gdjs.luna_32rossaCode.GDFleuryObjects2.length = 0;
-gdjs.luna_32rossaCode.GDyayaObjects1.length = 0;
-gdjs.luna_32rossaCode.GDyayaObjects2.length = 0;
-gdjs.luna_32rossaCode.GDsebObjects1.length = 0;
-gdjs.luna_32rossaCode.GDsebObjects2.length = 0;
-gdjs.luna_32rossaCode.GDaureliaObjects1.length = 0;
-gdjs.luna_32rossaCode.GDaureliaObjects2.length = 0;
-gdjs.luna_32rossaCode.GDespoir_9595de_9595louObjects1.length = 0;
-gdjs.luna_32rossaCode.GDespoir_9595de_9595louObjects2.length = 0;
-gdjs.luna_32rossaCode.GDelctricienObjects1.length = 0;
-gdjs.luna_32rossaCode.GDelctricienObjects2.length = 0;
-gdjs.luna_32rossaCode.GDchachaObjects1.length = 0;
-gdjs.luna_32rossaCode.GDchachaObjects2.length = 0;
-gdjs.luna_32rossaCode.GDtomoObjects1.length = 0;
-gdjs.luna_32rossaCode.GDtomoObjects2.length = 0;
+gdjs.BABCode.GDBABObjects1.length = 0;
+gdjs.BABCode.GDBABObjects2.length = 0;
+gdjs.BABCode.GDBABObjects3.length = 0;
+gdjs.BABCode.GDautre_9595ecranObjects1.length = 0;
+gdjs.BABCode.GDautre_9595ecranObjects2.length = 0;
+gdjs.BABCode.GDautre_9595ecranObjects3.length = 0;
+gdjs.BABCode.GDballonObjects1.length = 0;
+gdjs.BABCode.GDballonObjects2.length = 0;
+gdjs.BABCode.GDballonObjects3.length = 0;
+gdjs.BABCode.GDfondu_9595noirObjects1.length = 0;
+gdjs.BABCode.GDfondu_9595noirObjects2.length = 0;
+gdjs.BABCode.GDfondu_9595noirObjects3.length = 0;
+gdjs.BABCode.GDcloud1Objects1.length = 0;
+gdjs.BABCode.GDcloud1Objects2.length = 0;
+gdjs.BABCode.GDcloud1Objects3.length = 0;
+gdjs.BABCode.GDDebugTextWeatherObjects1.length = 0;
+gdjs.BABCode.GDDebugTextWeatherObjects2.length = 0;
+gdjs.BABCode.GDDebugTextWeatherObjects3.length = 0;
+gdjs.BABCode.GDfabienObjects1.length = 0;
+gdjs.BABCode.GDfabienObjects2.length = 0;
+gdjs.BABCode.GDfabienObjects3.length = 0;
+gdjs.BABCode.GDclaudeObjects1.length = 0;
+gdjs.BABCode.GDclaudeObjects2.length = 0;
+gdjs.BABCode.GDclaudeObjects3.length = 0;
+gdjs.BABCode.GDbackgroundObjects1.length = 0;
+gdjs.BABCode.GDbackgroundObjects2.length = 0;
+gdjs.BABCode.GDbackgroundObjects3.length = 0;
+gdjs.BABCode.GDballoon_9595no_9595levelObjects1.length = 0;
+gdjs.BABCode.GDballoon_9595no_9595levelObjects2.length = 0;
+gdjs.BABCode.GDballoon_9595no_9595levelObjects3.length = 0;
+gdjs.BABCode.GDmouetteObjects1.length = 0;
+gdjs.BABCode.GDmouetteObjects2.length = 0;
+gdjs.BABCode.GDmouetteObjects3.length = 0;
+gdjs.BABCode.GDwipObjects1.length = 0;
+gdjs.BABCode.GDwipObjects2.length = 0;
+gdjs.BABCode.GDwipObjects3.length = 0;
+gdjs.BABCode.GDRoroObjects1.length = 0;
+gdjs.BABCode.GDRoroObjects2.length = 0;
+gdjs.BABCode.GDRoroObjects3.length = 0;
+gdjs.BABCode.GDPOLINAObjects1.length = 0;
+gdjs.BABCode.GDPOLINAObjects2.length = 0;
+gdjs.BABCode.GDPOLINAObjects3.length = 0;
+gdjs.BABCode.GDDIMITRIObjects1.length = 0;
+gdjs.BABCode.GDDIMITRIObjects2.length = 0;
+gdjs.BABCode.GDDIMITRIObjects3.length = 0;
+gdjs.BABCode.GDluluObjects1.length = 0;
+gdjs.BABCode.GDluluObjects2.length = 0;
+gdjs.BABCode.GDluluObjects3.length = 0;
+gdjs.BABCode.GDioanaObjects1.length = 0;
+gdjs.BABCode.GDioanaObjects2.length = 0;
+gdjs.BABCode.GDioanaObjects3.length = 0;
+gdjs.BABCode.GDpaolaObjects1.length = 0;
+gdjs.BABCode.GDpaolaObjects2.length = 0;
+gdjs.BABCode.GDpaolaObjects3.length = 0;
+gdjs.BABCode.GDservice_9595personne_9595mairieObjects1.length = 0;
+gdjs.BABCode.GDservice_9595personne_9595mairieObjects2.length = 0;
+gdjs.BABCode.GDservice_9595personne_9595mairieObjects3.length = 0;
+gdjs.BABCode.GDtrain_9595de_9595vieObjects1.length = 0;
+gdjs.BABCode.GDtrain_9595de_9595vieObjects2.length = 0;
+gdjs.BABCode.GDtrain_9595de_9595vieObjects3.length = 0;
+gdjs.BABCode.GDbouillonObjects1.length = 0;
+gdjs.BABCode.GDbouillonObjects2.length = 0;
+gdjs.BABCode.GDbouillonObjects3.length = 0;
+gdjs.BABCode.GDluna_9595rossaObjects1.length = 0;
+gdjs.BABCode.GDluna_9595rossaObjects2.length = 0;
+gdjs.BABCode.GDluna_9595rossaObjects3.length = 0;
+gdjs.BABCode.GDtrianonObjects1.length = 0;
+gdjs.BABCode.GDtrianonObjects2.length = 0;
+gdjs.BABCode.GDtrianonObjects3.length = 0;
+gdjs.BABCode.GDmetroObjects1.length = 0;
+gdjs.BABCode.GDmetroObjects2.length = 0;
+gdjs.BABCode.GDmetroObjects3.length = 0;
+gdjs.BABCode.GDmokaObjects1.length = 0;
+gdjs.BABCode.GDmokaObjects2.length = 0;
+gdjs.BABCode.GDmokaObjects3.length = 0;
+gdjs.BABCode.GDbillieObjects1.length = 0;
+gdjs.BABCode.GDbillieObjects2.length = 0;
+gdjs.BABCode.GDbillieObjects3.length = 0;
+gdjs.BABCode.GDLiselaureObjects1.length = 0;
+gdjs.BABCode.GDLiselaureObjects2.length = 0;
+gdjs.BABCode.GDLiselaureObjects3.length = 0;
+gdjs.BABCode.GDflofloObjects1.length = 0;
+gdjs.BABCode.GDflofloObjects2.length = 0;
+gdjs.BABCode.GDflofloObjects3.length = 0;
+gdjs.BABCode.GDJCObjects1.length = 0;
+gdjs.BABCode.GDJCObjects2.length = 0;
+gdjs.BABCode.GDJCObjects3.length = 0;
+gdjs.BABCode.GDHectorObjects1.length = 0;
+gdjs.BABCode.GDHectorObjects2.length = 0;
+gdjs.BABCode.GDHectorObjects3.length = 0;
+gdjs.BABCode.GDFleuryObjects1.length = 0;
+gdjs.BABCode.GDFleuryObjects2.length = 0;
+gdjs.BABCode.GDFleuryObjects3.length = 0;
+gdjs.BABCode.GDyayaObjects1.length = 0;
+gdjs.BABCode.GDyayaObjects2.length = 0;
+gdjs.BABCode.GDyayaObjects3.length = 0;
+gdjs.BABCode.GDsebObjects1.length = 0;
+gdjs.BABCode.GDsebObjects2.length = 0;
+gdjs.BABCode.GDsebObjects3.length = 0;
+gdjs.BABCode.GDaureliaObjects1.length = 0;
+gdjs.BABCode.GDaureliaObjects2.length = 0;
+gdjs.BABCode.GDaureliaObjects3.length = 0;
+gdjs.BABCode.GDespoir_9595de_9595louObjects1.length = 0;
+gdjs.BABCode.GDespoir_9595de_9595louObjects2.length = 0;
+gdjs.BABCode.GDespoir_9595de_9595louObjects3.length = 0;
+gdjs.BABCode.GDelctricienObjects1.length = 0;
+gdjs.BABCode.GDelctricienObjects2.length = 0;
+gdjs.BABCode.GDelctricienObjects3.length = 0;
+gdjs.BABCode.GDchachaObjects1.length = 0;
+gdjs.BABCode.GDchachaObjects2.length = 0;
+gdjs.BABCode.GDchachaObjects3.length = 0;
+gdjs.BABCode.GDtomoObjects1.length = 0;
+gdjs.BABCode.GDtomoObjects2.length = 0;
+gdjs.BABCode.GDtomoObjects3.length = 0;
+gdjs.BABCode.GDMrRObeObjects1.length = 0;
+gdjs.BABCode.GDMrRObeObjects2.length = 0;
+gdjs.BABCode.GDMrRObeObjects3.length = 0;
 
-gdjs.luna_32rossaCode.eventsList0(runtimeScene);
-gdjs.luna_32rossaCode.GDanother_9595levelObjects1.length = 0;
-gdjs.luna_32rossaCode.GDanother_9595levelObjects2.length = 0;
-gdjs.luna_32rossaCode.GDballonObjects1.length = 0;
-gdjs.luna_32rossaCode.GDballonObjects2.length = 0;
-gdjs.luna_32rossaCode.GDfondu_9595noirObjects1.length = 0;
-gdjs.luna_32rossaCode.GDfondu_9595noirObjects2.length = 0;
-gdjs.luna_32rossaCode.GDcloud1Objects1.length = 0;
-gdjs.luna_32rossaCode.GDcloud1Objects2.length = 0;
-gdjs.luna_32rossaCode.GDDebugTextWeatherObjects1.length = 0;
-gdjs.luna_32rossaCode.GDDebugTextWeatherObjects2.length = 0;
-gdjs.luna_32rossaCode.GDfabienObjects1.length = 0;
-gdjs.luna_32rossaCode.GDfabienObjects2.length = 0;
-gdjs.luna_32rossaCode.GDclaudeObjects1.length = 0;
-gdjs.luna_32rossaCode.GDclaudeObjects2.length = 0;
-gdjs.luna_32rossaCode.GDbackgroundObjects1.length = 0;
-gdjs.luna_32rossaCode.GDbackgroundObjects2.length = 0;
-gdjs.luna_32rossaCode.GDballoon_9595no_9595levelObjects1.length = 0;
-gdjs.luna_32rossaCode.GDballoon_9595no_9595levelObjects2.length = 0;
-gdjs.luna_32rossaCode.GDmouetteObjects1.length = 0;
-gdjs.luna_32rossaCode.GDmouetteObjects2.length = 0;
-gdjs.luna_32rossaCode.GDwipObjects1.length = 0;
-gdjs.luna_32rossaCode.GDwipObjects2.length = 0;
-gdjs.luna_32rossaCode.GDRoroObjects1.length = 0;
-gdjs.luna_32rossaCode.GDRoroObjects2.length = 0;
-gdjs.luna_32rossaCode.GDPOLINAObjects1.length = 0;
-gdjs.luna_32rossaCode.GDPOLINAObjects2.length = 0;
-gdjs.luna_32rossaCode.GDDIMITRIObjects1.length = 0;
-gdjs.luna_32rossaCode.GDDIMITRIObjects2.length = 0;
-gdjs.luna_32rossaCode.GDluluObjects1.length = 0;
-gdjs.luna_32rossaCode.GDluluObjects2.length = 0;
-gdjs.luna_32rossaCode.GDioanaObjects1.length = 0;
-gdjs.luna_32rossaCode.GDioanaObjects2.length = 0;
-gdjs.luna_32rossaCode.GDpaolaObjects1.length = 0;
-gdjs.luna_32rossaCode.GDpaolaObjects2.length = 0;
-gdjs.luna_32rossaCode.GDservice_9595personne_9595mairieObjects1.length = 0;
-gdjs.luna_32rossaCode.GDservice_9595personne_9595mairieObjects2.length = 0;
-gdjs.luna_32rossaCode.GDtrain_9595de_9595vieObjects1.length = 0;
-gdjs.luna_32rossaCode.GDtrain_9595de_9595vieObjects2.length = 0;
-gdjs.luna_32rossaCode.GDbouillonObjects1.length = 0;
-gdjs.luna_32rossaCode.GDbouillonObjects2.length = 0;
-gdjs.luna_32rossaCode.GDluna_9595rossaObjects1.length = 0;
-gdjs.luna_32rossaCode.GDluna_9595rossaObjects2.length = 0;
-gdjs.luna_32rossaCode.GDtrianonObjects1.length = 0;
-gdjs.luna_32rossaCode.GDtrianonObjects2.length = 0;
-gdjs.luna_32rossaCode.GDmetroObjects1.length = 0;
-gdjs.luna_32rossaCode.GDmetroObjects2.length = 0;
-gdjs.luna_32rossaCode.GDmokaObjects1.length = 0;
-gdjs.luna_32rossaCode.GDmokaObjects2.length = 0;
-gdjs.luna_32rossaCode.GDbillieObjects1.length = 0;
-gdjs.luna_32rossaCode.GDbillieObjects2.length = 0;
-gdjs.luna_32rossaCode.GDLiselaureObjects1.length = 0;
-gdjs.luna_32rossaCode.GDLiselaureObjects2.length = 0;
-gdjs.luna_32rossaCode.GDflofloObjects1.length = 0;
-gdjs.luna_32rossaCode.GDflofloObjects2.length = 0;
-gdjs.luna_32rossaCode.GDJCObjects1.length = 0;
-gdjs.luna_32rossaCode.GDJCObjects2.length = 0;
-gdjs.luna_32rossaCode.GDHectorObjects1.length = 0;
-gdjs.luna_32rossaCode.GDHectorObjects2.length = 0;
-gdjs.luna_32rossaCode.GDFleuryObjects1.length = 0;
-gdjs.luna_32rossaCode.GDFleuryObjects2.length = 0;
-gdjs.luna_32rossaCode.GDyayaObjects1.length = 0;
-gdjs.luna_32rossaCode.GDyayaObjects2.length = 0;
-gdjs.luna_32rossaCode.GDsebObjects1.length = 0;
-gdjs.luna_32rossaCode.GDsebObjects2.length = 0;
-gdjs.luna_32rossaCode.GDaureliaObjects1.length = 0;
-gdjs.luna_32rossaCode.GDaureliaObjects2.length = 0;
-gdjs.luna_32rossaCode.GDespoir_9595de_9595louObjects1.length = 0;
-gdjs.luna_32rossaCode.GDespoir_9595de_9595louObjects2.length = 0;
-gdjs.luna_32rossaCode.GDelctricienObjects1.length = 0;
-gdjs.luna_32rossaCode.GDelctricienObjects2.length = 0;
-gdjs.luna_32rossaCode.GDchachaObjects1.length = 0;
-gdjs.luna_32rossaCode.GDchachaObjects2.length = 0;
-gdjs.luna_32rossaCode.GDtomoObjects1.length = 0;
-gdjs.luna_32rossaCode.GDtomoObjects2.length = 0;
+gdjs.BABCode.eventsList2(runtimeScene);
+gdjs.BABCode.GDBABObjects1.length = 0;
+gdjs.BABCode.GDBABObjects2.length = 0;
+gdjs.BABCode.GDBABObjects3.length = 0;
+gdjs.BABCode.GDautre_9595ecranObjects1.length = 0;
+gdjs.BABCode.GDautre_9595ecranObjects2.length = 0;
+gdjs.BABCode.GDautre_9595ecranObjects3.length = 0;
+gdjs.BABCode.GDballonObjects1.length = 0;
+gdjs.BABCode.GDballonObjects2.length = 0;
+gdjs.BABCode.GDballonObjects3.length = 0;
+gdjs.BABCode.GDfondu_9595noirObjects1.length = 0;
+gdjs.BABCode.GDfondu_9595noirObjects2.length = 0;
+gdjs.BABCode.GDfondu_9595noirObjects3.length = 0;
+gdjs.BABCode.GDcloud1Objects1.length = 0;
+gdjs.BABCode.GDcloud1Objects2.length = 0;
+gdjs.BABCode.GDcloud1Objects3.length = 0;
+gdjs.BABCode.GDDebugTextWeatherObjects1.length = 0;
+gdjs.BABCode.GDDebugTextWeatherObjects2.length = 0;
+gdjs.BABCode.GDDebugTextWeatherObjects3.length = 0;
+gdjs.BABCode.GDfabienObjects1.length = 0;
+gdjs.BABCode.GDfabienObjects2.length = 0;
+gdjs.BABCode.GDfabienObjects3.length = 0;
+gdjs.BABCode.GDclaudeObjects1.length = 0;
+gdjs.BABCode.GDclaudeObjects2.length = 0;
+gdjs.BABCode.GDclaudeObjects3.length = 0;
+gdjs.BABCode.GDbackgroundObjects1.length = 0;
+gdjs.BABCode.GDbackgroundObjects2.length = 0;
+gdjs.BABCode.GDbackgroundObjects3.length = 0;
+gdjs.BABCode.GDballoon_9595no_9595levelObjects1.length = 0;
+gdjs.BABCode.GDballoon_9595no_9595levelObjects2.length = 0;
+gdjs.BABCode.GDballoon_9595no_9595levelObjects3.length = 0;
+gdjs.BABCode.GDmouetteObjects1.length = 0;
+gdjs.BABCode.GDmouetteObjects2.length = 0;
+gdjs.BABCode.GDmouetteObjects3.length = 0;
+gdjs.BABCode.GDwipObjects1.length = 0;
+gdjs.BABCode.GDwipObjects2.length = 0;
+gdjs.BABCode.GDwipObjects3.length = 0;
+gdjs.BABCode.GDRoroObjects1.length = 0;
+gdjs.BABCode.GDRoroObjects2.length = 0;
+gdjs.BABCode.GDRoroObjects3.length = 0;
+gdjs.BABCode.GDPOLINAObjects1.length = 0;
+gdjs.BABCode.GDPOLINAObjects2.length = 0;
+gdjs.BABCode.GDPOLINAObjects3.length = 0;
+gdjs.BABCode.GDDIMITRIObjects1.length = 0;
+gdjs.BABCode.GDDIMITRIObjects2.length = 0;
+gdjs.BABCode.GDDIMITRIObjects3.length = 0;
+gdjs.BABCode.GDluluObjects1.length = 0;
+gdjs.BABCode.GDluluObjects2.length = 0;
+gdjs.BABCode.GDluluObjects3.length = 0;
+gdjs.BABCode.GDioanaObjects1.length = 0;
+gdjs.BABCode.GDioanaObjects2.length = 0;
+gdjs.BABCode.GDioanaObjects3.length = 0;
+gdjs.BABCode.GDpaolaObjects1.length = 0;
+gdjs.BABCode.GDpaolaObjects2.length = 0;
+gdjs.BABCode.GDpaolaObjects3.length = 0;
+gdjs.BABCode.GDservice_9595personne_9595mairieObjects1.length = 0;
+gdjs.BABCode.GDservice_9595personne_9595mairieObjects2.length = 0;
+gdjs.BABCode.GDservice_9595personne_9595mairieObjects3.length = 0;
+gdjs.BABCode.GDtrain_9595de_9595vieObjects1.length = 0;
+gdjs.BABCode.GDtrain_9595de_9595vieObjects2.length = 0;
+gdjs.BABCode.GDtrain_9595de_9595vieObjects3.length = 0;
+gdjs.BABCode.GDbouillonObjects1.length = 0;
+gdjs.BABCode.GDbouillonObjects2.length = 0;
+gdjs.BABCode.GDbouillonObjects3.length = 0;
+gdjs.BABCode.GDluna_9595rossaObjects1.length = 0;
+gdjs.BABCode.GDluna_9595rossaObjects2.length = 0;
+gdjs.BABCode.GDluna_9595rossaObjects3.length = 0;
+gdjs.BABCode.GDtrianonObjects1.length = 0;
+gdjs.BABCode.GDtrianonObjects2.length = 0;
+gdjs.BABCode.GDtrianonObjects3.length = 0;
+gdjs.BABCode.GDmetroObjects1.length = 0;
+gdjs.BABCode.GDmetroObjects2.length = 0;
+gdjs.BABCode.GDmetroObjects3.length = 0;
+gdjs.BABCode.GDmokaObjects1.length = 0;
+gdjs.BABCode.GDmokaObjects2.length = 0;
+gdjs.BABCode.GDmokaObjects3.length = 0;
+gdjs.BABCode.GDbillieObjects1.length = 0;
+gdjs.BABCode.GDbillieObjects2.length = 0;
+gdjs.BABCode.GDbillieObjects3.length = 0;
+gdjs.BABCode.GDLiselaureObjects1.length = 0;
+gdjs.BABCode.GDLiselaureObjects2.length = 0;
+gdjs.BABCode.GDLiselaureObjects3.length = 0;
+gdjs.BABCode.GDflofloObjects1.length = 0;
+gdjs.BABCode.GDflofloObjects2.length = 0;
+gdjs.BABCode.GDflofloObjects3.length = 0;
+gdjs.BABCode.GDJCObjects1.length = 0;
+gdjs.BABCode.GDJCObjects2.length = 0;
+gdjs.BABCode.GDJCObjects3.length = 0;
+gdjs.BABCode.GDHectorObjects1.length = 0;
+gdjs.BABCode.GDHectorObjects2.length = 0;
+gdjs.BABCode.GDHectorObjects3.length = 0;
+gdjs.BABCode.GDFleuryObjects1.length = 0;
+gdjs.BABCode.GDFleuryObjects2.length = 0;
+gdjs.BABCode.GDFleuryObjects3.length = 0;
+gdjs.BABCode.GDyayaObjects1.length = 0;
+gdjs.BABCode.GDyayaObjects2.length = 0;
+gdjs.BABCode.GDyayaObjects3.length = 0;
+gdjs.BABCode.GDsebObjects1.length = 0;
+gdjs.BABCode.GDsebObjects2.length = 0;
+gdjs.BABCode.GDsebObjects3.length = 0;
+gdjs.BABCode.GDaureliaObjects1.length = 0;
+gdjs.BABCode.GDaureliaObjects2.length = 0;
+gdjs.BABCode.GDaureliaObjects3.length = 0;
+gdjs.BABCode.GDespoir_9595de_9595louObjects1.length = 0;
+gdjs.BABCode.GDespoir_9595de_9595louObjects2.length = 0;
+gdjs.BABCode.GDespoir_9595de_9595louObjects3.length = 0;
+gdjs.BABCode.GDelctricienObjects1.length = 0;
+gdjs.BABCode.GDelctricienObjects2.length = 0;
+gdjs.BABCode.GDelctricienObjects3.length = 0;
+gdjs.BABCode.GDchachaObjects1.length = 0;
+gdjs.BABCode.GDchachaObjects2.length = 0;
+gdjs.BABCode.GDchachaObjects3.length = 0;
+gdjs.BABCode.GDtomoObjects1.length = 0;
+gdjs.BABCode.GDtomoObjects2.length = 0;
+gdjs.BABCode.GDtomoObjects3.length = 0;
+gdjs.BABCode.GDMrRObeObjects1.length = 0;
+gdjs.BABCode.GDMrRObeObjects2.length = 0;
+gdjs.BABCode.GDMrRObeObjects3.length = 0;
 
 
 return;
 
 }
 
-gdjs['luna_32rossaCode'] = gdjs.luna_32rossaCode;
+gdjs['BABCode'] = gdjs.BABCode;
