@@ -130,6 +130,21 @@ gdjs.old_95BABCode.GDegliseObjects3= [];
 gdjs.old_95BABCode.GDpanneau_9595romainvileObjects1= [];
 gdjs.old_95BABCode.GDpanneau_9595romainvileObjects2= [];
 gdjs.old_95BABCode.GDpanneau_9595romainvileObjects3= [];
+gdjs.old_95BABCode.GDsmaelObjects1= [];
+gdjs.old_95BABCode.GDsmaelObjects2= [];
+gdjs.old_95BABCode.GDsmaelObjects3= [];
+gdjs.old_95BABCode.GDmoulinObjects1= [];
+gdjs.old_95BABCode.GDmoulinObjects2= [];
+gdjs.old_95BABCode.GDmoulinObjects3= [];
+gdjs.old_95BABCode.GDgraff_95951Objects1= [];
+gdjs.old_95BABCode.GDgraff_95951Objects2= [];
+gdjs.old_95BABCode.GDgraff_95951Objects3= [];
+gdjs.old_95BABCode.GDcin_95233_9595plein_9595air_9595Objects1= [];
+gdjs.old_95BABCode.GDcin_95233_9595plein_9595air_9595Objects2= [];
+gdjs.old_95BABCode.GDcin_95233_9595plein_9595air_9595Objects3= [];
+gdjs.old_95BABCode.GDfimincoObjects1= [];
+gdjs.old_95BABCode.GDfimincoObjects2= [];
+gdjs.old_95BABCode.GDfimincoObjects3= [];
 
 
 gdjs.old_95BABCode.mapOfGDgdjs_9546old_959595BABCode_9546GDautre_95959595ecranObjects1Objects = Hashtable.newFrom({"autre_ecran": gdjs.old_95BABCode.GDautre_9595ecranObjects1});
@@ -146,7 +161,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "doubletapBAB") < 0.4;
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "level3", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "place des commerces 2", false);
 }
 elseEventsChainSatisfied = true;
 }
@@ -226,7 +241,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(59067380);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(60360316);
 }
 }
 }
@@ -251,7 +266,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(59057764);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(60371740);
 }
 }
 }
@@ -408,6 +423,21 @@ gdjs.old_95BABCode.GDegliseObjects3.length = 0;
 gdjs.old_95BABCode.GDpanneau_9595romainvileObjects1.length = 0;
 gdjs.old_95BABCode.GDpanneau_9595romainvileObjects2.length = 0;
 gdjs.old_95BABCode.GDpanneau_9595romainvileObjects3.length = 0;
+gdjs.old_95BABCode.GDsmaelObjects1.length = 0;
+gdjs.old_95BABCode.GDsmaelObjects2.length = 0;
+gdjs.old_95BABCode.GDsmaelObjects3.length = 0;
+gdjs.old_95BABCode.GDmoulinObjects1.length = 0;
+gdjs.old_95BABCode.GDmoulinObjects2.length = 0;
+gdjs.old_95BABCode.GDmoulinObjects3.length = 0;
+gdjs.old_95BABCode.GDgraff_95951Objects1.length = 0;
+gdjs.old_95BABCode.GDgraff_95951Objects2.length = 0;
+gdjs.old_95BABCode.GDgraff_95951Objects3.length = 0;
+gdjs.old_95BABCode.GDcin_95233_9595plein_9595air_9595Objects1.length = 0;
+gdjs.old_95BABCode.GDcin_95233_9595plein_9595air_9595Objects2.length = 0;
+gdjs.old_95BABCode.GDcin_95233_9595plein_9595air_9595Objects3.length = 0;
+gdjs.old_95BABCode.GDfimincoObjects1.length = 0;
+gdjs.old_95BABCode.GDfimincoObjects2.length = 0;
+gdjs.old_95BABCode.GDfimincoObjects3.length = 0;
 
 gdjs.old_95BABCode.eventsList2(runtimeScene);
 gdjs.old_95BABCode.GDBABObjects1.length = 0;
@@ -539,6 +569,21 @@ gdjs.old_95BABCode.GDegliseObjects3.length = 0;
 gdjs.old_95BABCode.GDpanneau_9595romainvileObjects1.length = 0;
 gdjs.old_95BABCode.GDpanneau_9595romainvileObjects2.length = 0;
 gdjs.old_95BABCode.GDpanneau_9595romainvileObjects3.length = 0;
+gdjs.old_95BABCode.GDsmaelObjects1.length = 0;
+gdjs.old_95BABCode.GDsmaelObjects2.length = 0;
+gdjs.old_95BABCode.GDsmaelObjects3.length = 0;
+gdjs.old_95BABCode.GDmoulinObjects1.length = 0;
+gdjs.old_95BABCode.GDmoulinObjects2.length = 0;
+gdjs.old_95BABCode.GDmoulinObjects3.length = 0;
+gdjs.old_95BABCode.GDgraff_95951Objects1.length = 0;
+gdjs.old_95BABCode.GDgraff_95951Objects2.length = 0;
+gdjs.old_95BABCode.GDgraff_95951Objects3.length = 0;
+gdjs.old_95BABCode.GDcin_95233_9595plein_9595air_9595Objects1.length = 0;
+gdjs.old_95BABCode.GDcin_95233_9595plein_9595air_9595Objects2.length = 0;
+gdjs.old_95BABCode.GDcin_95233_9595plein_9595air_9595Objects3.length = 0;
+gdjs.old_95BABCode.GDfimincoObjects1.length = 0;
+gdjs.old_95BABCode.GDfimincoObjects2.length = 0;
+gdjs.old_95BABCode.GDfimincoObjects3.length = 0;
 
 
 return;

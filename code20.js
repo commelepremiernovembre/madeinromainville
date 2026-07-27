@@ -85,6 +85,16 @@ gdjs.old_95trianonCode.GDegliseObjects1= [];
 gdjs.old_95trianonCode.GDegliseObjects2= [];
 gdjs.old_95trianonCode.GDpanneau_9595romainvileObjects1= [];
 gdjs.old_95trianonCode.GDpanneau_9595romainvileObjects2= [];
+gdjs.old_95trianonCode.GDsmaelObjects1= [];
+gdjs.old_95trianonCode.GDsmaelObjects2= [];
+gdjs.old_95trianonCode.GDmoulinObjects1= [];
+gdjs.old_95trianonCode.GDmoulinObjects2= [];
+gdjs.old_95trianonCode.GDgraff_95951Objects1= [];
+gdjs.old_95trianonCode.GDgraff_95951Objects2= [];
+gdjs.old_95trianonCode.GDcin_95233_9595plein_9595air_9595Objects1= [];
+gdjs.old_95trianonCode.GDcin_95233_9595plein_9595air_9595Objects2= [];
+gdjs.old_95trianonCode.GDfimincoObjects1= [];
+gdjs.old_95trianonCode.GDfimincoObjects2= [];
 
 
 gdjs.old_95trianonCode.mapOfGDgdjs_9546old_959595trianonCode_9546GDanother_95959595levelObjects1Objects = Hashtable.newFrom({"another_level": gdjs.old_95trianonCode.GDanother_9595levelObjects1});
@@ -222,6 +232,16 @@ gdjs.old_95trianonCode.GDegliseObjects1.length = 0;
 gdjs.old_95trianonCode.GDegliseObjects2.length = 0;
 gdjs.old_95trianonCode.GDpanneau_9595romainvileObjects1.length = 0;
 gdjs.old_95trianonCode.GDpanneau_9595romainvileObjects2.length = 0;
+gdjs.old_95trianonCode.GDsmaelObjects1.length = 0;
+gdjs.old_95trianonCode.GDsmaelObjects2.length = 0;
+gdjs.old_95trianonCode.GDmoulinObjects1.length = 0;
+gdjs.old_95trianonCode.GDmoulinObjects2.length = 0;
+gdjs.old_95trianonCode.GDgraff_95951Objects1.length = 0;
+gdjs.old_95trianonCode.GDgraff_95951Objects2.length = 0;
+gdjs.old_95trianonCode.GDcin_95233_9595plein_9595air_9595Objects1.length = 0;
+gdjs.old_95trianonCode.GDcin_95233_9595plein_9595air_9595Objects2.length = 0;
+gdjs.old_95trianonCode.GDfimincoObjects1.length = 0;
+gdjs.old_95trianonCode.GDfimincoObjects2.length = 0;
 
 gdjs.old_95trianonCode.eventsList0(runtimeScene);
 gdjs.old_95trianonCode.GDanother_9595levelObjects1.length = 0;
@@ -308,6 +328,16 @@ gdjs.old_95trianonCode.GDegliseObjects1.length = 0;
 gdjs.old_95trianonCode.GDegliseObjects2.length = 0;
 gdjs.old_95trianonCode.GDpanneau_9595romainvileObjects1.length = 0;
 gdjs.old_95trianonCode.GDpanneau_9595romainvileObjects2.length = 0;
+gdjs.old_95trianonCode.GDsmaelObjects1.length = 0;
+gdjs.old_95trianonCode.GDsmaelObjects2.length = 0;
+gdjs.old_95trianonCode.GDmoulinObjects1.length = 0;
+gdjs.old_95trianonCode.GDmoulinObjects2.length = 0;
+gdjs.old_95trianonCode.GDgraff_95951Objects1.length = 0;
+gdjs.old_95trianonCode.GDgraff_95951Objects2.length = 0;
+gdjs.old_95trianonCode.GDcin_95233_9595plein_9595air_9595Objects1.length = 0;
+gdjs.old_95trianonCode.GDcin_95233_9595plein_9595air_9595Objects2.length = 0;
+gdjs.old_95trianonCode.GDfimincoObjects1.length = 0;
+gdjs.old_95trianonCode.GDfimincoObjects2.length = 0;
 
 
 return;

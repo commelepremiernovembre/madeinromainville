@@ -85,6 +85,16 @@ gdjs.old_95le_32metroCode.GDegliseObjects1= [];
 gdjs.old_95le_32metroCode.GDegliseObjects2= [];
 gdjs.old_95le_32metroCode.GDpanneau_9595romainvileObjects1= [];
 gdjs.old_95le_32metroCode.GDpanneau_9595romainvileObjects2= [];
+gdjs.old_95le_32metroCode.GDsmaelObjects1= [];
+gdjs.old_95le_32metroCode.GDsmaelObjects2= [];
+gdjs.old_95le_32metroCode.GDmoulinObjects1= [];
+gdjs.old_95le_32metroCode.GDmoulinObjects2= [];
+gdjs.old_95le_32metroCode.GDgraff_95951Objects1= [];
+gdjs.old_95le_32metroCode.GDgraff_95951Objects2= [];
+gdjs.old_95le_32metroCode.GDcin_95233_9595plein_9595air_9595Objects1= [];
+gdjs.old_95le_32metroCode.GDcin_95233_9595plein_9595air_9595Objects2= [];
+gdjs.old_95le_32metroCode.GDfimincoObjects1= [];
+gdjs.old_95le_32metroCode.GDfimincoObjects2= [];
 
 
 gdjs.old_95le_32metroCode.mapOfGDgdjs_9546old_959595le_959532metroCode_9546GDanother_95959595levelObjects1Objects = Hashtable.newFrom({"another_level": gdjs.old_95le_32metroCode.GDanother_9595levelObjects1});
@@ -116,7 +126,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "les 3 C", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "to_soon_les 3 C", false);
 }
 }
 
@@ -222,6 +232,16 @@ gdjs.old_95le_32metroCode.GDegliseObjects1.length = 0;
 gdjs.old_95le_32metroCode.GDegliseObjects2.length = 0;
 gdjs.old_95le_32metroCode.GDpanneau_9595romainvileObjects1.length = 0;
 gdjs.old_95le_32metroCode.GDpanneau_9595romainvileObjects2.length = 0;
+gdjs.old_95le_32metroCode.GDsmaelObjects1.length = 0;
+gdjs.old_95le_32metroCode.GDsmaelObjects2.length = 0;
+gdjs.old_95le_32metroCode.GDmoulinObjects1.length = 0;
+gdjs.old_95le_32metroCode.GDmoulinObjects2.length = 0;
+gdjs.old_95le_32metroCode.GDgraff_95951Objects1.length = 0;
+gdjs.old_95le_32metroCode.GDgraff_95951Objects2.length = 0;
+gdjs.old_95le_32metroCode.GDcin_95233_9595plein_9595air_9595Objects1.length = 0;
+gdjs.old_95le_32metroCode.GDcin_95233_9595plein_9595air_9595Objects2.length = 0;
+gdjs.old_95le_32metroCode.GDfimincoObjects1.length = 0;
+gdjs.old_95le_32metroCode.GDfimincoObjects2.length = 0;
 
 gdjs.old_95le_32metroCode.eventsList0(runtimeScene);
 gdjs.old_95le_32metroCode.GDanother_9595levelObjects1.length = 0;
@@ -308,6 +328,16 @@ gdjs.old_95le_32metroCode.GDegliseObjects1.length = 0;
 gdjs.old_95le_32metroCode.GDegliseObjects2.length = 0;
 gdjs.old_95le_32metroCode.GDpanneau_9595romainvileObjects1.length = 0;
 gdjs.old_95le_32metroCode.GDpanneau_9595romainvileObjects2.length = 0;
+gdjs.old_95le_32metroCode.GDsmaelObjects1.length = 0;
+gdjs.old_95le_32metroCode.GDsmaelObjects2.length = 0;
+gdjs.old_95le_32metroCode.GDmoulinObjects1.length = 0;
+gdjs.old_95le_32metroCode.GDmoulinObjects2.length = 0;
+gdjs.old_95le_32metroCode.GDgraff_95951Objects1.length = 0;
+gdjs.old_95le_32metroCode.GDgraff_95951Objects2.length = 0;
+gdjs.old_95le_32metroCode.GDcin_95233_9595plein_9595air_9595Objects1.length = 0;
+gdjs.old_95le_32metroCode.GDcin_95233_9595plein_9595air_9595Objects2.length = 0;
+gdjs.old_95le_32metroCode.GDfimincoObjects1.length = 0;
+gdjs.old_95le_32metroCode.GDfimincoObjects2.length = 0;
 
 
 return;
