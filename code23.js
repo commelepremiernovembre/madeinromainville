@@ -154,7 +154,7 @@ gdjs.old_95place_32de_32la_32mairieCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(60541948);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(60835804);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Roro"), gdjs.old_95place_32de_32la_32mairieCode.GDRoroObjects2);

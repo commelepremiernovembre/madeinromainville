@@ -123,7 +123,7 @@ gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPath
 gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.onCreatedContext.GDObjectObjects2= [];
 
 
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.onCreatedContext.userFunc0x3eabea8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.onCreatedContext.userFunc0x3ef3b40 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
@@ -153,7 +153,7 @@ let isConditionTrue_0 = false;
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.onCreatedContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.onCreatedContext.GDObjectObjects1;
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.onCreatedContext.userFunc0x3eabea8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.onCreatedContext.userFunc0x3ef3b40(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -241,7 +241,7 @@ gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPath
 gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.doStepPreEventsContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.doStepPreEventsContext.userFunc0x3eafcd8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.doStepPreEventsContext.userFunc0x3ef7970 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
@@ -256,7 +256,7 @@ gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPath
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.doStepPreEventsContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.doStepPreEventsContext.GDObjectObjects1;
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.doStepPreEventsContext.userFunc0x3eafcd8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.doStepPreEventsContext.userFunc0x3ef7970(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -342,7 +342,7 @@ gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPath
 gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.onDeActivateContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.onDeActivateContext.userFunc0x3eb5248 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.onDeActivateContext.userFunc0x3efcee0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
@@ -357,7 +357,7 @@ gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPath
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.onDeActivateContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.onDeActivateContext.GDObjectObjects1;
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.onDeActivateContext.userFunc0x3eb5248(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.onDeActivateContext.userFunc0x3efcee0(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -443,7 +443,7 @@ gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPath
 gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.onActivateContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.onActivateContext.userFunc0x3eba9b8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.onActivateContext.userFunc0x3f02650 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
@@ -458,7 +458,7 @@ gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPath
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.onActivateContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.onActivateContext.GDObjectObjects1;
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.onActivateContext.userFunc0x3eba9b8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.onActivateContext.userFunc0x3f02650(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -544,7 +544,7 @@ gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPath
 gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.onDestroyContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.onDestroyContext.userFunc0x3eba9b8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.onDestroyContext.userFunc0x3f02650 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
@@ -559,7 +559,7 @@ gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPath
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.onDestroyContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.onDestroyContext.GDObjectObjects1;
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.onDestroyContext.userFunc0x3eba9b8(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.onDestroyContext.userFunc0x3f02650(runtimeScene, objects, eventsFunctionContext);
 
 }
 
@@ -1665,7 +1665,7 @@ gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPath
 gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.InvalidateNavMeshContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.InvalidateNavMeshContext.userFunc0x3ee1080 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.InvalidateNavMeshContext.userFunc0x3f28d18 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 const behaviorName = eventsFunctionContext.getBehaviorName("Behavior");
@@ -1681,7 +1681,7 @@ gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPath
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.InvalidateNavMeshContext.GDObjectObjects1);
 
 const objects = gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.InvalidateNavMeshContext.GDObjectObjects1;
-gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.InvalidateNavMeshContext.userFunc0x3ee1080(runtimeScene, objects, eventsFunctionContext);
+gdjs.evtsExt__NavMeshPathfinding__NavMeshPathfindingObstacleBehavior.NavMeshPathfindingObstacleBehavior.prototype.InvalidateNavMeshContext.userFunc0x3f28d18(runtimeScene, objects, eventsFunctionContext);
 
 }
 

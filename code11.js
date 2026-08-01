@@ -595,6 +595,38 @@ gdjs.copyArray(runtimeScene.getObjects("fabien"), gdjs.Le_32TrianonCode.GDfabien
 
 
 let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getGame().getVariables().getFromIndex(0).getAsBoolean();
+}
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("claude"), gdjs.Le_32TrianonCode.GDclaudeObjects2);
+{for(var i = 0, len = gdjs.Le_32TrianonCode.GDclaudeObjects2.length ;i < len;++i) {
+    gdjs.Le_32TrianonCode.GDclaudeObjects2[i].setX(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) - (gdjs.Le_32TrianonCode.GDclaudeObjects2[i].getWidth()) + 75);
+}
+}
+{for(var i = 0, len = gdjs.Le_32TrianonCode.GDclaudeObjects2.length ;i < len;++i) {
+    gdjs.Le_32TrianonCode.GDclaudeObjects2[i].setY(runtimeScene.getGame().getVariables().getFromIndex(1).getAsNumber());
+}
+}
+{for(var i = 0, len = gdjs.Le_32TrianonCode.GDclaudeObjects2.length ;i < len;++i) {
+    gdjs.Le_32TrianonCode.GDclaudeObjects2[i].getBehavior("NavMeshPathfindingBehavior").SetDestination(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) - (gdjs.Le_32TrianonCode.GDclaudeObjects2[i].getWidth()) - 300, runtimeScene.getGame().getVariables().getFromIndex(1).getAsNumber(), null);
+}
+}
+{runtimeScene.getGame().getVariables().getFromIndex(0).setBoolean(false);
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
 {
 {gdjs.evtTools.camera.hideLayer(runtimeScene, "Obstacle");
 }
@@ -607,14 +639,14 @@ let isConditionTrue_0 = false;
 
 };gdjs.Le_32TrianonCode.eventsList2 = function(runtimeScene, asyncObjectsList) {
 
-};gdjs.Le_32TrianonCode.asyncCallback58985148 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Le_32TrianonCode.asyncCallback59271124 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Le_32TrianonCode.localVariables);
 
 { //Subevents
 gdjs.Le_32TrianonCode.eventsList2(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Le_32TrianonCode.localVariables.length = 0;
 }
-gdjs.Le_32TrianonCode.idToCallbackMap.set(58985148, gdjs.Le_32TrianonCode.asyncCallback58985148);
+gdjs.Le_32TrianonCode.idToCallbackMap.set(59271124, gdjs.Le_32TrianonCode.asyncCallback59271124);
 gdjs.Le_32TrianonCode.eventsList3 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -625,21 +657,21 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Le_32TrianonCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtsExt__AdvancedHTTP__ReadResponseJSON.func(runtimeScene, runtimeScene.getScene().getVariables().get("reponse"), runtimeScene.getScene().getVariables().get("data"), null), (runtimeScene) => (gdjs.Le_32TrianonCode.asyncCallback58985148(runtimeScene, asyncObjectsList)), 58985148, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtsExt__AdvancedHTTP__ReadResponseJSON.func(runtimeScene, runtimeScene.getScene().getVariables().get("reponse"), runtimeScene.getScene().getVariables().get("data"), null), (runtimeScene) => (gdjs.Le_32TrianonCode.asyncCallback59271124(runtimeScene, asyncObjectsList)), 59271124, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Le_32TrianonCode.asyncCallback58984612 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Le_32TrianonCode.asyncCallback59270796 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Le_32TrianonCode.localVariables);
 
 { //Subevents
 gdjs.Le_32TrianonCode.eventsList3(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Le_32TrianonCode.localVariables.length = 0;
 }
-gdjs.Le_32TrianonCode.idToCallbackMap.set(58984612, gdjs.Le_32TrianonCode.asyncCallback58984612);
+gdjs.Le_32TrianonCode.idToCallbackMap.set(59270796, gdjs.Le_32TrianonCode.asyncCallback59270796);
 gdjs.Le_32TrianonCode.eventsList4 = function(runtimeScene) {
 
 {
@@ -649,7 +681,7 @@ gdjs.Le_32TrianonCode.eventsList4 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Le_32TrianonCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtsExt__AdvancedHTTP__ExecuteRequest.func(runtimeScene, "meteo", runtimeScene.getScene().getVariables().get("reponse"), null), (runtimeScene) => (gdjs.Le_32TrianonCode.asyncCallback58984612(runtimeScene, asyncObjectsList)), 58984612, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtsExt__AdvancedHTTP__ExecuteRequest.func(runtimeScene, "meteo", runtimeScene.getScene().getVariables().get("reponse"), null), (runtimeScene) => (gdjs.Le_32TrianonCode.asyncCallback59270796(runtimeScene, asyncObjectsList)), 59270796, asyncObjectsList);
 }
 }
 
@@ -1141,57 +1173,27 @@ gdjs.copyArray(runtimeScene.getObjects("nuage2"), gdjs.Le_32TrianonCode.GDnuage2
 }
 
 
-};gdjs.Le_32TrianonCode.mapOfGDgdjs_9546Le_959532TrianonCode_9546GDfabienObjects2Objects = Hashtable.newFrom({"fabien": gdjs.Le_32TrianonCode.GDfabienObjects2});
-gdjs.Le_32TrianonCode.asyncCallback59024948 = function (runtimeScene, asyncObjectsList) {
-asyncObjectsList.restoreLocalVariablesContainers(gdjs.Le_32TrianonCode.localVariables);
-gdjs.copyArray(asyncObjectsList.getObjects("fabien"), gdjs.Le_32TrianonCode.GDfabienObjects4);
-
-{gdjs.evtTools.camera.centerCamera(runtimeScene, (gdjs.Le_32TrianonCode.GDfabienObjects4.length !== 0 ? gdjs.Le_32TrianonCode.GDfabienObjects4[0] : null), true, "décor", 0);
-}
-{gdjs.evtTools.camera.clampCamera(runtimeScene, 0, 0, 1280, 720, "décor", 0);
-}
-{gdjs.evtTools.camera.centerCamera(runtimeScene, (gdjs.Le_32TrianonCode.GDfabienObjects4.length !== 0 ? gdjs.Le_32TrianonCode.GDfabienObjects4[0] : null), true, "fond", 0);
-}
-{gdjs.evtTools.camera.clampCamera(runtimeScene, 0, 0, 1280, 720, "fond", 0);
-}
-{gdjs.evtTools.camera.centerCamera(runtimeScene, (gdjs.Le_32TrianonCode.GDfabienObjects4.length !== 0 ? gdjs.Le_32TrianonCode.GDfabienObjects4[0] : null), true, "UI", 0);
-}
-{gdjs.evtTools.camera.clampCamera(runtimeScene, 0, 0, 1280, 720, "UI", 0);
-}
-{gdjs.evtTools.camera.centerCamera(runtimeScene, (gdjs.Le_32TrianonCode.GDfabienObjects4.length !== 0 ? gdjs.Le_32TrianonCode.GDfabienObjects4[0] : null), true, "Obstacle", 0);
-}
-{gdjs.evtTools.camera.clampCamera(runtimeScene, 0, 0, 1280, 720, "Obstacle", 0);
-}
-{gdjs.evtTools.camera.centerCamera(runtimeScene, (gdjs.Le_32TrianonCode.GDfabienObjects4.length !== 0 ? gdjs.Le_32TrianonCode.GDfabienObjects4[0] : null), true, "", 0);
-}
-{gdjs.evtTools.camera.clampCamera(runtimeScene, 0, 0, 1280, 720, "", 0);
-}
-{gdjs.evtTools.camera.centerCamera(runtimeScene, (gdjs.Le_32TrianonCode.GDfabienObjects4.length !== 0 ? gdjs.Le_32TrianonCode.GDfabienObjects4[0] : null), true, "passage level", 0);
-}
-{gdjs.evtTools.camera.clampCamera(runtimeScene, 0, 0, 1280, 720, "passage level", 0);
-}
-gdjs.Le_32TrianonCode.localVariables.length = 0;
-}
-gdjs.Le_32TrianonCode.idToCallbackMap.set(59024948, gdjs.Le_32TrianonCode.asyncCallback59024948);
-gdjs.Le_32TrianonCode.eventsList13 = function(runtimeScene, asyncObjectsList) {
+};gdjs.Le_32TrianonCode.eventsList13 = function(runtimeScene) {
 
 {
 
+gdjs.copyArray(gdjs.Le_32TrianonCode.GDfabienObjects3, gdjs.Le_32TrianonCode.GDfabienObjects4);
 
-{
-const parentAsyncObjectsList = asyncObjectsList;
-{
-const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
-asyncObjectsList.backupLocalVariablesContainers(gdjs.Le_32TrianonCode.localVariables);
-for (const obj of gdjs.Le_32TrianonCode.GDfabienObjects3) asyncObjectsList.addObject("fabien", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.Le_32TrianonCode.asyncCallback59024948(runtimeScene, asyncObjectsList)), 59024948, asyncObjectsList);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (Math.abs(gdjs.evtTools.input.getCursorX(runtimeScene, "", 0) - (( gdjs.Le_32TrianonCode.GDfabienObjects4.length === 0 ) ? 0 :gdjs.Le_32TrianonCode.GDfabienObjects4[0].getPointX(""))) > Math.abs(gdjs.evtTools.input.getCursorY(runtimeScene, "", 0) - (( gdjs.Le_32TrianonCode.GDfabienObjects4.length === 0 ) ? 0 :gdjs.Le_32TrianonCode.GDfabienObjects4[0].getPointY(""))));
+}
+if (isConditionTrue_0) {
+/* Reuse gdjs.Le_32TrianonCode.GDfabienObjects4 */
+{for(var i = 0, len = gdjs.Le_32TrianonCode.GDfabienObjects4.length ;i < len;++i) {
+    gdjs.Le_32TrianonCode.GDfabienObjects4[i].getBehavior("NavMeshPathfindingBehavior").SetDestination(gdjs.evtTools.input.getCursorX(runtimeScene, "", 0), (gdjs.Le_32TrianonCode.GDfabienObjects4[i].getPointY("")), null);
 }
 }
+}
 
 }
 
-
-};gdjs.Le_32TrianonCode.eventsList14 = function(runtimeScene, asyncObjectsList) {
 
 {
 
@@ -1199,53 +1201,95 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.Le_32TrianonCode.GDfabienObjects3.length;i<l;++i) {
-    if ( gdjs.Le_32TrianonCode.GDfabienObjects3[i].behaviorActivated("NavMeshPathfindingBehavior") ) {
-        isConditionTrue_0 = true;
-        gdjs.Le_32TrianonCode.GDfabienObjects3[k] = gdjs.Le_32TrianonCode.GDfabienObjects3[i];
-        ++k;
-    }
+{isConditionTrue_0 = (Math.abs(gdjs.evtTools.input.getCursorX(runtimeScene, "", 0) - (( gdjs.Le_32TrianonCode.GDfabienObjects3.length === 0 ) ? 0 :gdjs.Le_32TrianonCode.GDfabienObjects3[0].getPointX(""))) < Math.abs(gdjs.evtTools.input.getCursorY(runtimeScene, "", 0) - (( gdjs.Le_32TrianonCode.GDfabienObjects3.length === 0 ) ? 0 :gdjs.Le_32TrianonCode.GDfabienObjects3[0].getPointY(""))));
 }
-gdjs.Le_32TrianonCode.GDfabienObjects3.length = k;
 if (isConditionTrue_0) {
-
-{ //Subevents
-gdjs.Le_32TrianonCode.eventsList13(runtimeScene, asyncObjectsList);} //End of subevents
-}
-
-}
-
-
-};gdjs.Le_32TrianonCode.asyncCallback59023972 = function (runtimeScene, asyncObjectsList) {
-asyncObjectsList.restoreLocalVariablesContainers(gdjs.Le_32TrianonCode.localVariables);
-gdjs.copyArray(runtimeScene.getObjects("claude"), gdjs.Le_32TrianonCode.GDclaudeObjects3);
-gdjs.copyArray(asyncObjectsList.getObjects("fabien"), gdjs.Le_32TrianonCode.GDfabienObjects3);
-
+/* Reuse gdjs.Le_32TrianonCode.GDfabienObjects3 */
 {for(var i = 0, len = gdjs.Le_32TrianonCode.GDfabienObjects3.length ;i < len;++i) {
-    gdjs.Le_32TrianonCode.GDfabienObjects3[i].activateBehavior("NavMeshPathfindingBehavior", true);
+    gdjs.Le_32TrianonCode.GDfabienObjects3[i].getBehavior("NavMeshPathfindingBehavior").SetDestination((gdjs.Le_32TrianonCode.GDfabienObjects3[i].getPointX("")), gdjs.evtTools.input.getCursorY(runtimeScene, "", 0), null);
 }
 }
+}
+
+}
+
+
+};gdjs.Le_32TrianonCode.eventsList14 = function(runtimeScene) {
+
+{
+
+gdjs.copyArray(gdjs.Le_32TrianonCode.GDfabienObjects3, gdjs.Le_32TrianonCode.GDfabienObjects4);
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (Math.abs(gdjs.evtTools.input.getCursorX(runtimeScene, "", 0) - (( gdjs.Le_32TrianonCode.GDfabienObjects4.length === 0 ) ? 0 :gdjs.Le_32TrianonCode.GDfabienObjects4[0].getPointX(""))) > Math.abs(gdjs.evtTools.input.getCursorY(runtimeScene, "", 0) - (( gdjs.Le_32TrianonCode.GDfabienObjects4.length === 0 ) ? 0 :gdjs.Le_32TrianonCode.GDfabienObjects4[0].getPointY(""))));
+}
+if (isConditionTrue_0) {
+/* Reuse gdjs.Le_32TrianonCode.GDfabienObjects4 */
+{for(var i = 0, len = gdjs.Le_32TrianonCode.GDfabienObjects4.length ;i < len;++i) {
+    gdjs.Le_32TrianonCode.GDfabienObjects4[i].getBehavior("NavMeshPathfindingBehavior").SetDestination(gdjs.evtTools.input.getCursorX(runtimeScene, "", 0), (gdjs.Le_32TrianonCode.GDfabienObjects4[i].getPointY("")), null);
+}
+}
+}
+
+}
+
+
+{
+
+/* Reuse gdjs.Le_32TrianonCode.GDfabienObjects3 */
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (Math.abs(gdjs.evtTools.input.getCursorX(runtimeScene, "", 0) - (( gdjs.Le_32TrianonCode.GDfabienObjects3.length === 0 ) ? 0 :gdjs.Le_32TrianonCode.GDfabienObjects3[0].getPointX(""))) < Math.abs(gdjs.evtTools.input.getCursorY(runtimeScene, "", 0) - (( gdjs.Le_32TrianonCode.GDfabienObjects3.length === 0 ) ? 0 :gdjs.Le_32TrianonCode.GDfabienObjects3[0].getPointY(""))));
+}
+if (isConditionTrue_0) {
+/* Reuse gdjs.Le_32TrianonCode.GDfabienObjects3 */
+{for(var i = 0, len = gdjs.Le_32TrianonCode.GDfabienObjects3.length ;i < len;++i) {
+    gdjs.Le_32TrianonCode.GDfabienObjects3[i].getBehavior("NavMeshPathfindingBehavior").SetDestination((gdjs.Le_32TrianonCode.GDfabienObjects3[i].getPointX("")), gdjs.evtTools.input.getCursorY(runtimeScene, "", 0), null);
+}
+}
+}
+
+}
+
+
+};gdjs.Le_32TrianonCode.eventsList15 = function(runtimeScene) {
+
+{
+
+gdjs.copyArray(gdjs.Le_32TrianonCode.GDclaudeObjects3, gdjs.Le_32TrianonCode.GDclaudeObjects4);
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (Math.abs(gdjs.evtTools.input.getCursorX(runtimeScene, "", 0) - (( gdjs.Le_32TrianonCode.GDclaudeObjects4.length === 0 ) ? 0 :gdjs.Le_32TrianonCode.GDclaudeObjects4[0].getPointX(""))) > Math.abs(gdjs.evtTools.input.getCursorY(runtimeScene, "", 0) - (( gdjs.Le_32TrianonCode.GDclaudeObjects4.length === 0 ) ? 0 :gdjs.Le_32TrianonCode.GDclaudeObjects4[0].getPointY(""))));
+}
+if (isConditionTrue_0) {
+/* Reuse gdjs.Le_32TrianonCode.GDclaudeObjects4 */
+{for(var i = 0, len = gdjs.Le_32TrianonCode.GDclaudeObjects4.length ;i < len;++i) {
+    gdjs.Le_32TrianonCode.GDclaudeObjects4[i].getBehavior("NavMeshPathfindingBehavior").SetDestination(gdjs.evtTools.input.getCursorX(runtimeScene, "", 0), (gdjs.Le_32TrianonCode.GDclaudeObjects4[i].getPointY("")), null);
+}
+}
+}
+
+}
+
+
+{
+
+/* Reuse gdjs.Le_32TrianonCode.GDclaudeObjects3 */
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (Math.abs(gdjs.evtTools.input.getCursorX(runtimeScene, "", 0) - (( gdjs.Le_32TrianonCode.GDclaudeObjects3.length === 0 ) ? 0 :gdjs.Le_32TrianonCode.GDclaudeObjects3[0].getPointX(""))) < Math.abs(gdjs.evtTools.input.getCursorY(runtimeScene, "", 0) - (( gdjs.Le_32TrianonCode.GDclaudeObjects3.length === 0 ) ? 0 :gdjs.Le_32TrianonCode.GDclaudeObjects3[0].getPointY(""))));
+}
+if (isConditionTrue_0) {
+/* Reuse gdjs.Le_32TrianonCode.GDclaudeObjects3 */
 {for(var i = 0, len = gdjs.Le_32TrianonCode.GDclaudeObjects3.length ;i < len;++i) {
-    gdjs.Le_32TrianonCode.GDclaudeObjects3[i].activateBehavior("NavMeshPathfindingBehavior", false);
+    gdjs.Le_32TrianonCode.GDclaudeObjects3[i].getBehavior("NavMeshPathfindingBehavior").SetDestination((gdjs.Le_32TrianonCode.GDclaudeObjects3[i].getPointX("")), gdjs.evtTools.input.getCursorY(runtimeScene, "", 0), null);
 }
-}
-
-{ //Subevents
-gdjs.Le_32TrianonCode.eventsList14(runtimeScene, asyncObjectsList);} //End of subevents
-gdjs.Le_32TrianonCode.localVariables.length = 0;
-}
-gdjs.Le_32TrianonCode.idToCallbackMap.set(59023972, gdjs.Le_32TrianonCode.asyncCallback59023972);
-gdjs.Le_32TrianonCode.eventsList15 = function(runtimeScene) {
-
-{
-
-
-{
-{
-const asyncObjectsList = new gdjs.LongLivedObjectsList();
-asyncObjectsList.backupLocalVariablesContainers(gdjs.Le_32TrianonCode.localVariables);
-for (const obj of gdjs.Le_32TrianonCode.GDfabienObjects2) asyncObjectsList.addObject("fabien", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.Le_32TrianonCode.asyncCallback59023972(runtimeScene, asyncObjectsList)), 59023972, asyncObjectsList);
 }
 }
 
@@ -1256,14 +1300,75 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3)
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("fabien"), gdjs.Le_32TrianonCode.GDfabienObjects2);
+gdjs.copyArray(runtimeScene.getObjects("fabien"), gdjs.Le_32TrianonCode.GDfabienObjects3);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Le_32TrianonCode.mapOfGDgdjs_9546Le_959532TrianonCode_9546GDfabienObjects2Objects, runtimeScene, true, false);
+isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.Le_32TrianonCode.GDfabienObjects3.length;i<l;++i) {
+    if ( gdjs.Le_32TrianonCode.GDfabienObjects3[i].behaviorActivated("NavMeshPathfindingBehavior") ) {
+        isConditionTrue_0 = true;
+        gdjs.Le_32TrianonCode.GDfabienObjects3[k] = gdjs.Le_32TrianonCode.GDfabienObjects3[i];
+        ++k;
+    }
+}
+gdjs.Le_32TrianonCode.GDfabienObjects3.length = k;
+}
+if (isConditionTrue_0) {
+
+{ //Subevents
+gdjs.Le_32TrianonCode.eventsList13(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("fabien"), gdjs.Le_32TrianonCode.GDfabienObjects3);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.Le_32TrianonCode.GDfabienObjects3.length;i<l;++i) {
+    if ( gdjs.Le_32TrianonCode.GDfabienObjects3[i].behaviorActivated("NavMeshPathfindingBehavior") ) {
+        isConditionTrue_0 = true;
+        gdjs.Le_32TrianonCode.GDfabienObjects3[k] = gdjs.Le_32TrianonCode.GDfabienObjects3[i];
+        ++k;
+    }
+}
+gdjs.Le_32TrianonCode.GDfabienObjects3.length = k;
+}
+if (isConditionTrue_0) {
+
+{ //Subevents
+gdjs.Le_32TrianonCode.eventsList14(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("claude"), gdjs.Le_32TrianonCode.GDclaudeObjects3);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.Le_32TrianonCode.GDclaudeObjects3.length;i<l;++i) {
+    if ( gdjs.Le_32TrianonCode.GDclaudeObjects3[i].behaviorActivated("NavMeshPathfindingBehavior") ) {
+        isConditionTrue_0 = true;
+        gdjs.Le_32TrianonCode.GDclaudeObjects3[k] = gdjs.Le_32TrianonCode.GDclaudeObjects3[i];
+        ++k;
+    }
+}
+gdjs.Le_32TrianonCode.GDclaudeObjects3.length = k;
 }
 if (isConditionTrue_0) {
 
@@ -1274,148 +1379,10 @@ gdjs.Le_32TrianonCode.eventsList15(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.Le_32TrianonCode.eventsList17 = function(runtimeScene) {
-
-{
-
-gdjs.copyArray(gdjs.Le_32TrianonCode.GDfabienObjects3, gdjs.Le_32TrianonCode.GDfabienObjects4);
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = (Math.abs(gdjs.evtTools.input.getCursorX(runtimeScene, "", 0) - (( gdjs.Le_32TrianonCode.GDfabienObjects4.length === 0 ) ? 0 :gdjs.Le_32TrianonCode.GDfabienObjects4[0].getPointX(""))) > Math.abs(gdjs.evtTools.input.getCursorY(runtimeScene, "", 0) - (( gdjs.Le_32TrianonCode.GDfabienObjects4.length === 0 ) ? 0 :gdjs.Le_32TrianonCode.GDfabienObjects4[0].getPointY(""))));
-}
-if (isConditionTrue_0) {
-/* Reuse gdjs.Le_32TrianonCode.GDfabienObjects4 */
-{for(var i = 0, len = gdjs.Le_32TrianonCode.GDfabienObjects4.length ;i < len;++i) {
-    gdjs.Le_32TrianonCode.GDfabienObjects4[i].getBehavior("NavMeshPathfindingBehavior").SetDestination(gdjs.evtTools.input.getCursorX(runtimeScene, "", 0), (gdjs.Le_32TrianonCode.GDfabienObjects4[i].getPointY("")), null);
-}
-}
-}
-
-}
-
-
-{
-
-/* Reuse gdjs.Le_32TrianonCode.GDfabienObjects3 */
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = (Math.abs(gdjs.evtTools.input.getCursorX(runtimeScene, "", 0) - (( gdjs.Le_32TrianonCode.GDfabienObjects3.length === 0 ) ? 0 :gdjs.Le_32TrianonCode.GDfabienObjects3[0].getPointX(""))) < Math.abs(gdjs.evtTools.input.getCursorY(runtimeScene, "", 0) - (( gdjs.Le_32TrianonCode.GDfabienObjects3.length === 0 ) ? 0 :gdjs.Le_32TrianonCode.GDfabienObjects3[0].getPointY(""))));
-}
-if (isConditionTrue_0) {
-/* Reuse gdjs.Le_32TrianonCode.GDfabienObjects3 */
-{for(var i = 0, len = gdjs.Le_32TrianonCode.GDfabienObjects3.length ;i < len;++i) {
-    gdjs.Le_32TrianonCode.GDfabienObjects3[i].getBehavior("NavMeshPathfindingBehavior").SetDestination((gdjs.Le_32TrianonCode.GDfabienObjects3[i].getPointX("")), gdjs.evtTools.input.getCursorY(runtimeScene, "", 0), null);
-}
-}
-}
-
-}
-
-
-};gdjs.Le_32TrianonCode.eventsList18 = function(runtimeScene) {
-
-{
-
-gdjs.copyArray(gdjs.Le_32TrianonCode.GDfabienObjects3, gdjs.Le_32TrianonCode.GDfabienObjects4);
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = (Math.abs(gdjs.evtTools.input.getCursorX(runtimeScene, "", 0) - (( gdjs.Le_32TrianonCode.GDfabienObjects4.length === 0 ) ? 0 :gdjs.Le_32TrianonCode.GDfabienObjects4[0].getPointX(""))) > Math.abs(gdjs.evtTools.input.getCursorY(runtimeScene, "", 0) - (( gdjs.Le_32TrianonCode.GDfabienObjects4.length === 0 ) ? 0 :gdjs.Le_32TrianonCode.GDfabienObjects4[0].getPointY(""))));
-}
-if (isConditionTrue_0) {
-/* Reuse gdjs.Le_32TrianonCode.GDfabienObjects4 */
-{for(var i = 0, len = gdjs.Le_32TrianonCode.GDfabienObjects4.length ;i < len;++i) {
-    gdjs.Le_32TrianonCode.GDfabienObjects4[i].getBehavior("NavMeshPathfindingBehavior").SetDestination(gdjs.evtTools.input.getCursorX(runtimeScene, "", 0), (gdjs.Le_32TrianonCode.GDfabienObjects4[i].getPointY("")), null);
-}
-}
-}
-
-}
-
-
-{
-
-/* Reuse gdjs.Le_32TrianonCode.GDfabienObjects3 */
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{isConditionTrue_0 = (Math.abs(gdjs.evtTools.input.getCursorX(runtimeScene, "", 0) - (( gdjs.Le_32TrianonCode.GDfabienObjects3.length === 0 ) ? 0 :gdjs.Le_32TrianonCode.GDfabienObjects3[0].getPointX(""))) < Math.abs(gdjs.evtTools.input.getCursorY(runtimeScene, "", 0) - (( gdjs.Le_32TrianonCode.GDfabienObjects3.length === 0 ) ? 0 :gdjs.Le_32TrianonCode.GDfabienObjects3[0].getPointY(""))));
-}
-if (isConditionTrue_0) {
-/* Reuse gdjs.Le_32TrianonCode.GDfabienObjects3 */
-{for(var i = 0, len = gdjs.Le_32TrianonCode.GDfabienObjects3.length ;i < len;++i) {
-    gdjs.Le_32TrianonCode.GDfabienObjects3[i].getBehavior("NavMeshPathfindingBehavior").SetDestination((gdjs.Le_32TrianonCode.GDfabienObjects3[i].getPointX("")), gdjs.evtTools.input.getCursorY(runtimeScene, "", 0), null);
-}
-}
-}
-
-}
-
-
-};gdjs.Le_32TrianonCode.eventsList19 = function(runtimeScene) {
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("fabien"), gdjs.Le_32TrianonCode.GDfabienObjects3);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.Le_32TrianonCode.GDfabienObjects3.length;i<l;++i) {
-    if ( gdjs.Le_32TrianonCode.GDfabienObjects3[i].behaviorActivated("NavMeshPathfindingBehavior") ) {
-        isConditionTrue_0 = true;
-        gdjs.Le_32TrianonCode.GDfabienObjects3[k] = gdjs.Le_32TrianonCode.GDfabienObjects3[i];
-        ++k;
-    }
-}
-gdjs.Le_32TrianonCode.GDfabienObjects3.length = k;
-}
-if (isConditionTrue_0) {
-
-{ //Subevents
-gdjs.Le_32TrianonCode.eventsList17(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("fabien"), gdjs.Le_32TrianonCode.GDfabienObjects3);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.Le_32TrianonCode.GDfabienObjects3.length;i<l;++i) {
-    if ( gdjs.Le_32TrianonCode.GDfabienObjects3[i].behaviorActivated("NavMeshPathfindingBehavior") ) {
-        isConditionTrue_0 = true;
-        gdjs.Le_32TrianonCode.GDfabienObjects3[k] = gdjs.Le_32TrianonCode.GDfabienObjects3[i];
-        ++k;
-    }
-}
-gdjs.Le_32TrianonCode.GDfabienObjects3.length = k;
-}
-if (isConditionTrue_0) {
-
-{ //Subevents
-gdjs.Le_32TrianonCode.eventsList18(runtimeScene);} //End of subevents
-}
-
-}
-
-
 };gdjs.Le_32TrianonCode.mapOfGDgdjs_9546Le_959532TrianonCode_9546GDfabienObjects2Objects = Hashtable.newFrom({"fabien": gdjs.Le_32TrianonCode.GDfabienObjects2});
 gdjs.Le_32TrianonCode.mapOfGDgdjs_9546Le_959532TrianonCode_9546GDclaudeObjects2Objects = Hashtable.newFrom({"claude": gdjs.Le_32TrianonCode.GDclaudeObjects2});
 gdjs.Le_32TrianonCode.mapOfGDgdjs_9546Le_959532TrianonCode_9546GDRoroObjects2Objects = Hashtable.newFrom({"Roro": gdjs.Le_32TrianonCode.GDRoroObjects2});
-gdjs.Le_32TrianonCode.eventsList20 = function(runtimeScene) {
+gdjs.Le_32TrianonCode.eventsList17 = function(runtimeScene) {
 
 {
 
@@ -1448,7 +1415,7 @@ gdjs.Le_32TrianonCode.mapOfGDgdjs_9546Le_959532TrianonCode_9546GDobstacleObjects
 gdjs.Le_32TrianonCode.mapOfGDgdjs_9546Le_959532TrianonCode_9546GDclaudeObjects1Objects = Hashtable.newFrom({"claude": gdjs.Le_32TrianonCode.GDclaudeObjects1});
 gdjs.Le_32TrianonCode.mapOfGDgdjs_9546Le_959532TrianonCode_9546GDkiosqueObjects1Objects = Hashtable.newFrom({"kiosque": gdjs.Le_32TrianonCode.GDkiosqueObjects1});
 gdjs.Le_32TrianonCode.mapOfGDgdjs_9546Le_959532TrianonCode_9546GDkiosqueObjects1Objects = Hashtable.newFrom({"kiosque": gdjs.Le_32TrianonCode.GDkiosqueObjects1});
-gdjs.Le_32TrianonCode.eventsList21 = function(runtimeScene) {
+gdjs.Le_32TrianonCode.eventsList18 = function(runtimeScene) {
 
 {
 
@@ -1530,7 +1497,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Le_32TrianonCode.eventsList22 = function(runtimeScene) {
+};gdjs.Le_32TrianonCode.eventsList19 = function(runtimeScene) {
 
 {
 
@@ -1542,25 +1509,18 @@ gdjs.Le_32TrianonCode.eventsList16(runtimeScene);
 {
 
 
-gdjs.Le_32TrianonCode.eventsList19(runtimeScene);
+gdjs.Le_32TrianonCode.eventsList17(runtimeScene);
 }
 
 
 {
 
 
-gdjs.Le_32TrianonCode.eventsList20(runtimeScene);
+gdjs.Le_32TrianonCode.eventsList18(runtimeScene);
 }
 
 
-{
-
-
-gdjs.Le_32TrianonCode.eventsList21(runtimeScene);
-}
-
-
-};gdjs.Le_32TrianonCode.eventsList23 = function(runtimeScene) {
+};gdjs.Le_32TrianonCode.eventsList20 = function(runtimeScene) {
 
 {
 
@@ -1582,13 +1542,17 @@ gdjs.copyArray(runtimeScene.getObjects("fabien"), gdjs.Le_32TrianonCode.GDfabien
 }
 
 
-};gdjs.Le_32TrianonCode.eventsList24 = function(runtimeScene) {
+};gdjs.Le_32TrianonCode.eventsList21 = function(runtimeScene) {
 
 };gdjs.Le_32TrianonCode.mapOfGDgdjs_9546Le_959532TrianonCode_9546GDfabienObjects2Objects = Hashtable.newFrom({"fabien": gdjs.Le_32TrianonCode.GDfabienObjects2});
 gdjs.Le_32TrianonCode.mapOfGDgdjs_9546Le_959532TrianonCode_9546GDpassage_95959595gaucheObjects2Objects = Hashtable.newFrom({"passage_gauche": gdjs.Le_32TrianonCode.GDpassage_9595gaucheObjects2});
-gdjs.Le_32TrianonCode.mapOfGDgdjs_9546Le_959532TrianonCode_9546GDfabienObjects1Objects = Hashtable.newFrom({"fabien": gdjs.Le_32TrianonCode.GDfabienObjects1});
+gdjs.Le_32TrianonCode.mapOfGDgdjs_9546Le_959532TrianonCode_9546GDclaudeObjects2Objects = Hashtable.newFrom({"claude": gdjs.Le_32TrianonCode.GDclaudeObjects2});
+gdjs.Le_32TrianonCode.mapOfGDgdjs_9546Le_959532TrianonCode_9546GDpassage_95959595gaucheObjects2Objects = Hashtable.newFrom({"passage_gauche": gdjs.Le_32TrianonCode.GDpassage_9595gaucheObjects2});
+gdjs.Le_32TrianonCode.mapOfGDgdjs_9546Le_959532TrianonCode_9546GDfabienObjects2Objects = Hashtable.newFrom({"fabien": gdjs.Le_32TrianonCode.GDfabienObjects2});
+gdjs.Le_32TrianonCode.mapOfGDgdjs_9546Le_959532TrianonCode_9546GDpassage_95959595droiteObjects2Objects = Hashtable.newFrom({"passage_droite": gdjs.Le_32TrianonCode.GDpassage_9595droiteObjects2});
+gdjs.Le_32TrianonCode.mapOfGDgdjs_9546Le_959532TrianonCode_9546GDclaudeObjects1Objects = Hashtable.newFrom({"claude": gdjs.Le_32TrianonCode.GDclaudeObjects1});
 gdjs.Le_32TrianonCode.mapOfGDgdjs_9546Le_959532TrianonCode_9546GDpassage_95959595droiteObjects1Objects = Hashtable.newFrom({"passage_droite": gdjs.Le_32TrianonCode.GDpassage_9595droiteObjects1});
-gdjs.Le_32TrianonCode.eventsList25 = function(runtimeScene) {
+gdjs.Le_32TrianonCode.eventsList22 = function(runtimeScene) {
 
 {
 
@@ -1613,12 +1577,33 @@ if (isConditionTrue_0) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("fabien"), gdjs.Le_32TrianonCode.GDfabienObjects1);
-gdjs.copyArray(runtimeScene.getObjects("passage_droite"), gdjs.Le_32TrianonCode.GDpassage_9595droiteObjects1);
+gdjs.copyArray(runtimeScene.getObjects("claude"), gdjs.Le_32TrianonCode.GDclaudeObjects2);
+gdjs.copyArray(runtimeScene.getObjects("passage_gauche"), gdjs.Le_32TrianonCode.GDpassage_9595gaucheObjects2);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Le_32TrianonCode.mapOfGDgdjs_9546Le_959532TrianonCode_9546GDfabienObjects1Objects, gdjs.Le_32TrianonCode.mapOfGDgdjs_9546Le_959532TrianonCode_9546GDpassage_95959595droiteObjects1Objects, false, runtimeScene, false);
+isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Le_32TrianonCode.mapOfGDgdjs_9546Le_959532TrianonCode_9546GDclaudeObjects2Objects, gdjs.Le_32TrianonCode.mapOfGDgdjs_9546Le_959532TrianonCode_9546GDpassage_95959595gaucheObjects2Objects, false, runtimeScene, false);
+if (isConditionTrue_0) {
+/* Reuse gdjs.Le_32TrianonCode.GDclaudeObjects2 */
+{runtimeScene.getGame().getVariables().getFromIndex(0).setBoolean(true);
+}
+{runtimeScene.getGame().getVariables().getFromIndex(1).setNumber((( gdjs.Le_32TrianonCode.GDclaudeObjects2.length === 0 ) ? 0 :gdjs.Le_32TrianonCode.GDclaudeObjects2[0].getPointY("")));
+}
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Le Luna Rossa", false);
+}
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("fabien"), gdjs.Le_32TrianonCode.GDfabienObjects2);
+gdjs.copyArray(runtimeScene.getObjects("passage_droite"), gdjs.Le_32TrianonCode.GDpassage_9595droiteObjects2);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Le_32TrianonCode.mapOfGDgdjs_9546Le_959532TrianonCode_9546GDfabienObjects2Objects, gdjs.Le_32TrianonCode.mapOfGDgdjs_9546Le_959532TrianonCode_9546GDpassage_95959595droiteObjects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Le Train de vie", false);
 }
@@ -1627,7 +1612,23 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Le_32TrianonCode.eventsList26 = function(runtimeScene) {
+{
+
+gdjs.copyArray(runtimeScene.getObjects("claude"), gdjs.Le_32TrianonCode.GDclaudeObjects1);
+gdjs.copyArray(runtimeScene.getObjects("passage_droite"), gdjs.Le_32TrianonCode.GDpassage_9595droiteObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Le_32TrianonCode.mapOfGDgdjs_9546Le_959532TrianonCode_9546GDclaudeObjects1Objects, gdjs.Le_32TrianonCode.mapOfGDgdjs_9546Le_959532TrianonCode_9546GDpassage_95959595droiteObjects1Objects, false, runtimeScene, false);
+if (isConditionTrue_0) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Le Train de vie", false);
+}
+}
+
+}
+
+
+};gdjs.Le_32TrianonCode.eventsList23 = function(runtimeScene) {
 
 {
 
@@ -1669,14 +1670,14 @@ if (isConditionTrue_0) {
 
 };gdjs.Le_32TrianonCode.mapOfGDgdjs_9546Le_959532TrianonCode_9546GDRoroObjects2Objects = Hashtable.newFrom({"Roro": gdjs.Le_32TrianonCode.GDRoroObjects2});
 gdjs.Le_32TrianonCode.mapOfGDgdjs_9546Le_959532TrianonCode_9546GDPOLINAObjects1Objects = Hashtable.newFrom({"POLINA": gdjs.Le_32TrianonCode.GDPOLINAObjects1});
-gdjs.Le_32TrianonCode.eventsList27 = function(runtimeScene) {
+gdjs.Le_32TrianonCode.eventsList24 = function(runtimeScene) {
 
 {
 
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(59065004);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(59351924);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Roro"), gdjs.Le_32TrianonCode.GDRoroObjects2);
@@ -1760,7 +1761,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.Le_32TrianonCode.eventsList28 = function(runtimeScene) {
+};gdjs.Le_32TrianonCode.eventsList25 = function(runtimeScene) {
 {
 
 let elseEventsChainSatisfied = false;
@@ -1776,11 +1777,11 @@ isConditionTrue_0 = false;
 {
 {let isConditionTrue_2 = false;
 isConditionTrue_2 = false;
-{isConditionTrue_2 = (0 == 0);
+{isConditionTrue_2 = (gdjs.evtTools.runtimeScene.getTime(runtimeScene, "hour") >= 7);
 }
 if (isConditionTrue_2) {
 isConditionTrue_2 = false;
-{isConditionTrue_2 = (0 == 0);
+{isConditionTrue_2 = (gdjs.evtTools.runtimeScene.getTime(runtimeScene, "hour") < 13);
 }
 }
 isConditionTrue_1 = isConditionTrue_2;
@@ -1792,11 +1793,11 @@ if(isConditionTrue_1) {
 {
 {let isConditionTrue_2 = false;
 isConditionTrue_2 = false;
-{isConditionTrue_2 = (0 == 0);
+{isConditionTrue_2 = (gdjs.evtTools.runtimeScene.getTime(runtimeScene, "hour") >= 14);
 }
 if (isConditionTrue_2) {
 isConditionTrue_2 = false;
-{isConditionTrue_2 = (0 == 0);
+{isConditionTrue_2 = (gdjs.evtTools.runtimeScene.getTime(runtimeScene, "hour") < 21);
 }
 }
 isConditionTrue_1 = isConditionTrue_2;
@@ -1817,6 +1818,14 @@ gdjs.copyArray(runtimeScene.getObjects("fabien"), gdjs.Le_32TrianonCode.GDfabien
 }
 {for(var i = 0, len = gdjs.Le_32TrianonCode.GDclaudeObjects2.length ;i < len;++i) {
     gdjs.Le_32TrianonCode.GDclaudeObjects2[i].hide();
+}
+}
+{for(var i = 0, len = gdjs.Le_32TrianonCode.GDfabienObjects2.length ;i < len;++i) {
+    gdjs.Le_32TrianonCode.GDfabienObjects2[i].activateBehavior("NavMeshPathfindingBehavior", true);
+}
+}
+{for(var i = 0, len = gdjs.Le_32TrianonCode.GDclaudeObjects2.length ;i < len;++i) {
+    gdjs.Le_32TrianonCode.GDclaudeObjects2[i].activateBehavior("NavMeshPathfindingBehavior", false);
 }
 }
 elseEventsChainSatisfied = true;
@@ -1841,6 +1850,14 @@ gdjs.copyArray(runtimeScene.getObjects("fabien"), gdjs.Le_32TrianonCode.GDfabien
     gdjs.Le_32TrianonCode.GDfabienObjects1[i].hide();
 }
 }
+{for(var i = 0, len = gdjs.Le_32TrianonCode.GDclaudeObjects1.length ;i < len;++i) {
+    gdjs.Le_32TrianonCode.GDclaudeObjects1[i].activateBehavior("NavMeshPathfindingBehavior", true);
+}
+}
+{for(var i = 0, len = gdjs.Le_32TrianonCode.GDfabienObjects1.length ;i < len;++i) {
+    gdjs.Le_32TrianonCode.GDfabienObjects1[i].activateBehavior("NavMeshPathfindingBehavior", false);
+}
+}
 elseEventsChainSatisfied = true;
 }
 }
@@ -1849,7 +1866,7 @@ elseEventsChainSatisfied = true;
 
 }
 
-};gdjs.Le_32TrianonCode.eventsList29 = function(runtimeScene) {
+};gdjs.Le_32TrianonCode.eventsList26 = function(runtimeScene) {
 
 {
 
@@ -1875,6 +1892,47 @@ gdjs.Le_32TrianonCode.eventsList12(runtimeScene);
 {
 
 
+gdjs.Le_32TrianonCode.eventsList19(runtimeScene);
+}
+
+
+{
+
+
+gdjs.Le_32TrianonCode.eventsList20(runtimeScene);
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+{
+
+
+gdjs.Le_32TrianonCode.eventsList21(runtimeScene);
+}
+
+
+{
+
+
 gdjs.Le_32TrianonCode.eventsList22(runtimeScene);
 }
 
@@ -1882,27 +1940,27 @@ gdjs.Le_32TrianonCode.eventsList22(runtimeScene);
 {
 
 
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
+}
+
+
+{
+
+
 gdjs.Le_32TrianonCode.eventsList23(runtimeScene);
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-}
-
 }
 
 
@@ -1917,47 +1975,6 @@ gdjs.Le_32TrianonCode.eventsList24(runtimeScene);
 
 
 gdjs.Le_32TrianonCode.eventsList25(runtimeScene);
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-}
-
-}
-
-
-{
-
-
-gdjs.Le_32TrianonCode.eventsList26(runtimeScene);
-}
-
-
-{
-
-
-gdjs.Le_32TrianonCode.eventsList27(runtimeScene);
-}
-
-
-{
-
-
-gdjs.Le_32TrianonCode.eventsList28(runtimeScene);
 }
 
 
@@ -2442,7 +2459,7 @@ gdjs.Le_32TrianonCode.GDfimincoObjects3.length = 0;
 gdjs.Le_32TrianonCode.GDfimincoObjects4.length = 0;
 gdjs.Le_32TrianonCode.GDfimincoObjects5.length = 0;
 
-gdjs.Le_32TrianonCode.eventsList29(runtimeScene);
+gdjs.Le_32TrianonCode.eventsList26(runtimeScene);
 gdjs.Le_32TrianonCode.GDBatObjects1.length = 0;
 gdjs.Le_32TrianonCode.GDBatObjects2.length = 0;
 gdjs.Le_32TrianonCode.GDBatObjects3.length = 0;
