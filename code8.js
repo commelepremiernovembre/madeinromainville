@@ -574,8 +574,6 @@ gdjs.copyArray(runtimeScene.getObjects("fabien"), gdjs.La_32MairieCode.GDfabienO
     gdjs.La_32MairieCode.GDfabienObjects2[i].getBehavior("NavMeshPathfindingBehavior").SetDestination(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) - (gdjs.La_32MairieCode.GDfabienObjects2[i].getWidth()) - 300, runtimeScene.getGame().getVariables().getFromIndex(1).getAsNumber(), null);
 }
 }
-{runtimeScene.getGame().getVariables().getFromIndex(0).setBoolean(false);
-}
 }
 
 }
@@ -606,6 +604,28 @@ gdjs.copyArray(runtimeScene.getObjects("claude"), gdjs.La_32MairieCode.GDclaudeO
     gdjs.La_32MairieCode.GDclaudeObjects2[i].getBehavior("NavMeshPathfindingBehavior").SetDestination(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) - (gdjs.La_32MairieCode.GDclaudeObjects2[i].getWidth()) - 300, runtimeScene.getGame().getVariables().getFromIndex(1).getAsNumber(), null);
 }
 }
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(58672028);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getGame().getVariables().getFromIndex(0).getAsBoolean();
+}
+}
+}
+if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(0).setBoolean(false);
 }
 }
@@ -629,14 +649,14 @@ let isConditionTrue_0 = false;
 
 };gdjs.La_32MairieCode.eventsList2 = function(runtimeScene, asyncObjectsList) {
 
-};gdjs.La_32MairieCode.asyncCallback58331276 = function (runtimeScene, asyncObjectsList) {
+};gdjs.La_32MairieCode.asyncCallback58667716 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.La_32MairieCode.localVariables);
 
 { //Subevents
 gdjs.La_32MairieCode.eventsList2(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.La_32MairieCode.localVariables.length = 0;
 }
-gdjs.La_32MairieCode.idToCallbackMap.set(58331276, gdjs.La_32MairieCode.asyncCallback58331276);
+gdjs.La_32MairieCode.idToCallbackMap.set(58667716, gdjs.La_32MairieCode.asyncCallback58667716);
 gdjs.La_32MairieCode.eventsList3 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -647,21 +667,21 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.La_32MairieCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtsExt__AdvancedHTTP__ReadResponseJSON.func(runtimeScene, runtimeScene.getScene().getVariables().get("reponse"), runtimeScene.getScene().getVariables().get("data"), null), (runtimeScene) => (gdjs.La_32MairieCode.asyncCallback58331276(runtimeScene, asyncObjectsList)), 58331276, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtsExt__AdvancedHTTP__ReadResponseJSON.func(runtimeScene, runtimeScene.getScene().getVariables().get("reponse"), runtimeScene.getScene().getVariables().get("data"), null), (runtimeScene) => (gdjs.La_32MairieCode.asyncCallback58667716(runtimeScene, asyncObjectsList)), 58667716, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.La_32MairieCode.asyncCallback58330948 = function (runtimeScene, asyncObjectsList) {
+};gdjs.La_32MairieCode.asyncCallback58667388 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.La_32MairieCode.localVariables);
 
 { //Subevents
 gdjs.La_32MairieCode.eventsList3(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.La_32MairieCode.localVariables.length = 0;
 }
-gdjs.La_32MairieCode.idToCallbackMap.set(58330948, gdjs.La_32MairieCode.asyncCallback58330948);
+gdjs.La_32MairieCode.idToCallbackMap.set(58667388, gdjs.La_32MairieCode.asyncCallback58667388);
 gdjs.La_32MairieCode.eventsList4 = function(runtimeScene) {
 
 {
@@ -671,7 +691,7 @@ gdjs.La_32MairieCode.eventsList4 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.La_32MairieCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtsExt__AdvancedHTTP__ExecuteRequest.func(runtimeScene, "meteo", runtimeScene.getScene().getVariables().get("reponse"), null), (runtimeScene) => (gdjs.La_32MairieCode.asyncCallback58330948(runtimeScene, asyncObjectsList)), 58330948, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtsExt__AdvancedHTTP__ExecuteRequest.func(runtimeScene, "meteo", runtimeScene.getScene().getVariables().get("reponse"), null), (runtimeScene) => (gdjs.La_32MairieCode.asyncCallback58667388(runtimeScene, asyncObjectsList)), 58667388, asyncObjectsList);
 }
 }
 
@@ -1416,6 +1436,17 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.La_32MairieCode.mapOfGDgdjs_9546La_959532MairieCode_9546GDfabienObjects2Objects, gdjs.La_32MairieCode.mapOfGDgdjs_9546La_959532MairieCode_9546GDobstacleObjects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.La_32MairieCode.GDfabienObjects2.length;i<l;++i) {
+    if ( gdjs.La_32MairieCode.GDfabienObjects2[i].behaviorActivated("NavMeshPathfindingBehavior") ) {
+        isConditionTrue_0 = true;
+        gdjs.La_32MairieCode.GDfabienObjects2[k] = gdjs.La_32MairieCode.GDfabienObjects2[i];
+        ++k;
+    }
+}
+gdjs.La_32MairieCode.GDfabienObjects2.length = k;
+}
+if (isConditionTrue_0) {
 /* Reuse gdjs.La_32MairieCode.GDfabienObjects2 */
 /* Reuse gdjs.La_32MairieCode.GDobstacleObjects2 */
 {for(var i = 0, len = gdjs.La_32MairieCode.GDfabienObjects2.length ;i < len;++i) {
@@ -1435,6 +1466,17 @@ gdjs.copyArray(runtimeScene.getObjects("kiosque"), gdjs.La_32MairieCode.GDkiosqu
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.La_32MairieCode.mapOfGDgdjs_9546La_959532MairieCode_9546GDfabienObjects2Objects, gdjs.La_32MairieCode.mapOfGDgdjs_9546La_959532MairieCode_9546GDkiosqueObjects2Objects, false, runtimeScene, false);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.La_32MairieCode.GDfabienObjects2.length;i<l;++i) {
+    if ( gdjs.La_32MairieCode.GDfabienObjects2[i].behaviorActivated("NavMeshPathfindingBehavior") ) {
+        isConditionTrue_0 = true;
+        gdjs.La_32MairieCode.GDfabienObjects2[k] = gdjs.La_32MairieCode.GDfabienObjects2[i];
+        ++k;
+    }
+}
+gdjs.La_32MairieCode.GDfabienObjects2.length = k;
+}
 if (isConditionTrue_0) {
 /* Reuse gdjs.La_32MairieCode.GDfabienObjects2 */
 /* Reuse gdjs.La_32MairieCode.GDkiosqueObjects2 */
@@ -1456,6 +1498,17 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.La_32MairieCode.mapOfGDgdjs_9546La_959532MairieCode_9546GDclaudeObjects2Objects, gdjs.La_32MairieCode.mapOfGDgdjs_9546La_959532MairieCode_9546GDobstacleObjects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.La_32MairieCode.GDclaudeObjects2.length;i<l;++i) {
+    if ( gdjs.La_32MairieCode.GDclaudeObjects2[i].behaviorActivated("NavMeshPathfindingBehavior") ) {
+        isConditionTrue_0 = true;
+        gdjs.La_32MairieCode.GDclaudeObjects2[k] = gdjs.La_32MairieCode.GDclaudeObjects2[i];
+        ++k;
+    }
+}
+gdjs.La_32MairieCode.GDclaudeObjects2.length = k;
+}
+if (isConditionTrue_0) {
 /* Reuse gdjs.La_32MairieCode.GDclaudeObjects2 */
 /* Reuse gdjs.La_32MairieCode.GDobstacleObjects2 */
 {for(var i = 0, len = gdjs.La_32MairieCode.GDclaudeObjects2.length ;i < len;++i) {
@@ -1475,6 +1528,17 @@ gdjs.copyArray(runtimeScene.getObjects("kiosque"), gdjs.La_32MairieCode.GDkiosqu
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.La_32MairieCode.mapOfGDgdjs_9546La_959532MairieCode_9546GDclaudeObjects1Objects, gdjs.La_32MairieCode.mapOfGDgdjs_9546La_959532MairieCode_9546GDkiosqueObjects1Objects, false, runtimeScene, false);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.La_32MairieCode.GDclaudeObjects1.length;i<l;++i) {
+    if ( gdjs.La_32MairieCode.GDclaudeObjects1[i].behaviorActivated("NavMeshPathfindingBehavior") ) {
+        isConditionTrue_0 = true;
+        gdjs.La_32MairieCode.GDclaudeObjects1[k] = gdjs.La_32MairieCode.GDclaudeObjects1[i];
+        ++k;
+    }
+}
+gdjs.La_32MairieCode.GDclaudeObjects1.length = k;
+}
 if (isConditionTrue_0) {
 /* Reuse gdjs.La_32MairieCode.GDclaudeObjects1 */
 /* Reuse gdjs.La_32MairieCode.GDkiosqueObjects1 */
@@ -1553,6 +1617,17 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.La_32MairieCode.mapOfGDgdjs_9546La_959532MairieCode_9546GDfabienObjects2Objects, gdjs.La_32MairieCode.mapOfGDgdjs_9546La_959532MairieCode_9546GDpassage_95959595gaucheObjects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.La_32MairieCode.GDfabienObjects2.length;i<l;++i) {
+    if ( gdjs.La_32MairieCode.GDfabienObjects2[i].behaviorActivated("NavMeshPathfindingBehavior") ) {
+        isConditionTrue_0 = true;
+        gdjs.La_32MairieCode.GDfabienObjects2[k] = gdjs.La_32MairieCode.GDfabienObjects2[i];
+        ++k;
+    }
+}
+gdjs.La_32MairieCode.GDfabienObjects2.length = k;
+}
+if (isConditionTrue_0) {
 /* Reuse gdjs.La_32MairieCode.GDfabienObjects2 */
 {runtimeScene.getGame().getVariables().getFromIndex(0).setBoolean(true);
 }
@@ -1573,6 +1648,17 @@ gdjs.copyArray(runtimeScene.getObjects("passage_gauche"), gdjs.La_32MairieCode.G
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.La_32MairieCode.mapOfGDgdjs_9546La_959532MairieCode_9546GDclaudeObjects2Objects, gdjs.La_32MairieCode.mapOfGDgdjs_9546La_959532MairieCode_9546GDpassage_95959595gaucheObjects2Objects, false, runtimeScene, false);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.La_32MairieCode.GDclaudeObjects2.length;i<l;++i) {
+    if ( gdjs.La_32MairieCode.GDclaudeObjects2[i].behaviorActivated("NavMeshPathfindingBehavior") ) {
+        isConditionTrue_0 = true;
+        gdjs.La_32MairieCode.GDclaudeObjects2[k] = gdjs.La_32MairieCode.GDclaudeObjects2[i];
+        ++k;
+    }
+}
+gdjs.La_32MairieCode.GDclaudeObjects2.length = k;
+}
 if (isConditionTrue_0) {
 /* Reuse gdjs.La_32MairieCode.GDclaudeObjects2 */
 {runtimeScene.getGame().getVariables().getFromIndex(0).setBoolean(true);
@@ -1595,6 +1681,17 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.La_32MairieCode.mapOfGDgdjs_9546La_959532MairieCode_9546GDfabienObjects2Objects, gdjs.La_32MairieCode.mapOfGDgdjs_9546La_959532MairieCode_9546GDpassage_95959595droiteObjects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.La_32MairieCode.GDfabienObjects2.length;i<l;++i) {
+    if ( gdjs.La_32MairieCode.GDfabienObjects2[i].behaviorActivated("NavMeshPathfindingBehavior") ) {
+        isConditionTrue_0 = true;
+        gdjs.La_32MairieCode.GDfabienObjects2[k] = gdjs.La_32MairieCode.GDfabienObjects2[i];
+        ++k;
+    }
+}
+gdjs.La_32MairieCode.GDfabienObjects2.length = k;
+}
+if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "L'église", false);
 }
 }
@@ -1610,6 +1707,17 @@ gdjs.copyArray(runtimeScene.getObjects("passage_droite"), gdjs.La_32MairieCode.G
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.La_32MairieCode.mapOfGDgdjs_9546La_959532MairieCode_9546GDclaudeObjects1Objects, gdjs.La_32MairieCode.mapOfGDgdjs_9546La_959532MairieCode_9546GDpassage_95959595droiteObjects1Objects, false, runtimeScene, false);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.La_32MairieCode.GDclaudeObjects1.length;i<l;++i) {
+    if ( gdjs.La_32MairieCode.GDclaudeObjects1[i].behaviorActivated("NavMeshPathfindingBehavior") ) {
+        isConditionTrue_0 = true;
+        gdjs.La_32MairieCode.GDclaudeObjects1[k] = gdjs.La_32MairieCode.GDclaudeObjects1[i];
+        ++k;
+    }
+}
+gdjs.La_32MairieCode.GDclaudeObjects1.length = k;
+}
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "L'église", false);
 }
@@ -1667,7 +1775,7 @@ gdjs.La_32MairieCode.eventsList24 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(58411804);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(58750140);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Roro"), gdjs.La_32MairieCode.GDRoroObjects2);

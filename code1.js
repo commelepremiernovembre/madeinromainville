@@ -582,7 +582,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(56415236);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(56708500);
 }
 }
 if (isConditionTrue_0) {
@@ -664,6 +664,100 @@ gdjs.place_32des_32commerces_321Code.eventsList0(runtimeScene);} //End of subeve
 }
 
 
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(56696076);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getGame().getVariables().getFromIndex(0).getAsBoolean();
+}
+}
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("fabien"), gdjs.place_32des_32commerces_321Code.GDfabienObjects2);
+{for(var i = 0, len = gdjs.place_32des_32commerces_321Code.GDfabienObjects2.length ;i < len;++i) {
+    gdjs.place_32des_32commerces_321Code.GDfabienObjects2[i].setX(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) - (gdjs.place_32des_32commerces_321Code.GDfabienObjects2[i].getWidth()) + 73);
+}
+}
+{for(var i = 0, len = gdjs.place_32des_32commerces_321Code.GDfabienObjects2.length ;i < len;++i) {
+    gdjs.place_32des_32commerces_321Code.GDfabienObjects2[i].setY(runtimeScene.getGame().getVariables().getFromIndex(1).getAsNumber());
+}
+}
+{for(var i = 0, len = gdjs.place_32des_32commerces_321Code.GDfabienObjects2.length ;i < len;++i) {
+    gdjs.place_32des_32commerces_321Code.GDfabienObjects2[i].getBehavior("NavMeshPathfindingBehavior").SetDestination(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) - (gdjs.place_32des_32commerces_321Code.GDfabienObjects2[i].getWidth()) - 300, runtimeScene.getGame().getVariables().getFromIndex(1).getAsNumber(), null);
+}
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(56697340);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getGame().getVariables().getFromIndex(0).getAsBoolean();
+}
+}
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("claude"), gdjs.place_32des_32commerces_321Code.GDclaudeObjects2);
+{for(var i = 0, len = gdjs.place_32des_32commerces_321Code.GDclaudeObjects2.length ;i < len;++i) {
+    gdjs.place_32des_32commerces_321Code.GDclaudeObjects2[i].setX(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) - (gdjs.place_32des_32commerces_321Code.GDclaudeObjects2[i].getWidth()) + 73);
+}
+}
+{for(var i = 0, len = gdjs.place_32des_32commerces_321Code.GDclaudeObjects2.length ;i < len;++i) {
+    gdjs.place_32des_32commerces_321Code.GDclaudeObjects2[i].setY(runtimeScene.getGame().getVariables().getFromIndex(1).getAsNumber());
+}
+}
+{for(var i = 0, len = gdjs.place_32des_32commerces_321Code.GDclaudeObjects2.length ;i < len;++i) {
+    gdjs.place_32des_32commerces_321Code.GDclaudeObjects2[i].getBehavior("NavMeshPathfindingBehavior").SetDestination(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) - (gdjs.place_32des_32commerces_321Code.GDclaudeObjects2[i].getWidth()) - 300, runtimeScene.getGame().getVariables().getFromIndex(1).getAsNumber(), null);
+}
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(56700804);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getGame().getVariables().getFromIndex(0).getAsBoolean();
+}
+}
+}
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(0).setBoolean(false);
+}
+}
+
+}
+
+
 };gdjs.place_32des_32commerces_321Code.eventsList2 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -728,14 +822,14 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.place_32des_32commerces_321Code.asyncCallback56408476 = function (runtimeScene, asyncObjectsList) {
+};gdjs.place_32des_32commerces_321Code.asyncCallback56714748 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.place_32des_32commerces_321Code.localVariables);
 
 { //Subevents
 gdjs.place_32des_32commerces_321Code.eventsList2(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.place_32des_32commerces_321Code.localVariables.length = 0;
 }
-gdjs.place_32des_32commerces_321Code.idToCallbackMap.set(56408476, gdjs.place_32des_32commerces_321Code.asyncCallback56408476);
+gdjs.place_32des_32commerces_321Code.idToCallbackMap.set(56714748, gdjs.place_32des_32commerces_321Code.asyncCallback56714748);
 gdjs.place_32des_32commerces_321Code.eventsList3 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -746,21 +840,21 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.place_32des_32commerces_321Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtsExt__AdvancedHTTP__ReadResponseJSON.func(runtimeScene, runtimeScene.getScene().getVariables().get("reponse"), runtimeScene.getScene().getVariables().get("data"), null), (runtimeScene) => (gdjs.place_32des_32commerces_321Code.asyncCallback56408476(runtimeScene, asyncObjectsList)), 56408476, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtsExt__AdvancedHTTP__ReadResponseJSON.func(runtimeScene, runtimeScene.getScene().getVariables().get("reponse"), runtimeScene.getScene().getVariables().get("data"), null), (runtimeScene) => (gdjs.place_32des_32commerces_321Code.asyncCallback56714748(runtimeScene, asyncObjectsList)), 56714748, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.place_32des_32commerces_321Code.asyncCallback56408316 = function (runtimeScene, asyncObjectsList) {
+};gdjs.place_32des_32commerces_321Code.asyncCallback56714420 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.place_32des_32commerces_321Code.localVariables);
 
 { //Subevents
 gdjs.place_32des_32commerces_321Code.eventsList3(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.place_32des_32commerces_321Code.localVariables.length = 0;
 }
-gdjs.place_32des_32commerces_321Code.idToCallbackMap.set(56408316, gdjs.place_32des_32commerces_321Code.asyncCallback56408316);
+gdjs.place_32des_32commerces_321Code.idToCallbackMap.set(56714420, gdjs.place_32des_32commerces_321Code.asyncCallback56714420);
 gdjs.place_32des_32commerces_321Code.eventsList4 = function(runtimeScene) {
 
 {
@@ -770,7 +864,7 @@ gdjs.place_32des_32commerces_321Code.eventsList4 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.place_32des_32commerces_321Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtsExt__AdvancedHTTP__ExecuteRequest.func(runtimeScene, "meteo", runtimeScene.getScene().getVariables().get("reponse"), null), (runtimeScene) => (gdjs.place_32des_32commerces_321Code.asyncCallback56408316(runtimeScene, asyncObjectsList)), 56408316, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtsExt__AdvancedHTTP__ExecuteRequest.func(runtimeScene, "meteo", runtimeScene.getScene().getVariables().get("reponse"), null), (runtimeScene) => (gdjs.place_32des_32commerces_321Code.asyncCallback56714420(runtimeScene, asyncObjectsList)), 56714420, asyncObjectsList);
 }
 }
 
@@ -1269,7 +1363,6 @@ gdjs.place_32des_32commerces_321Code.mapOfGDgdjs_9546place_959532des_959532comme
 gdjs.place_32des_32commerces_321Code.mapOfGDgdjs_9546place_959532des_959532commerces_9595321Code_9546GDpassage_95959595level_95959595gaucheObjects2Objects = Hashtable.newFrom({"passage_level_gauche": gdjs.place_32des_32commerces_321Code.GDpassage_9595level_9595gaucheObjects2});
 gdjs.place_32des_32commerces_321Code.mapOfGDgdjs_9546place_959532des_959532commerces_9595321Code_9546GDclaudeObjects2Objects = Hashtable.newFrom({"claude": gdjs.place_32des_32commerces_321Code.GDclaudeObjects2});
 gdjs.place_32des_32commerces_321Code.mapOfGDgdjs_9546place_959532des_959532commerces_9595321Code_9546GDpassage_95959595level_95959595gaucheObjects2Objects = Hashtable.newFrom({"passage_level_gauche": gdjs.place_32des_32commerces_321Code.GDpassage_9595level_9595gaucheObjects2});
-gdjs.place_32des_32commerces_321Code.mapOfGDgdjs_9546place_959532des_959532commerces_9595321Code_9546GDpassage_95959595level_95959595gaucheObjects2Objects = Hashtable.newFrom({"passage_level_gauche": gdjs.place_32des_32commerces_321Code.GDpassage_9595level_9595gaucheObjects2});
 gdjs.place_32des_32commerces_321Code.eventsList13 = function(runtimeScene) {
 
 {
@@ -1280,6 +1373,17 @@ gdjs.copyArray(runtimeScene.getObjects("passage_level_droite"), gdjs.place_32des
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.place_32des_32commerces_321Code.mapOfGDgdjs_9546place_959532des_959532commerces_9595321Code_9546GDfabienObjects2Objects, gdjs.place_32des_32commerces_321Code.mapOfGDgdjs_9546place_959532des_959532commerces_9595321Code_9546GDpassage_95959595level_95959595droiteObjects2Objects, false, runtimeScene, false);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.place_32des_32commerces_321Code.GDfabienObjects2.length;i<l;++i) {
+    if ( gdjs.place_32des_32commerces_321Code.GDfabienObjects2[i].behaviorActivated("NavMeshPathfindingBehavior") ) {
+        isConditionTrue_0 = true;
+        gdjs.place_32des_32commerces_321Code.GDfabienObjects2[k] = gdjs.place_32des_32commerces_321Code.GDfabienObjects2[i];
+        ++k;
+    }
+}
+gdjs.place_32des_32commerces_321Code.GDfabienObjects2.length = k;
+}
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "place des commerces 2", false);
 }
@@ -1299,6 +1403,17 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.place_32des_32commerces_321Code.mapOfGDgdjs_9546place_959532des_959532commerces_9595321Code_9546GDclaudeObjects2Objects, gdjs.place_32des_32commerces_321Code.mapOfGDgdjs_9546place_959532des_959532commerces_9595321Code_9546GDpassage_95959595level_95959595droiteObjects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.place_32des_32commerces_321Code.GDclaudeObjects2.length;i<l;++i) {
+    if ( gdjs.place_32des_32commerces_321Code.GDclaudeObjects2[i].behaviorActivated("NavMeshPathfindingBehavior") ) {
+        isConditionTrue_0 = true;
+        gdjs.place_32des_32commerces_321Code.GDclaudeObjects2[k] = gdjs.place_32des_32commerces_321Code.GDclaudeObjects2[i];
+        ++k;
+    }
+}
+gdjs.place_32des_32commerces_321Code.GDclaudeObjects2.length = k;
+}
+if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "place des commerces 2", false);
 }
 {runtimeScene.getScene().getVariables().getFromIndex(10).setBoolean(false);
@@ -1316,6 +1431,17 @@ gdjs.copyArray(runtimeScene.getObjects("passage_level_gauche"), gdjs.place_32des
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.place_32des_32commerces_321Code.mapOfGDgdjs_9546place_959532des_959532commerces_9595321Code_9546GDfabienObjects2Objects, gdjs.place_32des_32commerces_321Code.mapOfGDgdjs_9546place_959532des_959532commerces_9595321Code_9546GDpassage_95959595level_95959595gaucheObjects2Objects, false, runtimeScene, false);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.place_32des_32commerces_321Code.GDfabienObjects2.length;i<l;++i) {
+    if ( gdjs.place_32des_32commerces_321Code.GDfabienObjects2[i].behaviorActivated("NavMeshPathfindingBehavior") ) {
+        isConditionTrue_0 = true;
+        gdjs.place_32des_32commerces_321Code.GDfabienObjects2[k] = gdjs.place_32des_32commerces_321Code.GDfabienObjects2[i];
+        ++k;
+    }
+}
+gdjs.place_32des_32commerces_321Code.GDfabienObjects2.length = k;
+}
 if (isConditionTrue_0) {
 /* Reuse gdjs.place_32des_32commerces_321Code.GDfabienObjects2 */
 {runtimeScene.getGame().getVariables().getFromIndex(0).setBoolean(true);
@@ -1340,6 +1466,17 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.place_32des_32commerces_321Code.mapOfGDgdjs_9546place_959532des_959532commerces_9595321Code_9546GDclaudeObjects2Objects, gdjs.place_32des_32commerces_321Code.mapOfGDgdjs_9546place_959532des_959532commerces_9595321Code_9546GDpassage_95959595level_95959595gaucheObjects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.place_32des_32commerces_321Code.GDclaudeObjects2.length;i<l;++i) {
+    if ( gdjs.place_32des_32commerces_321Code.GDclaudeObjects2[i].behaviorActivated("NavMeshPathfindingBehavior") ) {
+        isConditionTrue_0 = true;
+        gdjs.place_32des_32commerces_321Code.GDclaudeObjects2[k] = gdjs.place_32des_32commerces_321Code.GDclaudeObjects2[i];
+        ++k;
+    }
+}
+gdjs.place_32des_32commerces_321Code.GDclaudeObjects2.length = k;
+}
+if (isConditionTrue_0) {
 /* Reuse gdjs.place_32des_32commerces_321Code.GDclaudeObjects2 */
 {runtimeScene.getGame().getVariables().getFromIndex(0).setBoolean(true);
 }
@@ -1348,30 +1485,6 @@ if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Le Train de vie", false);
 }
 {runtimeScene.getScene().getVariables().getFromIndex(10).setBoolean(false);
-}
-}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("passage_level_gauche"), gdjs.place_32des_32commerces_321Code.GDpassage_9595level_9595gaucheObjects2);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.place_32des_32commerces_321Code.mapOfGDgdjs_9546place_959532des_959532commerces_9595321Code_9546GDpassage_95959595level_95959595gaucheObjects2Objects, runtimeScene, true, false);
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtsExt__DoubleClick__HasDoubleClicked.func(runtimeScene, "Left", null);
-}
-if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("fabien"), gdjs.place_32des_32commerces_321Code.GDfabienObjects2);
-{runtimeScene.getGame().getVariables().getFromIndex(0).setBoolean(true);
-}
-{runtimeScene.getGame().getVariables().getFromIndex(1).setNumber((( gdjs.place_32des_32commerces_321Code.GDfabienObjects2.length === 0 ) ? 0 :gdjs.place_32des_32commerces_321Code.GDfabienObjects2[0].getPointY("")));
-}
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Le Train de vie", false);
 }
 }
 
@@ -1591,6 +1704,17 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.place_32des_32commerces_321Code.mapOfGDgdjs_9546place_959532des_959532commerces_9595321Code_9546GDfabienObjects2Objects, gdjs.place_32des_32commerces_321Code.mapOfGDgdjs_9546place_959532des_959532commerces_9595321Code_9546GDobstaclesObjects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.place_32des_32commerces_321Code.GDfabienObjects2.length;i<l;++i) {
+    if ( gdjs.place_32des_32commerces_321Code.GDfabienObjects2[i].behaviorActivated("NavMeshPathfindingBehavior") ) {
+        isConditionTrue_0 = true;
+        gdjs.place_32des_32commerces_321Code.GDfabienObjects2[k] = gdjs.place_32des_32commerces_321Code.GDfabienObjects2[i];
+        ++k;
+    }
+}
+gdjs.place_32des_32commerces_321Code.GDfabienObjects2.length = k;
+}
+if (isConditionTrue_0) {
 /* Reuse gdjs.place_32des_32commerces_321Code.GDfabienObjects2 */
 /* Reuse gdjs.place_32des_32commerces_321Code.GDobstaclesObjects2 */
 {for(var i = 0, len = gdjs.place_32des_32commerces_321Code.GDfabienObjects2.length ;i < len;++i) {
@@ -1610,6 +1734,17 @@ gdjs.copyArray(runtimeScene.getObjects("obstacles"), gdjs.place_32des_32commerce
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.place_32des_32commerces_321Code.mapOfGDgdjs_9546place_959532des_959532commerces_9595321Code_9546GDclaudeObjects1Objects, gdjs.place_32des_32commerces_321Code.mapOfGDgdjs_9546place_959532des_959532commerces_9595321Code_9546GDobstaclesObjects1Objects, false, runtimeScene, false);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.place_32des_32commerces_321Code.GDclaudeObjects1.length;i<l;++i) {
+    if ( gdjs.place_32des_32commerces_321Code.GDclaudeObjects1[i].behaviorActivated("NavMeshPathfindingBehavior") ) {
+        isConditionTrue_0 = true;
+        gdjs.place_32des_32commerces_321Code.GDclaudeObjects1[k] = gdjs.place_32des_32commerces_321Code.GDclaudeObjects1[i];
+        ++k;
+    }
+}
+gdjs.place_32des_32commerces_321Code.GDclaudeObjects1.length = k;
+}
 if (isConditionTrue_0) {
 /* Reuse gdjs.place_32des_32commerces_321Code.GDclaudeObjects1 */
 /* Reuse gdjs.place_32des_32commerces_321Code.GDobstaclesObjects1 */
@@ -1731,7 +1866,115 @@ elseEventsChainSatisfied = true;
 
 }
 
-};gdjs.place_32des_32commerces_321Code.eventsList24 = function(runtimeScene) {
+};gdjs.place_32des_32commerces_321Code.mapOfGDgdjs_9546place_959532des_959532commerces_9595321Code_9546GDbillieObjects1Objects = Hashtable.newFrom({"billie": gdjs.place_32des_32commerces_321Code.GDbillieObjects1});
+gdjs.place_32des_32commerces_321Code.asyncCallback56775964 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.place_32des_32commerces_321Code.localVariables);
+gdjs.copyArray(asyncObjectsList.getObjects("billie"), gdjs.place_32des_32commerces_321Code.GDbillieObjects3);
+
+{for(var i = 0, len = gdjs.place_32des_32commerces_321Code.GDbillieObjects3.length ;i < len;++i) {
+    gdjs.place_32des_32commerces_321Code.GDbillieObjects3[i].addForce(10, 0, 1);
+}
+}
+{for(var i = 0, len = gdjs.place_32des_32commerces_321Code.GDbillieObjects3.length ;i < len;++i) {
+    gdjs.place_32des_32commerces_321Code.GDbillieObjects3[i].getBehavior("Animation").setAnimationName("marche");
+}
+}
+gdjs.place_32des_32commerces_321Code.localVariables.length = 0;
+}
+gdjs.place_32des_32commerces_321Code.idToCallbackMap.set(56775964, gdjs.place_32des_32commerces_321Code.asyncCallback56775964);
+gdjs.place_32des_32commerces_321Code.eventsList24 = function(runtimeScene) {
+
+{
+
+
+{
+{
+const asyncObjectsList = new gdjs.LongLivedObjectsList();
+asyncObjectsList.backupLocalVariablesContainers(gdjs.place_32des_32commerces_321Code.localVariables);
+for (const obj of gdjs.place_32des_32commerces_321Code.GDbillieObjects2) asyncObjectsList.addObject("billie", obj);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.place_32des_32commerces_321Code.asyncCallback56775964(runtimeScene, asyncObjectsList)), 56775964, asyncObjectsList);
+}
+}
+
+}
+
+
+};gdjs.place_32des_32commerces_321Code.eventsList25 = function(runtimeScene) {
+{
+
+let elseEventsChainSatisfied = false;
+
+{
+
+
+elseEventsChainSatisfied = false;
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "doubletapbillie") < 0.4;
+if (isConditionTrue_0) {
+gdjs.copyArray(gdjs.place_32des_32commerces_321Code.GDbillieObjects1, gdjs.place_32des_32commerces_321Code.GDbillieObjects2);
+
+{for(var i = 0, len = gdjs.place_32des_32commerces_321Code.GDbillieObjects2.length ;i < len;++i) {
+    gdjs.place_32des_32commerces_321Code.GDbillieObjects2[i].getBehavior("Animation").setAnimationName("face");
+}
+}
+{for(var i = 0, len = gdjs.place_32des_32commerces_321Code.GDbillieObjects2.length ;i < len;++i) {
+    gdjs.place_32des_32commerces_321Code.GDbillieObjects2[i].clearForces();
+}
+}
+
+{ //Subevents
+gdjs.place_32des_32commerces_321Code.eventsList24(runtimeScene);} //End of subevents
+elseEventsChainSatisfied = true;
+}
+
+}
+
+
+{
+
+
+if (!elseEventsChainSatisfied) {
+let isConditionTrue_0 = false;
+if (!elseEventsChainSatisfied) {
+{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "doubletapbillie");
+}
+elseEventsChainSatisfied = true;
+}
+}
+
+}
+
+}
+
+};gdjs.place_32des_32commerces_321Code.eventsList26 = function(runtimeScene) {
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("billie"), gdjs.place_32des_32commerces_321Code.GDbillieObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.place_32des_32commerces_321Code.mapOfGDgdjs_9546place_959532des_959532commerces_9595321Code_9546GDbillieObjects1Objects, runtimeScene, true, false);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(56775492);
+}
+}
+}
+if (isConditionTrue_0) {
+
+{ //Subevents
+gdjs.place_32des_32commerces_321Code.eventsList25(runtimeScene);} //End of subevents
+}
+
+}
+
+
+};gdjs.place_32des_32commerces_321Code.eventsList27 = function(runtimeScene) {
 
 {
 
@@ -1840,6 +2083,23 @@ let isConditionTrue_0 = false;
 
 
 gdjs.place_32des_32commerces_321Code.eventsList23(runtimeScene);
+}
+
+
+{
+
+
+gdjs.place_32des_32commerces_321Code.eventsList26(runtimeScene);
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+}
+
 }
 
 
@@ -2395,7 +2655,7 @@ gdjs.place_32des_32commerces_321Code.GDfimincoObjects4.length = 0;
 gdjs.place_32des_32commerces_321Code.GDfimincoObjects5.length = 0;
 gdjs.place_32des_32commerces_321Code.GDfimincoObjects6.length = 0;
 
-gdjs.place_32des_32commerces_321Code.eventsList24(runtimeScene);
+gdjs.place_32des_32commerces_321Code.eventsList27(runtimeScene);
 gdjs.place_32des_32commerces_321Code.GDBatObjects1.length = 0;
 gdjs.place_32des_32commerces_321Code.GDBatObjects2.length = 0;
 gdjs.place_32des_32commerces_321Code.GDBatObjects3.length = 0;
