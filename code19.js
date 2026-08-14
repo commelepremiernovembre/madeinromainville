@@ -95,6 +95,8 @@ gdjs.old_95le_32metroCode.GDcin_95233_9595plein_9595air_9595Objects1= [];
 gdjs.old_95le_32metroCode.GDcin_95233_9595plein_9595air_9595Objects2= [];
 gdjs.old_95le_32metroCode.GDfimincoObjects1= [];
 gdjs.old_95le_32metroCode.GDfimincoObjects2= [];
+gdjs.old_95le_32metroCode.GDRainEmitterObjects1= [];
+gdjs.old_95le_32metroCode.GDRainEmitterObjects2= [];
 
 
 gdjs.old_95le_32metroCode.mapOfGDgdjs_9546old_959595le_959532metroCode_9546GDanother_95959595levelObjects1Objects = Hashtable.newFrom({"another_level": gdjs.old_95le_32metroCode.GDanother_9595levelObjects1});
@@ -242,6 +244,8 @@ gdjs.old_95le_32metroCode.GDcin_95233_9595plein_9595air_9595Objects1.length = 0;
 gdjs.old_95le_32metroCode.GDcin_95233_9595plein_9595air_9595Objects2.length = 0;
 gdjs.old_95le_32metroCode.GDfimincoObjects1.length = 0;
 gdjs.old_95le_32metroCode.GDfimincoObjects2.length = 0;
+gdjs.old_95le_32metroCode.GDRainEmitterObjects1.length = 0;
+gdjs.old_95le_32metroCode.GDRainEmitterObjects2.length = 0;
 
 gdjs.old_95le_32metroCode.eventsList0(runtimeScene);
 gdjs.old_95le_32metroCode.GDanother_9595levelObjects1.length = 0;
@@ -338,6 +342,8 @@ gdjs.old_95le_32metroCode.GDcin_95233_9595plein_9595air_9595Objects1.length = 0;
 gdjs.old_95le_32metroCode.GDcin_95233_9595plein_9595air_9595Objects2.length = 0;
 gdjs.old_95le_32metroCode.GDfimincoObjects1.length = 0;
 gdjs.old_95le_32metroCode.GDfimincoObjects2.length = 0;
+gdjs.old_95le_32metroCode.GDRainEmitterObjects1.length = 0;
+gdjs.old_95le_32metroCode.GDRainEmitterObjects2.length = 0;
 
 
 return;

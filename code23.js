@@ -142,6 +142,9 @@ gdjs.old_95place_32de_32la_32mairieCode.GDcin_95233_9595plein_9595air_9595Object
 gdjs.old_95place_32de_32la_32mairieCode.GDfimincoObjects1= [];
 gdjs.old_95place_32de_32la_32mairieCode.GDfimincoObjects2= [];
 gdjs.old_95place_32de_32la_32mairieCode.GDfimincoObjects3= [];
+gdjs.old_95place_32de_32la_32mairieCode.GDRainEmitterObjects1= [];
+gdjs.old_95place_32de_32la_32mairieCode.GDRainEmitterObjects2= [];
+gdjs.old_95place_32de_32la_32mairieCode.GDRainEmitterObjects3= [];
 
 
 gdjs.old_95place_32de_32la_32mairieCode.mapOfGDgdjs_9546old_959595place_959532de_959532la_959532mairieCode_9546GDautres_95959595ecranObjects1Objects = Hashtable.newFrom({"autres_ecran": gdjs.old_95place_32de_32la_32mairieCode.GDautres_9595ecranObjects1});
@@ -154,7 +157,7 @@ gdjs.old_95place_32de_32la_32mairieCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(61194500);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(64854740);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Roro"), gdjs.old_95place_32de_32la_32mairieCode.GDRoroObjects2);
@@ -442,6 +445,9 @@ gdjs.old_95place_32de_32la_32mairieCode.GDcin_95233_9595plein_9595air_9595Object
 gdjs.old_95place_32de_32la_32mairieCode.GDfimincoObjects1.length = 0;
 gdjs.old_95place_32de_32la_32mairieCode.GDfimincoObjects2.length = 0;
 gdjs.old_95place_32de_32la_32mairieCode.GDfimincoObjects3.length = 0;
+gdjs.old_95place_32de_32la_32mairieCode.GDRainEmitterObjects1.length = 0;
+gdjs.old_95place_32de_32la_32mairieCode.GDRainEmitterObjects2.length = 0;
+gdjs.old_95place_32de_32la_32mairieCode.GDRainEmitterObjects3.length = 0;
 
 gdjs.old_95place_32de_32la_32mairieCode.eventsList1(runtimeScene);
 gdjs.old_95place_32de_32la_32mairieCode.GDautres_9595ecranObjects1.length = 0;
@@ -585,6 +591,9 @@ gdjs.old_95place_32de_32la_32mairieCode.GDcin_95233_9595plein_9595air_9595Object
 gdjs.old_95place_32de_32la_32mairieCode.GDfimincoObjects1.length = 0;
 gdjs.old_95place_32de_32la_32mairieCode.GDfimincoObjects2.length = 0;
 gdjs.old_95place_32de_32la_32mairieCode.GDfimincoObjects3.length = 0;
+gdjs.old_95place_32de_32la_32mairieCode.GDRainEmitterObjects1.length = 0;
+gdjs.old_95place_32de_32la_32mairieCode.GDRainEmitterObjects2.length = 0;
+gdjs.old_95place_32de_32la_32mairieCode.GDRainEmitterObjects3.length = 0;
 
 
 return;

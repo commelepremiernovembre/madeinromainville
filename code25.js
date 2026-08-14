@@ -265,6 +265,10 @@ gdjs.old_95template_32touch_32tactileCode.GDfimincoObjects1= [];
 gdjs.old_95template_32touch_32tactileCode.GDfimincoObjects2= [];
 gdjs.old_95template_32touch_32tactileCode.GDfimincoObjects3= [];
 gdjs.old_95template_32touch_32tactileCode.GDfimincoObjects4= [];
+gdjs.old_95template_32touch_32tactileCode.GDRainEmitterObjects1= [];
+gdjs.old_95template_32touch_32tactileCode.GDRainEmitterObjects2= [];
+gdjs.old_95template_32touch_32tactileCode.GDRainEmitterObjects3= [];
+gdjs.old_95template_32touch_32tactileCode.GDRainEmitterObjects4= [];
 
 
 gdjs.old_95template_32touch_32tactileCode.mapOfGDgdjs_9546old_959595template_959532touch_959532tactileCode_9546GDNavMeshObjects1Objects = Hashtable.newFrom({"NavMesh": gdjs.old_95template_32touch_32tactileCode.GDNavMeshObjects1});
@@ -459,7 +463,7 @@ for (var i = 0, k = 0, l = gdjs.old_95template_32touch_32tactileCode.GDFloorGras
 gdjs.old_95template_32touch_32tactileCode.GDFloorGrassObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(61265900);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(64921964);
 }
 }
 }
@@ -850,6 +854,10 @@ gdjs.old_95template_32touch_32tactileCode.GDfimincoObjects1.length = 0;
 gdjs.old_95template_32touch_32tactileCode.GDfimincoObjects2.length = 0;
 gdjs.old_95template_32touch_32tactileCode.GDfimincoObjects3.length = 0;
 gdjs.old_95template_32touch_32tactileCode.GDfimincoObjects4.length = 0;
+gdjs.old_95template_32touch_32tactileCode.GDRainEmitterObjects1.length = 0;
+gdjs.old_95template_32touch_32tactileCode.GDRainEmitterObjects2.length = 0;
+gdjs.old_95template_32touch_32tactileCode.GDRainEmitterObjects3.length = 0;
+gdjs.old_95template_32touch_32tactileCode.GDRainEmitterObjects4.length = 0;
 
 gdjs.old_95template_32touch_32tactileCode.eventsList7(runtimeScene);
 gdjs.old_95template_32touch_32tactileCode.GDMindyObjects1.length = 0;
@@ -1112,6 +1120,10 @@ gdjs.old_95template_32touch_32tactileCode.GDfimincoObjects1.length = 0;
 gdjs.old_95template_32touch_32tactileCode.GDfimincoObjects2.length = 0;
 gdjs.old_95template_32touch_32tactileCode.GDfimincoObjects3.length = 0;
 gdjs.old_95template_32touch_32tactileCode.GDfimincoObjects4.length = 0;
+gdjs.old_95template_32touch_32tactileCode.GDRainEmitterObjects1.length = 0;
+gdjs.old_95template_32touch_32tactileCode.GDRainEmitterObjects2.length = 0;
+gdjs.old_95template_32touch_32tactileCode.GDRainEmitterObjects3.length = 0;
+gdjs.old_95template_32touch_32tactileCode.GDRainEmitterObjects4.length = 0;
 
 
 return;

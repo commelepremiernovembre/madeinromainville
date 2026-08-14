@@ -139,6 +139,9 @@ gdjs.old_95cinema_32plein_32air_32romainvileCode.GDcin_95233_9595plein_9595air_9
 gdjs.old_95cinema_32plein_32air_32romainvileCode.GDfimincoObjects1= [];
 gdjs.old_95cinema_32plein_32air_32romainvileCode.GDfimincoObjects2= [];
 gdjs.old_95cinema_32plein_32air_32romainvileCode.GDfimincoObjects3= [];
+gdjs.old_95cinema_32plein_32air_32romainvileCode.GDRainEmitterObjects1= [];
+gdjs.old_95cinema_32plein_32air_32romainvileCode.GDRainEmitterObjects2= [];
+gdjs.old_95cinema_32plein_32air_32romainvileCode.GDRainEmitterObjects3= [];
 
 
 gdjs.old_95cinema_32plein_32air_32romainvileCode.mapOfGDgdjs_9546old_959595cinema_959532plein_959532air_959532romainvileCode_9546GDcin_959595233_95959595plein_95959595air_95959595Objects1Objects = Hashtable.newFrom({"ciné_plein_air_": gdjs.old_95cinema_32plein_32air_32romainvileCode.GDcin_95233_9595plein_9595air_9595Objects1});
@@ -193,7 +196,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(60644284);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(64309892);
 }
 }
 }
@@ -368,6 +371,9 @@ gdjs.old_95cinema_32plein_32air_32romainvileCode.GDcin_95233_9595plein_9595air_9
 gdjs.old_95cinema_32plein_32air_32romainvileCode.GDfimincoObjects1.length = 0;
 gdjs.old_95cinema_32plein_32air_32romainvileCode.GDfimincoObjects2.length = 0;
 gdjs.old_95cinema_32plein_32air_32romainvileCode.GDfimincoObjects3.length = 0;
+gdjs.old_95cinema_32plein_32air_32romainvileCode.GDRainEmitterObjects1.length = 0;
+gdjs.old_95cinema_32plein_32air_32romainvileCode.GDRainEmitterObjects2.length = 0;
+gdjs.old_95cinema_32plein_32air_32romainvileCode.GDRainEmitterObjects3.length = 0;
 
 gdjs.old_95cinema_32plein_32air_32romainvileCode.eventsList2(runtimeScene);
 gdjs.old_95cinema_32plein_32air_32romainvileCode.GDballonObjects1.length = 0;
@@ -508,6 +514,9 @@ gdjs.old_95cinema_32plein_32air_32romainvileCode.GDcin_95233_9595plein_9595air_9
 gdjs.old_95cinema_32plein_32air_32romainvileCode.GDfimincoObjects1.length = 0;
 gdjs.old_95cinema_32plein_32air_32romainvileCode.GDfimincoObjects2.length = 0;
 gdjs.old_95cinema_32plein_32air_32romainvileCode.GDfimincoObjects3.length = 0;
+gdjs.old_95cinema_32plein_32air_32romainvileCode.GDRainEmitterObjects1.length = 0;
+gdjs.old_95cinema_32plein_32air_32romainvileCode.GDRainEmitterObjects2.length = 0;
+gdjs.old_95cinema_32plein_32air_32romainvileCode.GDRainEmitterObjects3.length = 0;
 
 
 return;

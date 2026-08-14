@@ -97,6 +97,8 @@ gdjs.old_95place_32de_32l_39_233gliseCode.GDcin_95233_9595plein_9595air_9595Obje
 gdjs.old_95place_32de_32l_39_233gliseCode.GDcin_95233_9595plein_9595air_9595Objects2= [];
 gdjs.old_95place_32de_32l_39_233gliseCode.GDfimincoObjects1= [];
 gdjs.old_95place_32de_32l_39_233gliseCode.GDfimincoObjects2= [];
+gdjs.old_95place_32de_32l_39_233gliseCode.GDRainEmitterObjects1= [];
+gdjs.old_95place_32de_32l_39_233gliseCode.GDRainEmitterObjects2= [];
 
 
 gdjs.old_95place_32de_32l_39_233gliseCode.mapOfGDgdjs_9546old_959595place_959532de_959532l_959539_9595233gliseCode_9546GDautres_95959595ecranObjects1Objects = Hashtable.newFrom({"autres_ecran": gdjs.old_95place_32de_32l_39_233gliseCode.GDautres_9595ecranObjects1});
@@ -232,6 +234,8 @@ gdjs.old_95place_32de_32l_39_233gliseCode.GDcin_95233_9595plein_9595air_9595Obje
 gdjs.old_95place_32de_32l_39_233gliseCode.GDcin_95233_9595plein_9595air_9595Objects2.length = 0;
 gdjs.old_95place_32de_32l_39_233gliseCode.GDfimincoObjects1.length = 0;
 gdjs.old_95place_32de_32l_39_233gliseCode.GDfimincoObjects2.length = 0;
+gdjs.old_95place_32de_32l_39_233gliseCode.GDRainEmitterObjects1.length = 0;
+gdjs.old_95place_32de_32l_39_233gliseCode.GDRainEmitterObjects2.length = 0;
 
 gdjs.old_95place_32de_32l_39_233gliseCode.eventsList0(runtimeScene);
 gdjs.old_95place_32de_32l_39_233gliseCode.GD_95233gliseObjects1.length = 0;
@@ -330,6 +334,8 @@ gdjs.old_95place_32de_32l_39_233gliseCode.GDcin_95233_9595plein_9595air_9595Obje
 gdjs.old_95place_32de_32l_39_233gliseCode.GDcin_95233_9595plein_9595air_9595Objects2.length = 0;
 gdjs.old_95place_32de_32l_39_233gliseCode.GDfimincoObjects1.length = 0;
 gdjs.old_95place_32de_32l_39_233gliseCode.GDfimincoObjects2.length = 0;
+gdjs.old_95place_32de_32l_39_233gliseCode.GDRainEmitterObjects1.length = 0;
+gdjs.old_95place_32de_32l_39_233gliseCode.GDRainEmitterObjects2.length = 0;
 
 
 return;

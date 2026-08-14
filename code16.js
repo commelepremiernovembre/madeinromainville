@@ -139,6 +139,9 @@ gdjs.old_95graffCode.GDcin_95233_9595plein_9595air_9595Objects3= [];
 gdjs.old_95graffCode.GDfimincoObjects1= [];
 gdjs.old_95graffCode.GDfimincoObjects2= [];
 gdjs.old_95graffCode.GDfimincoObjects3= [];
+gdjs.old_95graffCode.GDRainEmitterObjects1= [];
+gdjs.old_95graffCode.GDRainEmitterObjects2= [];
+gdjs.old_95graffCode.GDRainEmitterObjects3= [];
 
 
 gdjs.old_95graffCode.mapOfGDgdjs_9546old_959595graffCode_9546GDgraff_959595951Objects1Objects = Hashtable.newFrom({"graff_1": gdjs.old_95graffCode.GDgraff_95951Objects1});
@@ -193,7 +196,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(57751836);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(64325084);
 }
 }
 }
@@ -368,6 +371,9 @@ gdjs.old_95graffCode.GDcin_95233_9595plein_9595air_9595Objects3.length = 0;
 gdjs.old_95graffCode.GDfimincoObjects1.length = 0;
 gdjs.old_95graffCode.GDfimincoObjects2.length = 0;
 gdjs.old_95graffCode.GDfimincoObjects3.length = 0;
+gdjs.old_95graffCode.GDRainEmitterObjects1.length = 0;
+gdjs.old_95graffCode.GDRainEmitterObjects2.length = 0;
+gdjs.old_95graffCode.GDRainEmitterObjects3.length = 0;
 
 gdjs.old_95graffCode.eventsList2(runtimeScene);
 gdjs.old_95graffCode.GDballonObjects1.length = 0;
@@ -508,6 +514,9 @@ gdjs.old_95graffCode.GDcin_95233_9595plein_9595air_9595Objects3.length = 0;
 gdjs.old_95graffCode.GDfimincoObjects1.length = 0;
 gdjs.old_95graffCode.GDfimincoObjects2.length = 0;
 gdjs.old_95graffCode.GDfimincoObjects3.length = 0;
+gdjs.old_95graffCode.GDRainEmitterObjects1.length = 0;
+gdjs.old_95graffCode.GDRainEmitterObjects2.length = 0;
+gdjs.old_95graffCode.GDRainEmitterObjects3.length = 0;
 
 
 return;

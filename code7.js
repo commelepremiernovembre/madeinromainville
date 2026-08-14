@@ -145,6 +145,9 @@ gdjs.FimincoCode.GDcin_95233_9595plein_9595air_9595Objects3= [];
 gdjs.FimincoCode.GDfimincoObjects1= [];
 gdjs.FimincoCode.GDfimincoObjects2= [];
 gdjs.FimincoCode.GDfimincoObjects3= [];
+gdjs.FimincoCode.GDRainEmitterObjects1= [];
+gdjs.FimincoCode.GDRainEmitterObjects2= [];
+gdjs.FimincoCode.GDRainEmitterObjects3= [];
 
 
 gdjs.FimincoCode.mapOfGDgdjs_9546FimincoCode_9546GDautre_95959595ecranObjects1Objects = Hashtable.newFrom({"autre_ecran": gdjs.FimincoCode.GDautre_9595ecranObjects1});
@@ -156,7 +159,7 @@ gdjs.FimincoCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(58624596);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(62075604);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Roro"), gdjs.FimincoCode.GDRoroObjects2);
@@ -280,7 +283,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(58642796);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(60578700);
 }
 }
 }
@@ -497,6 +500,9 @@ gdjs.FimincoCode.GDcin_95233_9595plein_9595air_9595Objects3.length = 0;
 gdjs.FimincoCode.GDfimincoObjects1.length = 0;
 gdjs.FimincoCode.GDfimincoObjects2.length = 0;
 gdjs.FimincoCode.GDfimincoObjects3.length = 0;
+gdjs.FimincoCode.GDRainEmitterObjects1.length = 0;
+gdjs.FimincoCode.GDRainEmitterObjects2.length = 0;
+gdjs.FimincoCode.GDRainEmitterObjects3.length = 0;
 
 gdjs.FimincoCode.eventsList3(runtimeScene);
 gdjs.FimincoCode.GDautre_9595ecranObjects1.length = 0;
@@ -643,6 +649,9 @@ gdjs.FimincoCode.GDcin_95233_9595plein_9595air_9595Objects3.length = 0;
 gdjs.FimincoCode.GDfimincoObjects1.length = 0;
 gdjs.FimincoCode.GDfimincoObjects2.length = 0;
 gdjs.FimincoCode.GDfimincoObjects3.length = 0;
+gdjs.FimincoCode.GDRainEmitterObjects1.length = 0;
+gdjs.FimincoCode.GDRainEmitterObjects2.length = 0;
+gdjs.FimincoCode.GDRainEmitterObjects3.length = 0;
 
 
 return;
