@@ -159,7 +159,7 @@ gdjs.FimincoCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(62075604);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(53900564);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Roro"), gdjs.FimincoCode.GDRoroObjects2);
@@ -283,7 +283,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(60578700);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(53908188);
 }
 }
 }
